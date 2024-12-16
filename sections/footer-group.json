@@ -127,7 +127,7 @@
           "type": "text",
           "settings": {
             "title": "אולם תצוגה ושעות פעילות",
-            "content": "<p><strong>אולם תצוגה:</strong></p><p><em>חוצות היוצר 14, אשקלון</em></p><p><strong>שעות פעילות</strong></p><p><em>א' - ה': 09:00-17:00</em></p>",
+            "content": "<p><strong>אולם תצוגה:</strong></p><p><em>חוצות היוצר 14, אשקלון</em></p><p><strong>שעות פעילות</strong></p><p><em>א' - ה': 09:00-17:00</em></p><p><strong>טלפון</strong></p><p><a href=\"tel:050-206-1383\" title=\"tel:050-206-1383\">050-206-1383</a></p>",
             "enable_follow_on_shop": true
           }
         }
