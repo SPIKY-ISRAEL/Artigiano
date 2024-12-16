@@ -116,17 +116,18 @@
         },
         "links": {
           "type": "links",
+          "disabled": true,
           "settings": {
             "menu": "footer",
             "show_menu_title": true,
             "menu_title": ""
           }
         },
-        "text": {
+        "text_F4tERY": {
           "type": "text",
           "settings": {
-            "title": "About",
-            "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme editor.</p>",
+            "title": "אולם תצוגה ושעות פעילות",
+            "content": "<p><strong>אולם תצוגה:</strong></p><p><em>חוצות היוצר 14, אשקלון</em></p><p><strong>שעות פעילות</strong></p><p><em>א' - ה': 09:00-17:00</em></p>",
             "enable_follow_on_shop": true
           }
         }
@@ -136,7 +137,7 @@
         "links_be6rNc",
         "links_ePKixL",
         "links",
-        "text"
+        "text_F4tERY"
       ],
       "settings": {
         "show_social_media": true,
