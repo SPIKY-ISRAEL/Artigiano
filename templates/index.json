@@ -469,6 +469,40 @@
         "hot_spot_content_blur_radius": 3
       }
     },
+    "blog_posts_babbNa": {
+      "type": "blog-posts",
+      "blocks": {
+        "blog_X6BAXm": {
+          "type": "blog",
+          "settings": {
+            "blog": "news",
+            "posts_count": 3,
+            "stack_items": false
+          }
+        }
+      },
+      "block_order": [
+        "blog_X6BAXm"
+      ],
+      "settings": {
+        "full_width": true,
+        "show_excerpt": true,
+        "show_date": true,
+        "show_author": false,
+        "show_comments_count": false,
+        "show_category": true,
+        "subheading": "",
+        "title": "Blog posts",
+        "content": "",
+        "link_url": "",
+        "link_text": "View all",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
     "image-with-text-overlay": {
       "type": "image-with-text-overlay",
       "blocks": {
@@ -885,40 +919,6 @@
         "accordion_background": "",
         "accordion_text_color": ""
       }
-    },
-    "blog_posts_babbNa": {
-      "type": "blog-posts",
-      "blocks": {
-        "blog_X6BAXm": {
-          "type": "blog",
-          "settings": {
-            "blog": "news",
-            "posts_count": 3,
-            "stack_items": false
-          }
-        }
-      },
-      "block_order": [
-        "blog_X6BAXm"
-      ],
-      "settings": {
-        "full_width": true,
-        "show_excerpt": true,
-        "show_date": true,
-        "show_author": false,
-        "show_comments_count": false,
-        "show_category": true,
-        "subheading": "",
-        "title": "Blog posts",
-        "content": "",
-        "link_url": "",
-        "link_text": "View all",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": ""
-      }
     }
   },
   "order": [
@@ -930,6 +930,7 @@
     "before-after-image",
     "media-grid",
     "hot-spots",
+    "blog_posts_babbNa",
     "image-with-text-overlay",
     "image-link-blocks",
     "scrolling-text",
@@ -937,7 +938,6 @@
     "press",
     "multiple-images-with-text",
     "featured-product",
-    "faq",
-    "blog_posts_babbNa"
+    "faq"
   ]
 }
