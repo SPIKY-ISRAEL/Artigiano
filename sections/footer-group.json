@@ -106,6 +106,14 @@
             "menu_title": ""
           }
         },
+        "links_ePKixL": {
+          "type": "links",
+          "settings": {
+            "menu": "link-list",
+            "show_menu_title": true,
+            "menu_title": ""
+          }
+        },
         "links": {
           "type": "links",
           "settings": {
@@ -126,6 +134,7 @@
       "block_order": [
         "newsletter",
         "links_be6rNc",
+        "links_ePKixL",
         "links",
         "text"
       ],
