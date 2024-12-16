@@ -101,7 +101,7 @@
         "links_be6rNc": {
           "type": "links",
           "settings": {
-            "menu": "footer",
+            "menu": "link-list",
             "show_menu_title": true,
             "menu_title": ""
           }
