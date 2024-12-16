@@ -9,12 +9,80 @@
  */
 {
   "sections": {
+    "slideshow_K7RMYb": {
+      "type": "slideshow",
+      "blocks": {
+        "image_fhGWcQ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/rec_wood_had.jpg",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "הסיפור שלנו",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_fhGWcQ"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "show_initial_transition": false,
+        "image_size": "md",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#F2F2F2",
+        "background_gradient": ""
+      }
+    },
     "main": {
       "type": "main-page",
-      "settings": {}
+      "disabled": true,
+      "settings": {
+        "content_width": "60ch"
+      }
+    },
+    "rich_text_h6DaAk": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_Hcyr6D": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>ארטיג'אנו</strong> נולדה מתוך חזון וניסיון עשיר של קבוצת <strong>Fibonacci</strong>, המובילה בפתרונות שילוט, הדפסה, ויצירתיות למתחמים אורבניים וחללי פנים.</p><p>עם שנים של מומחיות בתחום, זיהינו הזדמנות לחולל מהפכה בעולם חיפויי הקיר. הבנו שיש צורך בפתרון שלא רק מציע גמישות עיצובית, אלא גם יוצר חוויה חושית אמיתית. מתוך שאיפה זו, פיתחנו טכנולוגיה חדשנית המשלבת בינה מלאכותית עם טכניקות הדפסה מתקדמות.</p><p>החידוש המרכזי שלנו הוא היכולת \"להדפיס את הטבע\" – ליצור חיפויי קיר שנראים, ואף מרגישים, כמו חומרים טבעיים: עץ, אבן או שיש. בזכות הטכנולוגיה הייחודית שלנו, כל עיצוב מקבל עומק וטקסטורה מוחשית שמוסיפים תחושת אותנטיות יוצאת דופן.</p><p>מטרתנו היא להרחיב את גבולות העיצוב ולאפשר ללקוחותינו – ממעצבי פנים ואדריכלים ועד לקוחות פרטיים – להגשים כל חזון עיצובי. אנו מאמינים שכל קיר יכול להפוך ליצירת אמנות ייחודית, המשקפת את האישיות והסגנון של בעליה, תוך הענקת נגיעה אותנטית של טבע.</p><p>בארטיג'אנו אנו ממשיכים לחדש ולהציע פתרונות שמשלבים בין אסתטיקה, פונקציונליות וטכנולוגיה מתקדמת. אנחנו גאים להוביל את המהפכה בעולם חיפויי הקיר, ומחויבים להעניק ללקוחותינו את המוצרים המתקדמים, היצירתיים והמרגשים ביותר בשוק.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_Hcyr6D"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
     }
   },
   "order": [
-    "main"
+    "slideshow_K7RMYb",
+    "main",
+    "rich_text_h6DaAk"
   ]
 }
