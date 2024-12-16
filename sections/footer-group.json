@@ -98,6 +98,14 @@
             "content": ""
           }
         },
+        "links_be6rNc": {
+          "type": "links",
+          "settings": {
+            "menu": "footer",
+            "show_menu_title": true,
+            "menu_title": ""
+          }
+        },
         "links": {
           "type": "links",
           "settings": {
@@ -117,6 +125,7 @@
       },
       "block_order": [
         "newsletter",
+        "links_be6rNc",
         "links",
         "text"
       ],
