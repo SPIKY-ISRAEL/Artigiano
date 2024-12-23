@@ -445,6 +445,9 @@
     "checkout": {
       "shipping": {
         "split_shipping_merchandise_quantity_label_inline_primary": "כמות: {{ quantity }}"
+      },
+      "order_summary": {
+        "product_image_quantity_label": "כמות"
       }
     }
   },
