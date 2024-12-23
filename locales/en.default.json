@@ -447,5 +447,12 @@
         "split_shipping_merchandise_quantity_label_inline_primary": "כמות: {{ quantity }}"
       }
     }
+  },
+  "customer_accounts": {
+    "order_details": {
+      "grouped_view_components": {
+        "line_item_summary_accessibility_label": "{{productTitle}}, כמות: {{refundableQuantity}}"
+      }
+    }
   }
 }
