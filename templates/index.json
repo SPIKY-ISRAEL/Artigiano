@@ -194,8 +194,8 @@
           "settings": {
             "icon": "none",
             "icon_width": 48,
-            "title": "Heading 1",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+            "title": "חיפויי קיר בטקסטורות טבעיות",
+            "content": "<p>משנים כל חלל ומספרים את הסיפור שלכם.<br/>ב-Artigiano אנו מביאים את פלאי הטבע היישר אליכם הביתה, עם קולקציות חיפויי קיר חדשניות הכוללות טקסטורות מוחשיות של עץ, אבן, שיש, מתכת ועור.<br/>אנו יוצרים חוויה עיצובית ייחודית ואותנטית, מבלי להתפשר על איכות וחדשנות.</p>"
           }
         }
       },
@@ -206,8 +206,8 @@
         "full_width": true,
         "stack_on_mobile": false,
         "show_counter": true,
-        "desktop_image_effect": "reveal",
-        "image_position": "start",
+        "desktop_image_effect": "fade",
+        "image_position": "end",
         "background": "",
         "background_gradient": "",
         "text_color": "",
