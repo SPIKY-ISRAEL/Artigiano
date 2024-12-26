@@ -92,9 +92,10 @@
         "newsletter": {
           "type": "newsletter",
           "settings": {
-            "image_width": 150,
-            "heading_size": "h3",
-            "title": "Sign up for new stories and personal offers",
+            "image": "shopify://shop_images/ARTIGIANO_LOGO_SVG-05.svg",
+            "image_width": 230,
+            "heading_size": "h6",
+            "title": "לקבלת עדכונים על מוצרים חדשים, הטבות ומבצעים בלעדיים",
             "content": ""
           }
         },
