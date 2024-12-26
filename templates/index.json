@@ -130,43 +130,13 @@
             "overlay_color": "#000000",
             "overlay_opacity": 30
           }
-        },
-        "collection_Rp4yJC": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "subheading": "",
-            "title": "",
-            "url": "",
-            "heading_tag": "h2",
-            "text_position": "place-self-center text-center",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
-          }
-        },
-        "collection_D9tNjQ": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "subheading": "",
-            "title": "",
-            "url": "",
-            "heading_tag": "h2",
-            "text_position": "place-self-center text-center",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
-          }
         }
       },
       "block_order": [
         "collection-1",
         "collection-2",
         "collection-3",
-        "collection_8QR9Ab",
-        "collection_Rp4yJC",
-        "collection_D9tNjQ"
+        "collection_8QR9Ab"
       ],
       "settings": {
         "full_width": true,
@@ -192,6 +162,17 @@
         "item_ggLEt3": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/12.2.png",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "",
+            "content": "<p><strong>חיפויי קיר בטקסטורות טבעיות </strong>משנים כל חלל ומספרים את הסיפור שלכם.<br/>ב-Artigiano אנו מביאים את פלאי הטבע היישר אליכם הביתה, עם קולקציות חיפויי קיר חדשניות הכוללות טקסטורות מוחשיות של עץ, אבן, שיש, מתכת ועור.<br/>אנו יוצרים חוויה עיצובית ייחודית ואותנטית, מבלי להתפשר על איכות וחדשנות.</p>"
+          }
+        },
+        "item_NPbgQU": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/15.2.png",
             "icon": "none",
             "icon_width": 48,
             "title": "חיפויי קיר בטקסטורות טבעיות",
@@ -200,14 +181,15 @@
         }
       },
       "block_order": [
-        "item_ggLEt3"
+        "item_ggLEt3",
+        "item_NPbgQU"
       ],
       "settings": {
         "full_width": true,
         "stack_on_mobile": false,
         "show_counter": true,
         "desktop_image_effect": "fade",
-        "image_position": "end",
+        "image_position": "start",
         "background": "",
         "background_gradient": "",
         "text_color": "",
@@ -222,15 +204,15 @@
         "products": [],
         "full_width": true,
         "stack_products": false,
-        "show_progress_bar": false,
+        "show_progress_bar": true,
         "products_count": 6,
         "products_per_row_mobile": "2",
-        "products_per_row_desktop": 4,
+        "products_per_row_desktop": 5,
         "subheading": "",
-        "title": "Featured collection",
+        "title": "פריטים חדשים באתר",
         "content": "",
         "link_url": "",
-        "link_text": "View all",
+        "link_text": "לכל המוצרים",
         "background": "",
         "background_gradient": "",
         "text_color": "",
@@ -247,7 +229,7 @@
           "type": "heading",
           "settings": {
             "text": "Artisan Gallery",
-            "heading_tag": "h2",
+            "heading_tag": "h1",
             "text_color": "",
             "gradient": ""
           }
@@ -255,7 +237,7 @@
         "richtext_ezDEga": {
           "type": "richtext",
           "settings": {
-            "content": "<p>מפגש מושלם בין טבע, טכנולוגיה ועיצוב.</p>"
+            "content": "<h6>מפגש מושלם בין טבע, טכנולוגיה ועיצוב</h6>"
           }
         }
       },
@@ -272,35 +254,13 @@
         "text_color": ""
       }
     },
-    "before-after-image": {
-      "type": "before-after-image",
-      "settings": {
-        "full_width": true,
-        "subheading": "",
-        "title": "Before/after",
-        "content": "<p>Showcase your product benefit by using before/after image comparison.</p>",
-        "expand_image": false,
-        "text_position": "center",
-        "before_after_text_position": "bottom",
-        "before_text": "Before",
-        "after_text": "After",
-        "drag_initial_position": 50,
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "before_text_color": "#ffffff",
-        "after_text_color": "#ffffff",
-        "drag_cursor_background": "#ffffff",
-        "drag_cursor_color": "#000000"
-      }
-    },
     "media-grid": {
       "type": "media-grid",
       "blocks": {
         "item-1": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/c2.jpg",
+            "image": "shopify://shop_images/4.png",
             "title": "",
             "heading_tag": "h4",
             "link_url": "",
@@ -322,7 +282,7 @@
         "item-2": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/rec_wood_had.jpg",
+            "image": "shopify://shop_images/15.2.png",
             "title": "",
             "heading_tag": "h4",
             "link_url": "",
@@ -344,7 +304,7 @@
         "item-3": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/c2.jpg",
+            "image": "shopify://shop_images/1.png",
             "title": "",
             "heading_tag": "h4",
             "link_url": "",
@@ -366,7 +326,7 @@
         "29246d34-c6e0-4373-84f6-b15e57736a00": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/rec_wood_had.jpg",
+            "image": "shopify://shop_images/13.2.png",
             "title": "",
             "heading_tag": "h4",
             "link_url": "",
@@ -395,8 +355,8 @@
       "settings": {
         "full_width": true,
         "reduce_width": false,
-        "desktop_row_height": 290,
-        "mobile_row_height": 150,
+        "desktop_row_height": 350,
+        "mobile_row_height": 180,
         "background": "",
         "background_gradient": ""
       }
@@ -927,7 +887,6 @@
     "images_with_text_scrolling_KDcMza",
     "featured-collection",
     "rich_text_QBhLaR",
-    "before-after-image",
     "media-grid",
     "hot-spots",
     "blog_posts_babbNa",
