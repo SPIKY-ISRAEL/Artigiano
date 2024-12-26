@@ -20,10 +20,18 @@
             "text": "!חיפויי קירות בהשראת הטבע – גללו מטה לגלות את הקולקציות המרהיבות שלנו",
             "url": "shopify://collections"
           }
+        },
+        "message_TrY99m": {
+          "type": "message",
+          "settings": {
+            "text": "20% מבצע השקה",
+            "url": ""
+          }
         }
       },
       "block_order": [
-        "message_DJcNzC"
+        "message_DJcNzC",
+        "message_TrY99m"
       ],
       "settings": {
         "enable_sticky": false,
