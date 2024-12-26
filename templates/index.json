@@ -519,7 +519,7 @@
           "type": "blog",
           "settings": {
             "blog": "news",
-            "posts_count": 3,
+            "posts_count": 2,
             "stack_items": false
           }
         }
