@@ -250,7 +250,7 @@
         "show_counter": true,
         "desktop_image_effect": "fade",
         "image_position": "start",
-        "background": "#ffffff",
+        "background": "#f2f2f2",
         "background_gradient": "",
         "text_color": "",
         "heading_color": "",
@@ -273,7 +273,7 @@
         "content": "",
         "link_url": "shopify://collections/כל-המוצרים",
         "link_text": "לכל המוצרים",
-        "background": "",
+        "background": "#f2f2f2",
         "background_gradient": "",
         "text_color": "",
         "heading_color": "",
@@ -309,7 +309,7 @@
         "full_width": true,
         "content_width": "small",
         "text_position": "center",
-        "background": "",
+        "background": "#f2f2f2",
         "background_gradient": "",
         "text_color": ""
       }
@@ -417,7 +417,7 @@
         "reduce_width": false,
         "desktop_row_height": 350,
         "mobile_row_height": 180,
-        "background": "",
+        "background": "#f2f2f2",
         "background_gradient": ""
       }
     },
