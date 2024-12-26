@@ -370,6 +370,9 @@
     },
     "featured_collection_MYfMDU": {
       "type": "featured-collection",
+      "custom_css": [
+        "h2{font-variant-position: center;}"
+      ],
       "settings": {
         "collection": "",
         "products": [
