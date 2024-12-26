@@ -72,6 +72,90 @@
         "background_gradient": "linear-gradient(60deg, rgba(60, 65, 68, 1), rgba(23, 29, 33, 1) 98%)"
       }
     },
+    "media_grid_GQLxHK": {
+      "type": "media-grid",
+      "blocks": {
+        "image_h3n6aL": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/sss_b8955704-8a91-4e1e-b0bd-10fd569b4bfe.png",
+            "title": "אריחי קיר למקלחות",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 2,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_rbViTy": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/u2398985183_A_modern_bedroom_with_a_large_feature_wall_clad_i_9b4753d6-5b23-4d03-a5a1-747a736be2f7_1_1.jpg",
+            "title": "חדרי שינה",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_ngXe9c": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Visualization_of_a_luxurious_and_trendy2_11b332d7-454c-4a5a-9937-952a2e2d224b.jpg",
+            "title": "קולקציית ארט",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_h3n6aL",
+        "image_rbViTy",
+        "image_ngXe9c"
+      ],
+      "settings": {
+        "full_width": true,
+        "reduce_width": false,
+        "desktop_row_height": 290,
+        "mobile_row_height": 150,
+        "background": "#f2f2f2",
+        "background_gradient": ""
+      }
+    },
     "collection-list": {
       "type": "collection-list",
       "blocks": {
@@ -198,6 +282,7 @@
         "collection_36iJyt",
         "collection_gNKEg4"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "stack_collections": false,
@@ -259,6 +344,7 @@
     },
     "featured-collection": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "collection": "חיפויי-קיר",
         "products": [],
@@ -549,6 +635,7 @@
   },
   "order": [
     "slideshow",
+    "media_grid_GQLxHK",
     "collection-list",
     "images_with_text_scrolling_KDcMza",
     "featured-collection",
