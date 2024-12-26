@@ -78,7 +78,7 @@
         "collection-1": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "אבן",
             "subheading": "",
             "title": "",
             "url": "",
@@ -92,7 +92,7 @@
         "collection-2": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "ארט",
             "subheading": "",
             "title": "",
             "url": "",
@@ -106,7 +106,7 @@
         "collection-3": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "בטון",
             "subheading": "",
             "title": "",
             "url": "",
@@ -120,7 +120,63 @@
         "collection_8QR9Ab": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "טראצו",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_mxB9bE": {
+          "type": "collection",
+          "settings": {
+            "collection": "מתכת",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_36iJyt": {
+          "type": "collection",
+          "settings": {
+            "collection": "עור",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_gNKEg4": {
+          "type": "collection",
+          "settings": {
+            "collection": "עץ",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_jKdYfh": {
+          "type": "collection",
+          "settings": {
+            "collection": "שיש",
             "subheading": "",
             "title": "",
             "url": "",
@@ -136,7 +192,11 @@
         "collection-1",
         "collection-2",
         "collection-3",
-        "collection_8QR9Ab"
+        "collection_8QR9Ab",
+        "collection_mxB9bE",
+        "collection_36iJyt",
+        "collection_gNKEg4",
+        "collection_jKdYfh"
       ],
       "settings": {
         "full_width": true,
