@@ -381,7 +381,7 @@
           "white-marble"
         ],
         "full_width": true,
-        "stack_products": true,
+        "stack_products": false,
         "show_progress_bar": false,
         "products_count": 6,
         "products_per_row_mobile": "2",
@@ -396,8 +396,8 @@
         "text_color": "",
         "heading_color": "",
         "heading_gradient": "",
-        "product_card_background": "",
-        "product_card_text_color": ""
+        "product_card_background": "#000000",
+        "product_card_text_color": "#ffffff"
       }
     },
     "rich_text_QBhLaR": {
