@@ -250,7 +250,7 @@
         "show_counter": true,
         "desktop_image_effect": "fade",
         "image_position": "start",
-        "background": "",
+        "background": "#ffffff",
         "background_gradient": "",
         "text_color": "",
         "heading_color": "",
