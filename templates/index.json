@@ -371,7 +371,7 @@
     "featured_collection_MYfMDU": {
       "type": "featured-collection",
       "custom_css": [
-        "h2{font-variant-position: center;}"
+        "h2 {font-variant-position: center;}"
       ],
       "settings": {
         "collection": "",
@@ -548,7 +548,7 @@
         "image_bzgUDX": {
           "type": "image",
           "settings": {
-            "feature_title": "Free Shipping",
+            "feature_title": "משלוחים לכל הארץ",
             "feature_text": "<p>Order today, receive tomorrow</p>",
             "feature_url": "https://section.store/",
             "hide_image": false
@@ -557,7 +557,7 @@
         "image_x8NLj4": {
           "type": "image",
           "settings": {
-            "feature_title": "Price-match guarantee",
+            "feature_title": "איכות ללא פשרות",
             "feature_text": "<p>Safe money when ordering with us</p>",
             "feature_url": "",
             "hide_image": false
@@ -566,7 +566,7 @@
         "image_NPVkKz": {
           "type": "image",
           "settings": {
-            "feature_title": "Hassle-free exchange",
+            "feature_title": "החזרות עד 14 ימי עסקים",
             "feature_text": "<p>Receive a slip for exchanges</p>",
             "feature_url": "",
             "hide_image": false
@@ -575,7 +575,7 @@
         "image_pYrkFy": {
           "type": "image",
           "settings": {
-            "feature_title": "5.0 Google Reviews",
+            "feature_title": "לקוחות מרוצים",
             "feature_text": "<p>Customer satisfaction #1 priority</p>",
             "feature_url": "",
             "hide_image": false
