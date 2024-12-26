@@ -27,11 +27,19 @@
             "text": "20% מבצע השקה",
             "url": ""
           }
+        },
+        "message_kPxHXf": {
+          "type": "message",
+          "settings": {
+            "text": "Announce something here",
+            "url": ""
+          }
         }
       },
       "block_order": [
         "message_DJcNzC",
-        "message_TrY99m"
+        "message_TrY99m",
+        "message_kPxHXf"
       ],
       "settings": {
         "enable_sticky": false,
