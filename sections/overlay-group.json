@@ -14,13 +14,13 @@
     "newsletter-popup": {
       "type": "newsletter-popup",
       "settings": {
-        "apparition_delay": 5,
+        "apparition_delay": 15,
         "show_only_on_index": true,
         "show_only_for_visitors": true,
         "show_only_once": true,
-        "title": "Signup for our newsletter",
-        "button_text": "Subscribe",
-        "subtext": "Describe what your customers will receive when subscribing to your newsletter."
+        "title": "קירות עם טקסטורה שמרגישים כמו טבע אמיתי – הירשמו עכשיו ותישארו מעודכנים!",
+        "button_text": "הרשמו עכשיו!",
+        "subtext": "<strong>מהדפסות מתקדמות ועד לחוויית עיצוב ייחודית – הצטרפו לניוזלטר וקחו חלק במהפכה בעולם חיפויי הקיר.</strong>"
       }
     },
     "privacy-banner": {
