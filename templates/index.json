@@ -75,6 +75,20 @@
     "collection-list": {
       "type": "collection-list",
       "blocks": {
+        "collection_jKdYfh": {
+          "type": "collection",
+          "settings": {
+            "collection": "שיש",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
         "collection-1": {
           "type": "collection",
           "settings": {
@@ -172,31 +186,17 @@
             "overlay_color": "#000000",
             "overlay_opacity": 30
           }
-        },
-        "collection_jKdYfh": {
-          "type": "collection",
-          "settings": {
-            "collection": "שיש",
-            "subheading": "",
-            "title": "",
-            "url": "",
-            "heading_tag": "h2",
-            "text_position": "place-self-center text-center",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
-          }
         }
       },
       "block_order": [
+        "collection_jKdYfh",
         "collection-1",
         "collection-2",
         "collection-3",
         "collection_8QR9Ab",
         "collection_mxB9bE",
         "collection_36iJyt",
-        "collection_gNKEg4",
-        "collection_jKdYfh"
+        "collection_gNKEg4"
       ],
       "settings": {
         "full_width": true,
