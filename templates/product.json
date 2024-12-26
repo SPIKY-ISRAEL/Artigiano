@@ -68,12 +68,39 @@
           "type": "separator",
           "settings": {}
         },
+        "inventory_CC9Ti7": {
+          "type": "inventory",
+          "settings": {
+            "low_inventory_threshold": 0
+          }
+        },
+        "collapsible_text_kGRJMM": {
+          "type": "collapsible_text",
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "title": "מדניות משלוחים",
+            "content": "<p>Share some content to your customers about your products.</p>",
+            "page": ""
+          }
+        },
         "description": {
           "type": "description",
+          "disabled": true,
           "settings": {
             "icon": "picto-gift",
             "icon_width": 20,
             "collapse_content": false
+          }
+        },
+        "collapsible_text_3XkmJe": {
+          "type": "collapsible_text",
+          "settings": {
+            "icon": "picto-box",
+            "icon_width": 20,
+            "title": "תאור המוצר",
+            "content": "<p><strong>White Marble –</strong> חיפוי אבן בגוון לבן נקי עם עורקים עדינים למראה טבעי ואלגנטי.<br/><strong>מט/טקסטורה מוחשית:חיפוי קיר תוצרת ארטיג'יאנוחומר:</strong>PVC רב שכבתי<strong>מידות:</strong>150/300 ס\"מ בעובי 2-10 מ\"מבעל תקן אש, עמיד בפני כתמים וקל לניקוי<strong>מבריק:חיפוי קיר תוצרת ארטיג'יאנוחומר:</strong>פרספקס<strong>מידות:</strong>150/300 ס\"מ, בעובי 3 מ\"מעמיד בפני כתמים וקל לניקוי</p>",
+            "page": ""
           }
         }
       },
@@ -87,7 +114,10 @@
         "rating",
         "payment_terms",
         "separator",
-        "description"
+        "inventory_CC9Ti7",
+        "collapsible_text_kGRJMM",
+        "description",
+        "collapsible_text_3XkmJe"
       ],
       "settings": {
         "full_width": true,
