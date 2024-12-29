@@ -651,7 +651,7 @@
       "settings": {
         "full_width": true,
         "show_excerpt": false,
-        "show_date": false,
+        "show_date": true,
         "show_author": false,
         "show_comments_count": false,
         "show_category": true,
