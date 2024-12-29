@@ -457,6 +457,36 @@
         "text_color": ""
       }
     },
+    "multiple_images_with_text_R8WLy6": {
+      "type": "multiple-images-with-text",
+      "blocks": {
+        "item_tDLxj3": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/stylus-on-tablet-design.jpg",
+            "image_rotation_degrees": 5,
+            "subheading": "",
+            "title": "תיאום עם מעצבת הפנים שלנו.",
+            "content": "<p><strong>ב-Artigiano</strong> אנו יוצרים חיפויים בהתאמה אישית שמשלימים את החלל שלכם בצורה מושלמת, מוזמנים לקבוע <strong>פגישת ייעוץ עם מעצבת הפנים שלנו</strong> ולהפוך את החזון שלכם למציאות.</p>",
+            "button_url": "shopify://pages/תהליך-הזמנה-אישית-עם-artigiano",
+            "button_text": "תיאום תהליך הזמנה אישית"
+          }
+        }
+      },
+      "block_order": [
+        "item_tDLxj3"
+      ],
+      "settings": {
+        "full_width": true,
+        "images_layout": "stacked",
+        "collage_images_alignment": "middle",
+        "background": "#000000",
+        "background_gradient": "",
+        "text_color": "#ffffff",
+        "button_background": "#000000",
+        "button_text_color": "#ffffff"
+      }
+    },
     "media-grid": {
       "type": "media-grid",
       "blocks": {
@@ -562,26 +592,6 @@
         "mobile_row_height": 180,
         "background": "#f2f2f2",
         "background_gradient": ""
-      }
-    },
-    "contact_ViQYjy": {
-      "type": "contact",
-      "settings": {
-        "full_width": true,
-        "subheading": "",
-        "title": "מעצבים יחד את החלום שלך!",
-        "content": "<p><strong>ב-Artigiano</strong> אנו מזמינים אתכם לחוויית עיצוב ייחודית ומותאמת אישית.<br/>העיצוב שלכם מתחיל בליווי מקצועי עם <strong>מעצבת פנים</strong>, תוך התאמה מלאה לצרכים, לסגנון ולחזון שלכם!<br/></p><p><strong>השאירו פרטים ונחזור אליכם בהקדם:</strong></p>",
-        "text_position": "center",
-        "contact_form_size": "large",
-        "background": "#eaeaea",
-        "background_gradient": "",
-        "text_color": "#000000",
-        "heading_color": "",
-        "heading_gradient": "",
-        "contact_background": "#f2f2f2",
-        "contact_text_color": "#000000",
-        "button_background": "#f2f2f2",
-        "button_text_color": "#000000"
       }
     },
     "ss_feature_1_gtnyEB": {
@@ -720,8 +730,8 @@
     "featured-collection",
     "featured_collection_MYfMDU",
     "rich_text_QBhLaR",
+    "multiple_images_with_text_R8WLy6",
     "media-grid",
-    "contact_ViQYjy",
     "ss_feature_1_gtnyEB",
     "blog_posts_babbNa"
   ]
