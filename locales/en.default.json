@@ -151,7 +151,7 @@
   "collection": {
     "general": {
       "empty_collection": "This collection is empty",
-      "all_collections": "All collections",
+      "all_collections": "כל הקולקציות",
       "no_collections": "This store does not contain any collection.",
       "continue_shopping": "Continue shopping"
     },
