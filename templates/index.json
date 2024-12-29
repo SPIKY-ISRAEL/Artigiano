@@ -195,7 +195,7 @@
             "subheading": "",
             "title": "",
             "url": "",
-            "heading_tag": "h3",
+            "heading_tag": "h5",
             "text_position": "place-self-end-center text-center",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
@@ -209,7 +209,7 @@
             "subheading": "",
             "title": "",
             "url": "",
-            "heading_tag": "h2",
+            "heading_tag": "h5",
             "text_position": "place-self-center text-center",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
@@ -223,7 +223,7 @@
             "subheading": "",
             "title": "",
             "url": "",
-            "heading_tag": "h2",
+            "heading_tag": "h5",
             "text_position": "place-self-center text-center",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
@@ -237,7 +237,7 @@
             "subheading": "",
             "title": "",
             "url": "",
-            "heading_tag": "h2",
+            "heading_tag": "h5",
             "text_position": "place-self-center text-center",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
@@ -251,7 +251,7 @@
             "subheading": "",
             "title": "",
             "url": "",
-            "heading_tag": "h2",
+            "heading_tag": "h5",
             "text_position": "place-self-center text-center",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
@@ -265,7 +265,7 @@
             "subheading": "",
             "title": "",
             "url": "",
-            "heading_tag": "h2",
+            "heading_tag": "h5",
             "text_position": "place-self-center text-center",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
@@ -425,36 +425,6 @@
         "product_card_text_color": "#ffffff"
       }
     },
-    "multiple_images_with_text_R8WLy6": {
-      "type": "multiple-images-with-text",
-      "blocks": {
-        "item_tDLxj3": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/1200_x_1600.png",
-            "image_rotation_degrees": 5,
-            "subheading": "",
-            "title": "תיאום עם מעצבת הפנים שלנו.",
-            "content": "<p><strong>ב-Artigiano</strong> אנו יוצרים חיפויים בהתאמה אישית שמשלימים את החלל שלכם בצורה מושלמת, מוזמנים לקבוע <strong>פגישת ייעוץ עם מעצבת הפנים שלנו</strong> ולהפוך את החזון שלכם למציאות.</p><p>✓ קביעת ייעוץ עם מעצבת הפנים שלנו </p><p>✓ שירותי אספקה והתקנה</p><p>✓ חיפויים בהתאמה אישית</p><p>✓ הדמיות אישיות</p>",
-            "button_url": "shopify://pages/תהליך-הזמנה-אישית-עם-artigiano",
-            "button_text": "תיאום תהליך הזמנה אישית"
-          }
-        }
-      },
-      "block_order": [
-        "item_tDLxj3"
-      ],
-      "settings": {
-        "full_width": true,
-        "images_layout": "stacked",
-        "collage_images_alignment": "middle",
-        "background": "#f2f2f2",
-        "background_gradient": "",
-        "text_color": "#000000",
-        "button_background": "#f2f2f2",
-        "button_text_color": "#000000"
-      }
-    },
     "ss_feature_1_Kcad9E": {
       "type": "ss-feature-1",
       "settings": {
@@ -500,6 +470,36 @@
         "content_width": 120,
         "border_thickness": 0,
         "lazy": true
+      }
+    },
+    "multiple_images_with_text_R8WLy6": {
+      "type": "multiple-images-with-text",
+      "blocks": {
+        "item_tDLxj3": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/1200_x_1600.png",
+            "image_rotation_degrees": 5,
+            "subheading": "",
+            "title": "תיאום עם מעצבת הפנים שלנו.",
+            "content": "<p><strong>ב-Artigiano</strong> אנו יוצרים חיפויים בהתאמה אישית שמשלימים את החלל שלכם בצורה מושלמת, מוזמנים לקבוע <strong>פגישת ייעוץ עם מעצבת הפנים שלנו</strong> ולהפוך את החזון שלכם למציאות.</p><p>✓ קביעת ייעוץ עם מעצבת הפנים שלנו </p><p>✓ שירותי אספקה והתקנה</p><p>✓ חיפויים בהתאמה אישית</p><p>✓ הדמיות אישיות</p>",
+            "button_url": "shopify://pages/תהליך-הזמנה-אישית-עם-artigiano",
+            "button_text": "תיאום תהליך הזמנה אישית"
+          }
+        }
+      },
+      "block_order": [
+        "item_tDLxj3"
+      ],
+      "settings": {
+        "full_width": true,
+        "images_layout": "stacked",
+        "collage_images_alignment": "middle",
+        "background": "#f2f2f2",
+        "background_gradient": "",
+        "text_color": "#000000",
+        "button_background": "#f2f2f2",
+        "button_text_color": "#000000"
       }
     },
     "ss_feature_1_T4WXWj": {
