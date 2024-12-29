@@ -159,9 +159,9 @@
         "products": [],
         "full_width": true,
         "stack_products": true,
-        "show_progress_bar": false,
-        "products_per_row_mobile": "1",
-        "products_per_row_desktop": 3,
+        "show_progress_bar": true,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 5,
         "subheading": "",
         "title": "חיפוי קיר נוספים",
         "content": "",
@@ -220,6 +220,7 @@
         "image_Tcp4j6",
         "image_H4RJTf"
       ],
+      "disabled": true,
       "settings": {
         "feature_row": 4,
         "feature_row_mobile": 1,
