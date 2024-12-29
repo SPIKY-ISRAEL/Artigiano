@@ -126,8 +126,8 @@
         "text_F4tERY": {
           "type": "text",
           "settings": {
-            "title": "אולם תצוגה ויצירת קשר",
-            "content": "<p><strong>אולם תצוגה: </strong>חוצות היוצר 14, אשקלון</p><p><strong>שעות פעילות: </strong>א'-ה': 09:00-17:00</p><p><strong>טלפון: </strong><a href=\"tel:050-206-1383\" title=\"tel:050-206-1383\">050-206-1383</a></p><p><strong>מייל: </strong><a href=\"mailto:sales@artigiano.co.il\" title=\"mailto:sales@artigiano.co.il\">sales@artigiano.co.il</a></p>",
+            "title": "יצירת קשר",
+            "content": "<p><strong>טלפון: </strong><a href=\"tel:050-206-1383\" title=\"tel:050-206-1383\">050-206-1383</a></p><p><strong>מייל: </strong><a href=\"mailto:sales@artigiano.co.il\" title=\"mailto:sales@artigiano.co.il\">sales@artigiano.co.il</a></p>",
             "enable_follow_on_shop": true
           }
         }
