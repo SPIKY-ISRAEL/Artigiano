@@ -74,13 +74,13 @@
             "low_inventory_threshold": 0
           }
         },
-        "collapsible_text_kGRJMM": {
+        "collapsible_text_3XkmJe": {
           "type": "collapsible_text",
           "settings": {
-            "icon": "none",
+            "icon": "picto-box",
             "icon_width": 20,
-            "title": "מדניות משלוחים",
-            "content": "<p>Share some content to your customers about your products.</p>",
+            "title": "תאור המוצר",
+            "content": "<p><strong>White Marble –</strong> חיפוי אבן בגוון לבן נקי עם עורקים עדינים למראה טבעי ואלגנטי.<br/><strong>מט/טקסטורה מוחשית:חיפוי קיר תוצרת ארטיג'יאנוחומר:</strong>PVC רב שכבתי<strong>מידות:</strong>150/300 ס\"מ בעובי 2-10 מ\"מבעל תקן אש, עמיד בפני כתמים וקל לניקוי<strong>מבריק:חיפוי קיר תוצרת ארטיג'יאנוחומר:</strong>פרספקס<strong>מידות:</strong>150/300 ס\"מ, בעובי 3 מ\"מעמיד בפני כתמים וקל לניקוי</p>",
             "page": ""
           }
         },
@@ -93,13 +93,13 @@
             "collapse_content": false
           }
         },
-        "collapsible_text_3XkmJe": {
+        "collapsible_text_kGRJMM": {
           "type": "collapsible_text",
           "settings": {
-            "icon": "picto-box",
+            "icon": "none",
             "icon_width": 20,
-            "title": "תאור המוצר",
-            "content": "<p><strong>White Marble –</strong> חיפוי אבן בגוון לבן נקי עם עורקים עדינים למראה טבעי ואלגנטי.<br/><strong>מט/טקסטורה מוחשית:חיפוי קיר תוצרת ארטיג'יאנוחומר:</strong>PVC רב שכבתי<strong>מידות:</strong>150/300 ס\"מ בעובי 2-10 מ\"מבעל תקן אש, עמיד בפני כתמים וקל לניקוי<strong>מבריק:חיפוי קיר תוצרת ארטיג'יאנוחומר:</strong>פרספקס<strong>מידות:</strong>150/300 ס\"מ, בעובי 3 מ\"מעמיד בפני כתמים וקל לניקוי</p>",
+            "title": "מדניות משלוחים",
+            "content": "<p>Share some content to your customers about your products.</p>",
             "page": ""
           }
         }
@@ -115,9 +115,9 @@
         "payment_terms",
         "separator",
         "inventory_CC9Ti7",
-        "collapsible_text_kGRJMM",
+        "collapsible_text_3XkmJe",
         "description",
-        "collapsible_text_3XkmJe"
+        "collapsible_text_kGRJMM"
       ],
       "settings": {
         "full_width": true,
@@ -229,13 +229,13 @@
         "feature_text_mt": 4,
         "feature_icon_size": 42,
         "feature_icon_size_mobile": 42,
-        "feature_bg": "#FFFFFF",
+        "feature_bg": "#ffffff",
         "feature_border_color": "#000000",
         "feature_shadow_color": "#000000",
         "feature_heading_color": "#000000",
         "feature_text_color": "#000000",
         "feature_icon_color": "#000000",
-        "background_color": "#FFFFFF",
+        "background_color": "#ffffff",
         "background_gradient": "",
         "border_color": "#000000",
         "margin_top": 0,
