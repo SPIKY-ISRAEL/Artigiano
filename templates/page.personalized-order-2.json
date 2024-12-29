@@ -13,7 +13,75 @@
       "type": "main-page",
       "disabled": true,
       "settings": {
-        "content_width": "80ch"
+        "content_width": "60ch"
+      }
+    },
+    "rich_text_nAfxr6": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_99UT38": {
+          "type": "heading",
+          "settings": {
+            "text": "תהליך הזמנה אישית עם Artigiano",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_99UT38"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "multiple_images_with_text_JWqmEG": {
+      "type": "multiple-images-with-text",
+      "blocks": {
+        "item_qBngFB": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/sss_b8955704-8a91-4e1e-b0bd-10fd569b4bfe.png",
+            "image_rotation_degrees": -2,
+            "subheading": "",
+            "title": "חיפויים בהתאמה אישית",
+            "content": "<p>חיפויי הקיר בהתאמה אישית של ארטיג'יאנו הם פתרונות ייחודיים המותאמים באופן מלא לצרכים, לרצונות ולחזון העיצובי של הלקוח. בעזרת טכנולוגיות הדפסה מתקדמות ומומחיות בעיצוב, אנו יוצרים חיפויים שמדגישים את הייחודיות של כל פרויקט ומשתלבים בצורה מושלמת עם הסגנון והאווירה של החלל</p><p><strong>איך עובד תהליך העבודה ליצירת חיפוי בהתאמה אישית?<br/></strong></p><p><strong>פגישת ייעוץ עם מעצב פנים</strong>- פגישה אחד על אחד להבנת הצרכים, הסגנון והחזון של הלקוח, סקירת רעיונות עיצוביים, צבעים וטקסטורות.</p><p><strong>הדמיה ממוחשבת</strong>- יצירת הדמיה תלת מימדית להמחשת התוצאה הסופית.<br/><strong>ייצור טסט מוחשי - </strong>תקבלו מאיתנו חלק קטן מהחיפוי (טסטר) לאישור לפני שנייצר את הכל כדי שתוכלו לראות ולהרגיש בעצמכם שזה בדיוק המוצר שרציתם. <br/><strong>ייצור החיפוי - </strong>אחרי שראיתם ואישרתם את הטסטר נייצר עבורכם את כל החומר ונכין אותו למשלוח והתקנה. </p>",
+            "button_url": "",
+            "button_text": ""
+          }
+        },
+        "item_FaPRKn": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/1200_x_1600_1000_x_1200_1200_x_1000.png",
+            "image_rotation_degrees": -1.5,
+            "subheading": "",
+            "title": "",
+            "content": "",
+            "button_url": "",
+            "button_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_qBngFB",
+        "item_FaPRKn"
+      ],
+      "settings": {
+        "full_width": true,
+        "images_layout": "collage",
+        "collage_images_alignment": "middle",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
       }
     },
     "contact": {
@@ -35,10 +103,45 @@
         "button_background": "",
         "button_text_color": ""
       }
+    },
+    "rich_text_YMrm77": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_WNTfPf": {
+          "type": "heading",
+          "settings": {
+            "text": "שירותי אספקה והתקנה",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_KmAwLg": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>משלוח והתקנה:</strong> תוכלו לבחור אם להשתמש בשירותי השילוח וההתקנה שלנו או לבצע זאת בעצמכם. במידה ותבחרו לעשות זאת לבד תוכלו להגיע ולאסוף את החומרים מהמפעל שלנו באשקלון. במידה ותבחרו בהובלה והתקנה, נתאם מולכם תאריך וצוות מקצועי מטעמנו שיגיע עם המוצר עד אליכם ויבצע את ההתקנה. </p><p><strong>בחיפוי קולקציה:</strong> ניתן להזמין משלוח ללא התקנה עד קו המדרכה או עד הבית בעלות נוספת בתוך בין 14-21 ימי עסקים </p><p><strong>בחיפויים בהתאמה אישית:</strong> משלוח עד הבית בתוך 21 ימי עסקים מרגע אישור הלקוח להדמיה.בנוסף, החברה מציעה שירותי התקנה באמצעות שותפה חיצונית המספקת שירותי התקנה באופן קבוע; מתמשך והבטחת איכות מקצועית ללקוחותינו.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_WNTfPf",
+        "richtext_KmAwLg"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": ""
+      }
     }
   },
   "order": [
     "main",
-    "contact"
+    "rich_text_nAfxr6",
+    "multiple_images_with_text_JWqmEG",
+    "contact",
+    "rich_text_YMrm77"
   ]
 }
