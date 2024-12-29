@@ -147,6 +147,7 @@
         "image_rbViTy",
         "image_ngXe9c"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "reduce_width": false,
@@ -282,7 +283,6 @@
         "collection_36iJyt",
         "collection_gNKEg4"
       ],
-      "disabled": true,
       "settings": {
         "full_width": true,
         "stack_collections": false,
