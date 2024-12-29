@@ -549,7 +549,7 @@
           "type": "image",
           "settings": {
             "feature_title": "משלוחים לכל הארץ",
-            "feature_text": "<p>Order today, receive tomorrow</p>",
+            "feature_text": "",
             "feature_url": "https://section.store/",
             "hide_image": false
           }
@@ -558,7 +558,7 @@
           "type": "image",
           "settings": {
             "feature_title": "איכות ללא פשרות",
-            "feature_text": "<p>Safe money when ordering with us</p>",
+            "feature_text": "",
             "feature_url": "",
             "hide_image": false
           }
@@ -567,7 +567,7 @@
           "type": "image",
           "settings": {
             "feature_title": "החזרות עד 14 ימי עסקים",
-            "feature_text": "<p>Receive a slip for exchanges</p>",
+            "feature_text": "",
             "feature_url": "",
             "hide_image": false
           }
@@ -576,7 +576,7 @@
           "type": "image",
           "settings": {
             "feature_title": "לקוחות מרוצים",
-            "feature_text": "<p>Customer satisfaction #1 priority</p>",
+            "feature_text": "",
             "feature_url": "",
             "hide_image": false
           }
