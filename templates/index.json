@@ -174,20 +174,6 @@
             "overlay_opacity": 30
           }
         },
-        "collection-2": {
-          "type": "collection",
-          "settings": {
-            "collection": "ארט",
-            "subheading": "",
-            "title": "",
-            "url": "",
-            "heading_tag": "h5",
-            "text_position": "place-self-center text-center",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
-          }
-        },
         "collection-1": {
           "type": "collection",
           "settings": {
@@ -216,10 +202,10 @@
             "overlay_opacity": 30
           }
         },
-        "collection_8QR9Ab": {
+        "collection_gNKEg4": {
           "type": "collection",
           "settings": {
-            "collection": "טראצו",
+            "collection": "עץ",
             "subheading": "",
             "title": "",
             "url": "",
@@ -244,6 +230,20 @@
             "overlay_opacity": 30
           }
         },
+        "collection-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "ארט",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h5",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
         "collection_36iJyt": {
           "type": "collection",
           "settings": {
@@ -258,10 +258,10 @@
             "overlay_opacity": 30
           }
         },
-        "collection_gNKEg4": {
+        "collection_8QR9Ab": {
           "type": "collection",
           "settings": {
-            "collection": "עץ",
+            "collection": "טראצו",
             "subheading": "",
             "title": "",
             "url": "",
@@ -275,13 +275,13 @@
       },
       "block_order": [
         "collection_jKdYfh",
-        "collection-2",
         "collection-1",
         "collection-3",
-        "collection_8QR9Ab",
+        "collection_gNKEg4",
         "collection_mxB9bE",
+        "collection-2",
         "collection_36iJyt",
-        "collection_gNKEg4"
+        "collection_8QR9Ab"
       ],
       "settings": {
         "full_width": true,
