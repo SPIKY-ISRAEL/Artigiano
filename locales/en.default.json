@@ -162,7 +162,7 @@
     },
     "faceting": {
       "filters": "Filters",
-      "filter_and_sort": "Filter and sort",
+      "filter_and_sort": "פילטרים",
       "filter_button": "Filter",
       "clear_filters": "Clear all",
       "apply_filters": "Apply",
