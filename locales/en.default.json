@@ -165,7 +165,7 @@
       "filter_and_sort": "פילטרים",
       "filter_button": "Filter",
       "clear_filters": "Clear all",
-      "apply_filters": "Apply",
+      "apply_filters": "הוספה",
       "sort_by": "Sort by",
       "remove_filter": "Remove filter \"{{ name }}\"",
       "no_results": "No products match those filters.",
