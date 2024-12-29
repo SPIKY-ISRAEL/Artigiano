@@ -301,6 +301,28 @@
         "heading_gradient": ""
       }
     },
+    "rich_text_rC8TAw": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_GtQ64P": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "subheading_GtQ64P"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "images_with_text_scrolling_KDcMza": {
       "type": "images-with-text-scrolling",
       "blocks": {
@@ -693,6 +715,7 @@
     "slideshow",
     "media_grid_GQLxHK",
     "collection-list",
+    "rich_text_rC8TAw",
     "images_with_text_scrolling_KDcMza",
     "featured-collection",
     "featured_collection_MYfMDU",
