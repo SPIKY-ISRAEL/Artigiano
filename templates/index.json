@@ -542,6 +542,26 @@
         "background_gradient": ""
       }
     },
+    "contact_ViQYjy": {
+      "type": "contact",
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "מעצבים יחד את החלום שלך!",
+        "content": "<p>מוזמנים לקבוע ייעוץ אישי <strong>עם מעצבת הפנים שלנו</strong>, שתלווה אתכם מהרעיון ועד לביצוע!</p><p><strong>השאירו פרטים ונחזור אליכם בהקדם:</strong></p>",
+        "text_position": "center",
+        "contact_form_size": "large",
+        "background": "#eaeaea",
+        "background_gradient": "",
+        "text_color": "#000000",
+        "heading_color": "",
+        "heading_gradient": "",
+        "contact_background": "#f2f2f2",
+        "contact_text_color": "#000000",
+        "button_background": "#f2f2f2",
+        "button_text_color": "#000000"
+      }
+    },
     "ss_feature_1_gtnyEB": {
       "type": "ss-feature-1",
       "blocks": {
@@ -588,6 +608,7 @@
         "image_NPVkKz",
         "image_pYrkFy"
       ],
+      "disabled": true,
       "settings": {
         "feature_row": 4,
         "feature_row_mobile": 2,
@@ -596,13 +617,13 @@
         "feature_padding_horizontal": 0,
         "feature_padding_vertical": 0,
         "feature_radius": 12,
-        "feature_border_thickness": 0,
+        "feature_border_thickness": 1,
         "feature_shadow": true,
         "feature_heading_custom": false,
         "feature_heading_font": "josefin_sans_n4",
         "feature_heading_size": 14,
         "feature_heading_size_mobile": 12,
-        "feature_heading_height": 90,
+        "feature_heading_height": 50,
         "feature_heading_mt": 4,
         "feature_text_custom": false,
         "feature_text_font": "josefin_sans_n4",
@@ -677,6 +698,7 @@
     "featured_collection_MYfMDU",
     "rich_text_QBhLaR",
     "media-grid",
+    "contact_ViQYjy",
     "ss_feature_1_gtnyEB",
     "blog_posts_babbNa"
   ]
