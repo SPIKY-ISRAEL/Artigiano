@@ -113,7 +113,7 @@
       "from_price_html": "החל מ₪200.00 למ״ר"
     },
     "quantity": {
-      "label": "Quantity",
+      "label": "כמות",
       "increase_quantity": "Increase quantity",
       "decrease_quantity": "Decrease quantity",
       "minimum_of": "Minimum of {{ min }}",
