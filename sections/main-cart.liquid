@@ -83,7 +83,7 @@
             {%- endcomment -%}
 
             {%- if section.settings.show_shipping_estimator and cart.requires_shipping -%}
-              {%- assign accordion_title = 'cart.shipping_estimator.משלוחים ואיסוף עצמי' | t -%}
+              {%- assign accordion_title = 'cart.shipping_estimator.estimate_shipping' | t -%}
               {%- capture accordion_content -%}{%- render 'shipping-estimator' -%}{%- endcapture -%}
 
               {%- render 'accordion', title: accordion_title, icon: 'picto-box', content: accordion_content, size: 'lg' -%}
