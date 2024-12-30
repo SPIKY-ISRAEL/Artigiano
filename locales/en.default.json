@@ -39,7 +39,7 @@
       "info": "{{ rating_value }} out of {{ rating_max }} stars"
     },
     "newsletter": {
-      "email": "E-mail",
+      "email": "אימייל",
       "subscribe": "Subscribe",
       "notify_me": "Notify me",
       "subscribed_successfully": "You have been subscribed to our newsletter."
@@ -193,7 +193,7 @@
       "leave_comment": "Leave a comment",
       "moderated": "All comments are moderated before being published.",
       "name": "Name",
-      "email": "E-mail",
+      "email": "אימייל",
       "message": "Message",
       "submit": "Submit",
       "comment_sent": "Your comment has been sent. We will publish it in a little while, as our blog is moderated.",
@@ -208,7 +208,7 @@
   "contact": {
     "form": {
       "name": "Name",
-      "email": "E-mail",
+      "email": "אימייל",
       "message": "Message",
       "submit": "Send message",
       "success_message": "Your message has been sent."
@@ -226,7 +226,7 @@
     },
     "login": {
       "title": "Login",
-      "email": "E-mail",
+      "email": "אימייל",
       "password": "Password",
       "submit": "Login",
       "forgot_password": "Forgot your password?",
@@ -234,7 +234,7 @@
     },
     "recover_password": {
       "title": "Recover password",
-      "email": "E-mail",
+      "email": "אימייל",
       "submit": "Recover",
       "back_to_login": "Back to login",
       "success_message": "An e-mail has been sent to your address with instructions to reset your password."
@@ -243,7 +243,7 @@
       "title": "Sign up",
       "first_name": "First name",
       "last_name": "Last name",
-      "email": "E-mail",
+      "email": "אימייל",
       "password": "Password",
       "accepts_marketing": "Register to our newsletter",
       "submit": "Create account",
