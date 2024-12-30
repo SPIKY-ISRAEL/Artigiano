@@ -314,7 +314,7 @@
   },
   "cart": {
     "general": {
-      "title": "Cart",
+      "title": "עגלת קניות",
       "empty": "העגלה שלך ריקה",
       "item_count": {
         "zero": "{{ count }} items",
