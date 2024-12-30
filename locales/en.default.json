@@ -315,7 +315,7 @@
   "cart": {
     "general": {
       "title": "Cart",
-      "empty": "Your cart is empty",
+      "empty": "העגלה שלך ריקה",
       "item_count": {
         "zero": "{{ count }} items",
         "one": "{{ count }} item",
@@ -449,6 +449,9 @@
       "order_summary": {
         "product_image_quantity_label": "כמות",
         "quantity_label": "כמות"
+      },
+      "stock": {
+        "empty_cart_label": "העגלה שלך ריקה"
       }
     }
   },
