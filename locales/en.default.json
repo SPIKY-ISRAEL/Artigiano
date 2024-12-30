@@ -373,7 +373,7 @@
     "general": {
       "title": "Search",
       "terms": "Results for \"{{ terms }}\"",
-      "search_placeholder": "Search for...",
+      "search_placeholder": "חפש מוצר",
       "products": "כל המוצרים",
       "suggestions": "Suggestions",
       "collections": "Collections",
