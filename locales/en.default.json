@@ -456,6 +456,9 @@
       },
       "thank_you": {
         "return_to_store_link_label": "המשך קניות"
+      },
+      "general": {
+        "remove_item": "מחיקה {{ label }}"
       }
     }
   },
