@@ -323,7 +323,7 @@
       },
       "continue_shopping": "המשך קניות",
       "weight": "Weight",
-      "subtotal": "Subtotal",
+      "subtotal": " ",
       "total": "סה\"כ",
       "taxes_and_shipping_policy_at_checkout_html": " ",
       "taxes_included_but_shipping_at_checkout": "",
@@ -338,9 +338,9 @@
       "we_accept": "We accept"
     },
     "order": {
-      "product": "Product",
-      "total": "Total",
-      "quantity": "Quantity",
+      "product": "מוצר",
+      "total": "סה\"כ",
+      "quantity": "כמות",
       "change_quantity": "Change quantity",
       "increase_quantity": "Increase quantity",
       "decrease_quantity": "Decrease quantity",
