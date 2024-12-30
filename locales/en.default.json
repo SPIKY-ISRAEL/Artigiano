@@ -153,7 +153,7 @@
       "empty_collection": "This collection is empty",
       "all_collections": "כל הקולקציות",
       "no_collections": "This store does not contain any collection.",
-      "continue_shopping": "Continue shopping"
+      "continue_shopping": "המשך קניות"
     },
     "products_count": {
       "zero": "0 products",
@@ -222,7 +222,7 @@
       "addresses": "Addresses",
       "logout": "Logout",
       "no_orders": "You haven't placed any orders yet.",
-      "continue_shopping": "Continue shopping"
+      "continue_shopping": "המשך קניות"
     },
     "login": {
       "title": "Login",
@@ -321,7 +321,7 @@
         "one": "{{ count }} item",
         "other": "{{ count }} items"
       },
-      "continue_shopping": "Continue shopping",
+      "continue_shopping": "המשך קניות",
       "weight": "Weight",
       "subtotal": "Subtotal",
       "total": "Total",
@@ -366,7 +366,7 @@
   "404": {
     "general": {
       "title": "Page not found",
-      "continue_shopping": "Continue shopping"
+      "continue_shopping": "המשך קניות"
     }
   },
   "search": {
@@ -452,6 +452,9 @@
       },
       "stock": {
         "empty_cart_label": "העגלה שלך ריקה"
+      },
+      "thank_you": {
+        "return_to_store_link_label": "המשך קניות"
       }
     }
   },
