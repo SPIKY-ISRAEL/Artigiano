@@ -451,7 +451,8 @@
         "quantity_label": "כמות"
       },
       "stock": {
-        "empty_cart_label": "העגלה שלך ריקה"
+        "empty_cart_label": "העגלה שלך ריקה",
+        "remove": "מחיקה"
       },
       "thank_you": {
         "return_to_store_link_label": "המשך קניות"
