@@ -110,7 +110,7 @@
     "price": {
       "regular_price": "Regular price",
       "sale_price": "Sale price",
-      "from_price_html": "החל מ₪200.00 מ״ר"
+      "from_price_html": "החל מ₪200.00 למ״ר"
     },
     "quantity": {
       "label": "Quantity",
