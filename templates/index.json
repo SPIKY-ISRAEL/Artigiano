@@ -351,47 +351,6 @@
         "product_card_text_color": "#ffffff"
       }
     },
-    "images_with_text_scrolling_KDcMza": {
-      "type": "images-with-text-scrolling",
-      "blocks": {
-        "item_NPbgQU": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/sss_b8955704-8a91-4e1e-b0bd-10fd569b4bfe.png",
-            "icon": "none",
-            "icon_width": 48,
-            "title": "העוצמה והיוקרה של חיפויי אבן",
-            "content": "<p>חיפויי האבן של Artigiano משלבים טקסטורה אותנטית עם עיצוב מינימליסטי ואלגנטי, שמתאים לכל חלל. עם מראה טבעי שמעניק תחושת רוגע והרמוניה.</p><p>החיפויים שלנו יוצרים סביבה מעוצבת, מודרנית וייחודית שמוסיפה ערך וסטייל בכל מקום שבו הם מותקנים.</p>"
-          }
-        },
-        "item_ggLEt3": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/2.png",
-            "icon": "none",
-            "icon_width": 48,
-            "title": "הטבע נכנס הביתה עם חיפויי עץ ייחודיים",
-            "content": "<p>חיפויי קיר מעץ טבעי מבית Artigiano יוצרים אווירה חמימה ואותנטית, שמשתלבת באופן מושלם בכל חלל. </p><p>עם טקסטורה שמרגישה כמו הטבע האמיתי ועיצוב מלא בהשראה, אנחנו מביאים אליכם הביתה חיפויים שמעניקים עומק, ייחודיות ותחושת הרמוניה.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "item_NPbgQU",
-        "item_ggLEt3"
-      ],
-      "settings": {
-        "full_width": true,
-        "stack_on_mobile": true,
-        "show_counter": true,
-        "desktop_image_effect": "fade",
-        "image_position": "start",
-        "background": "#ffffff",
-        "background_gradient": "",
-        "text_color": "#000000",
-        "heading_color": "",
-        "heading_gradient": ""
-      }
-    },
     "multiple_images_with_text_fMBzWe": {
       "type": "multiple-images-with-text",
       "blocks": {
@@ -418,11 +377,24 @@
             "button_url": "",
             "button_text": ""
           }
+        },
+        "item_hn6fWh": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/7_126d282a-b268-4ae7-a0ea-68e0bb4f393e.png",
+            "image_rotation_degrees": 0,
+            "subheading": "חיפויי קיר מבטון טבעי מבית Artigiano",
+            "title": "",
+            "content": "<p>חיפויי הבטון שלנו יוצרים מראה עוצמתי ומודרני, עם נגיעה של תחכום אורבני שמתאים לכל סגנון עיצוב. </p><p>עם טקסטורה עשירה שמדגישה את היופי הגולמי של הבטון, אנו מביאים חיפויים שמוסיפים עומק, אופי ותחושת יוקרה לכל חלל.</p>",
+            "button_url": "",
+            "button_text": ""
+          }
         }
       },
       "block_order": [
         "item_8qmTMp",
-        "item_KNEHe4"
+        "item_KNEHe4",
+        "item_hn6fWh"
       ],
       "settings": {
         "full_width": true,
@@ -493,7 +465,7 @@
         "feature_heading_color": "#000000",
         "feature_text_color": "#000000",
         "feature_icon_color": "#000000",
-        "background_color": "#f2f2f2",
+        "background_color": "#ffffff",
         "background_gradient": "",
         "border_color": "#000000",
         "margin_top": 0,
@@ -531,11 +503,11 @@
         "full_width": true,
         "images_layout": "stacked",
         "collage_images_alignment": "middle",
-        "background": "#f2f2f2",
+        "background": "#ffffff",
         "background_gradient": "",
         "text_color": "#000000",
-        "button_background": "#f2f2f2",
-        "button_text_color": "#000000"
+        "button_background": "#000000",
+        "button_text_color": "#ffffff"
       }
     },
     "ss_feature_1_T4WXWj": {
@@ -570,7 +542,7 @@
         "feature_heading_color": "#000000",
         "feature_text_color": "#000000",
         "feature_icon_color": "#000000",
-        "background_color": "#f2f2f2",
+        "background_color": "#ffffff",
         "background_gradient": "",
         "border_color": "#000000",
         "margin_top": 0,
@@ -612,7 +584,7 @@
         "full_width": true,
         "content_width": "small",
         "text_position": "center",
-        "background": "#f2f2f2",
+        "background": "#ffffff",
         "background_gradient": "",
         "text_color": ""
       }
@@ -720,7 +692,7 @@
         "reduce_width": false,
         "desktop_row_height": 350,
         "mobile_row_height": 180,
-        "background": "#f2f2f2",
+        "background": "#ffffff",
         "background_gradient": ""
       }
     },
@@ -843,7 +815,7 @@
         "content": "",
         "link_url": "shopify://blogs/news",
         "link_text": "לכל הבלוגים",
-        "background": "#f2f2f2",
+        "background": "#ffffff",
         "background_gradient": "",
         "text_color": "",
         "heading_color": "",
@@ -857,7 +829,6 @@
     "collection-list",
     "scrolling_text_eHtjpA",
     "featured_collection_MYfMDU",
-    "images_with_text_scrolling_KDcMza",
     "multiple_images_with_text_fMBzWe",
     "featured-collection",
     "ss_feature_1_Kcad9E",
