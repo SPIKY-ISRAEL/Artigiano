@@ -237,13 +237,22 @@
             "description": "<h4>בעולם שבו קירות הם הרבה יותר ממשטח, חיפויי הקיר שלנו מציעים מראה יוקרתי ומתוחכם שמחזיק לאורך שנים, ומשתלב בהרמוניה בכל חלל.</h4>"
           }
         },
+        "heading_x7yy94": {
+          "type": "heading",
+          "settings": {
+            "sub_heading": "",
+            "heading": "",
+            "heading_size": "smi-h3",
+            "description": ""
+          }
+        },
         "heading_YFLMmA": {
           "type": "heading",
           "settings": {
             "sub_heading": "",
             "heading": "",
             "heading_size": "smi-h3",
-            "description": "<h5><a href=\"/collections/כל-המוצרים\" title=\"כל חיפויי הקיר\">לצפייה בחיפויי הקיר שלנו &gt;&gt;</a></h5>"
+            "description": "<h4><a href=\"/collections/כל-המוצרים\" title=\"כל חיפויי הקיר\">לצפייה בחיפויי הקיר שלנו &gt;&gt;</a></h4>"
           }
         },
         "color_3LNK69": {
@@ -263,6 +272,7 @@
       "block_order": [
         "heading_rUP9N8",
         "heading_fxVjAD",
+        "heading_x7yy94",
         "heading_YFLMmA",
         "color_3LNK69"
       ],
