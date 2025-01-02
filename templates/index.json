@@ -68,7 +68,7 @@
         "transition_type": "fade_with_text",
         "autoplay": true,
         "cycle_speed": 9,
-        "background": "#f2f2f2",
+        "background": "#ffffff",
         "background_gradient": "linear-gradient(60deg, rgba(60, 65, 68, 1), rgba(23, 29, 33, 1) 98%)"
       }
     },
@@ -333,128 +333,120 @@
         "button_text_color": ""
       }
     },
-    "ss_feature_1_Kcad9E": {
-      "type": "ss-feature-1",
-      "settings": {
-        "feature_row": 4,
-        "feature_row_mobile": 2,
-        "feature_gap": 6,
-        "feature_gap_mobile": 8,
-        "feature_padding_horizontal": 0,
-        "feature_padding_vertical": 0,
-        "feature_radius": 12,
-        "feature_border_thickness": 1,
-        "feature_shadow": true,
-        "feature_heading_custom": false,
-        "feature_heading_font": "josefin_sans_n4",
-        "feature_heading_size": 14,
-        "feature_heading_size_mobile": 12,
-        "feature_heading_height": 50,
-        "feature_heading_mt": 4,
-        "feature_text_custom": false,
-        "feature_text_font": "josefin_sans_n4",
-        "feature_text_size": 12,
-        "feature_text_size_mobile": 12,
-        "feature_text_height": 110,
-        "feature_text_mt": 4,
-        "feature_icon_size": 42,
-        "feature_icon_size_mobile": 28,
-        "feature_bg": "#ffffff",
-        "feature_border_color": "#000000",
-        "feature_shadow_color": "#000000",
-        "feature_heading_color": "#000000",
-        "feature_text_color": "#000000",
-        "feature_icon_color": "#000000",
-        "background_color": "#ffffff",
-        "background_gradient": "",
-        "border_color": "#000000",
-        "margin_top": 0,
-        "margin_bottom": 0,
-        "padding_top": 16,
-        "padding_bottom": 16,
-        "padding_horizontal": 5,
-        "padding_horizontal_mobile": 1.5,
-        "full_width": false,
-        "content_width": 120,
-        "border_thickness": 0,
-        "lazy": true
-      }
-    },
-    "multiple_images_with_text_R8WLy6": {
-      "type": "multiple-images-with-text",
+    "smi_image_with_text_1_7_NJY49j": {
+      "type": "smi-image-with-text-1-7",
       "blocks": {
-        "item_tDLxj3": {
-          "type": "item",
+        "heading_rUP9N8": {
+          "type": "heading",
           "settings": {
-            "image": "shopify://shop_images/1200_x_1600.png",
-            "image_rotation_degrees": 5,
-            "subheading": "",
-            "title": "תיאום עם מעצבת הפנים שלנו.",
-            "content": "<p><strong>ב-Artigiano</strong> אנו יוצרים חיפויים בהתאמה אישית שמשלימים את החלל שלכם בצורה מושלמת, מוזמנים לקבוע <strong>פגישת ייעוץ עם מעצבת הפנים שלנו</strong> ולהפוך את החזון שלכם למציאות.</p><p>✓ קביעת ייעוץ עם מעצבת הפנים שלנו </p><p>✓ הדמיות אישיות</p><p>✓ חיפויים בהתאמה אישית</p><p>✓ שירותי אספקה והתקנה</p>",
-            "button_url": "shopify://pages/תהליך-הזמנה-אישית-עם-artigiano",
-            "button_text": "תיאום תהליך הזמנה אישית >>"
+            "sub_heading": "",
+            "heading": "עמידות ופונקציונליות שעוטפות את הקירות שלך",
+            "heading_size": "smi-h2",
+            "description": "<p>חיפויי קיר מבית <strong>Artigiano</strong> הם השילוב המושלם בין עמידות ואסתטיקה. חיפויים אלו מביאים לעולם העיצוב המודרני את הקסם של חומרים טבעיים, יחד עם יתרונות טכנולוגיים שמבטיחים חוזק, עמידות ותחזוקה קלה.</p><p>בעולם שבו קירות הם הרבה יותר ממשטח, חיפויי הקיר שלנו מציעים מראה יוקרתי ומתוחכם שמחזיק לאורך שנים, ומשתלב בהרמוניה בכל חלל.</p>"
+          }
+        },
+        "button_qyp8ge": {
+          "type": "button",
+          "settings": {
+            "first_button_label": "תיאום תהליך הזמנה אישית >>",
+            "first_button_link": "",
+            "first_button_style": "solid",
+            "second_button_label": "",
+            "second_button_link": "",
+            "second_button_style": "text",
+            "button_full_width": false
+          }
+        },
+        "color_3LNK69": {
+          "type": "color",
+          "settings": {
+            "background_color": "#ffffff",
+            "background_gradient_color": "",
+            "text_color": "#000000",
+            "subtext_color": "#000000",
+            "solid_background_button_color": "#ffffff",
+            "solid_button_label_color": "#000000",
+            "outline_button_color": "#000000",
+            "shadow_color": "#ffffff"
           }
         }
       },
       "block_order": [
-        "item_tDLxj3"
+        "heading_rUP9N8",
+        "button_qyp8ge",
+        "color_3LNK69"
       ],
       "settings": {
-        "full_width": true,
-        "images_layout": "stacked",
-        "collage_images_alignment": "middle",
-        "background": "#ffffff",
-        "background_gradient": "",
-        "text_color": "#000000",
-        "button_background": "#000000",
-        "button_text_color": "#ffffff"
+        "full_width": "container-fluid-no-padding",
+        "upload_image": "shopify://shop_images/6baa20d7b2e97a17f542b804854fcd55.png",
+        "desktop_media_width": "50",
+        "desktop_media_position": "row-reverse",
+        "media_ratio": "1/1",
+        "media_shape": "default",
+        "content_position": "center",
+        "content_alignment": "right",
+        "content_max_width": 640,
+        "color_scheme": "scheme_2",
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
-    "ss_feature_1_T4WXWj": {
-      "type": "ss-feature-1",
+    "smi_image_with_text_1_7_PxKUwN": {
+      "type": "smi-image-with-text-1-7",
+      "blocks": {
+        "heading_tAwcaR": {
+          "type": "heading",
+          "settings": {
+            "sub_heading": "",
+            "heading": "תיאום עם מעצבת הפנים שלנו.",
+            "heading_size": "smi-h2",
+            "description": "<p><strong>ב-Artigiano</strong> אנו יוצרים חיפויים בהתאמה אישית שמשלימים את החלל שלכם בצורה מושלמת, מוזמנים לקבוע <strong>פגישת ייעוץ עם מעצבת הפנים שלנו</strong> ולהפוך את החזון שלכם למציאות.</p><h5>✓ קביעת ייעוץ עם מעצבת הפנים שלנו </h5><h5>✓ הדמיות אישיות</h5><h5>✓ חיפויים בהתאמה אישית</h5><h5>✓ שירותי אספקה והתקנה</h5>"
+          }
+        },
+        "button_FLp38M": {
+          "type": "button",
+          "settings": {
+            "first_button_label": "תיאום תהליך הזמנה אישית >>",
+            "first_button_link": "shopify://pages/תהליך-הזמנה-אישית-עם-artigiano",
+            "first_button_style": "solid",
+            "second_button_label": "",
+            "second_button_link": "",
+            "second_button_style": "text",
+            "button_full_width": false
+          }
+        },
+        "color_CNFRHa": {
+          "type": "color",
+          "settings": {
+            "background_color": "#000000",
+            "background_gradient_color": "",
+            "text_color": "#ffffff",
+            "subtext_color": "#ffffff",
+            "solid_background_button_color": "#000000",
+            "solid_button_label_color": "#ffffff",
+            "outline_button_color": "#ffffff",
+            "shadow_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "heading_tAwcaR",
+        "button_FLp38M",
+        "color_CNFRHa"
+      ],
       "settings": {
-        "feature_row": 4,
-        "feature_row_mobile": 2,
-        "feature_gap": 6,
-        "feature_gap_mobile": 8,
-        "feature_padding_horizontal": 0,
-        "feature_padding_vertical": 0,
-        "feature_radius": 12,
-        "feature_border_thickness": 1,
-        "feature_shadow": true,
-        "feature_heading_custom": false,
-        "feature_heading_font": "josefin_sans_n4",
-        "feature_heading_size": 14,
-        "feature_heading_size_mobile": 12,
-        "feature_heading_height": 50,
-        "feature_heading_mt": 4,
-        "feature_text_custom": false,
-        "feature_text_font": "josefin_sans_n4",
-        "feature_text_size": 12,
-        "feature_text_size_mobile": 12,
-        "feature_text_height": 110,
-        "feature_text_mt": 4,
-        "feature_icon_size": 42,
-        "feature_icon_size_mobile": 28,
-        "feature_bg": "#ffffff",
-        "feature_border_color": "#000000",
-        "feature_shadow_color": "#000000",
-        "feature_heading_color": "#000000",
-        "feature_text_color": "#000000",
-        "feature_icon_color": "#000000",
-        "background_color": "#ffffff",
-        "background_gradient": "",
-        "border_color": "#000000",
-        "margin_top": 0,
-        "margin_bottom": 0,
-        "padding_top": 16,
-        "padding_bottom": 16,
-        "padding_horizontal": 5,
-        "padding_horizontal_mobile": 1.5,
-        "full_width": false,
-        "content_width": 120,
-        "border_thickness": 0,
-        "lazy": true
+        "full_width": "container-fluid-no-padding",
+        "upload_image": "shopify://shop_images/1.png",
+        "desktop_media_width": "50",
+        "desktop_media_position": "row",
+        "media_ratio": "1/1",
+        "media_shape": "default",
+        "content_position": "center",
+        "content_alignment": "right",
+        "content_max_width": 640,
+        "color_scheme": "scheme_2",
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "rich_text_QBhLaR": {
@@ -726,13 +718,12 @@
   "order": [
     "slideshow",
     "collection-list",
+    "smi_image_with_text_1_7_NJY49j",
+    "smi_image_with_text_1_7_PxKUwN",
     "scrolling_text_eHtjpA",
     "featured_collection_MYfMDU",
     "revealed_image_on_scroll_Hy9PKF",
     "multiple_images_with_text_fMBzWe",
-    "ss_feature_1_Kcad9E",
-    "multiple_images_with_text_R8WLy6",
-    "ss_feature_1_T4WXWj",
     "rich_text_QBhLaR",
     "media-grid",
     "ss_feature_1_gtnyEB",
