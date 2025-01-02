@@ -294,7 +294,7 @@
         "content": "",
         "link_url": "shopify://collections",
         "link_text": "לכל קולקציות",
-        "background": "rgba(0,0,0,0)",
+        "background": "#f2f2f2",
         "background_gradient": "",
         "text_color": "",
         "heading_color": "",
@@ -310,10 +310,45 @@
         "text_style": "fill",
         "scrolling_mode": "auto",
         "scrolling_speed": 5,
-        "background": "",
+        "background": "#f2f2f2",
         "background_gradient": "",
         "text_color": "#015555",
         "text_gradient": ""
+      }
+    },
+    "featured_collection_MYfMDU": {
+      "type": "featured-collection",
+      "custom_css": [
+        "h2 {font-variant-position: center;}"
+      ],
+      "settings": {
+        "collection": "",
+        "products": [
+          "wanderlust",
+          "blush-marble-copy",
+          "rustic-cement-1",
+          "חיפוי-קיר-light-blue-marble",
+          "clean-marble",
+          "white-marble"
+        ],
+        "full_width": true,
+        "stack_products": false,
+        "show_progress_bar": true,
+        "products_count": 14,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "subheading": "",
+        "title": "האריחים הכי נמכרים",
+        "content": "",
+        "link_url": "shopify://collections/כל-המוצרים",
+        "link_text": "לכל המוצרים",
+        "background": "#f2f2f2",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "#000000",
+        "product_card_text_color": "#ffffff"
       }
     },
     "images_with_text_scrolling_KDcMza": {
@@ -381,41 +416,6 @@
         "heading_gradient": "",
         "product_card_background": "",
         "product_card_text_color": ""
-      }
-    },
-    "featured_collection_MYfMDU": {
-      "type": "featured-collection",
-      "custom_css": [
-        "h2 {font-variant-position: center;}"
-      ],
-      "settings": {
-        "collection": "",
-        "products": [
-          "wanderlust",
-          "blush-marble-copy",
-          "rustic-cement-1",
-          "חיפוי-קיר-light-blue-marble",
-          "clean-marble",
-          "white-marble"
-        ],
-        "full_width": true,
-        "stack_products": false,
-        "show_progress_bar": true,
-        "products_count": 14,
-        "products_per_row_mobile": "2",
-        "products_per_row_desktop": 4,
-        "subheading": "",
-        "title": "האריחים הכי נמכרים",
-        "content": "",
-        "link_url": "shopify://collections/כל-המוצרים",
-        "link_text": "לכל המוצרים",
-        "background": "#f2f2f2",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "product_card_background": "#000000",
-        "product_card_text_color": "#ffffff"
       }
     },
     "ss_feature_1_Kcad9E": {
@@ -813,9 +813,9 @@
     "media_grid_GQLxHK",
     "collection-list",
     "scrolling_text_eHtjpA",
+    "featured_collection_MYfMDU",
     "images_with_text_scrolling_KDcMza",
     "featured-collection",
-    "featured_collection_MYfMDU",
     "ss_feature_1_Kcad9E",
     "multiple_images_with_text_R8WLy6",
     "ss_feature_1_T4WXWj",
