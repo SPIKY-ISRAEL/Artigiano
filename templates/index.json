@@ -291,36 +291,14 @@
         "show_progress_bar": false,
         "subheading": "",
         "title": "קולקציות Artigiano",
-        "content": "<p><strong> כשעיצוב וטבע נפגשים, הקיר הופך לקנבס חי</strong></p>",
+        "content": "",
         "link_url": "shopify://collections",
         "link_text": "לכל קולקציות",
-        "background": "#f2f2f2",
+        "background": "rgba(0,0,0,0)",
         "background_gradient": "",
         "text_color": "",
         "heading_color": "",
         "heading_gradient": ""
-      }
-    },
-    "rich_text_rC8TAw": {
-      "type": "rich-text",
-      "blocks": {
-        "subheading_GtQ64P": {
-          "type": "subheading",
-          "settings": {
-            "text": ""
-          }
-        }
-      },
-      "block_order": [
-        "subheading_GtQ64P"
-      ],
-      "settings": {
-        "full_width": true,
-        "content_width": "small",
-        "text_position": "center",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
       }
     },
     "images_with_text_scrolling_KDcMza": {
@@ -819,7 +797,6 @@
     "slideshow",
     "media_grid_GQLxHK",
     "collection-list",
-    "rich_text_rC8TAw",
     "images_with_text_scrolling_KDcMza",
     "featured-collection",
     "featured_collection_MYfMDU",
