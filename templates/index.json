@@ -294,7 +294,7 @@
         "content": "",
         "link_url": "shopify://collections",
         "link_text": "לכל קולקציות",
-        "background": "#f2f2f2",
+        "background": "#ffffff",
         "background_gradient": "",
         "text_color": "",
         "heading_color": "",
@@ -306,11 +306,11 @@
       "settings": {
         "full_width": true,
         "text": "Artigiano",
-        "text_size": "large",
+        "text_size": "medium",
         "text_style": "fill",
         "scrolling_mode": "auto",
         "scrolling_speed": 5,
-        "background": "#f2f2f2",
+        "background": "#ffffff",
         "background_gradient": "",
         "text_color": "#015555",
         "text_gradient": ""
@@ -342,7 +342,7 @@
         "content": "",
         "link_url": "shopify://collections/כל-המוצרים",
         "link_text": "לכל המוצרים",
-        "background": "#f2f2f2",
+        "background": "#ffffff",
         "background_gradient": "",
         "text_color": "",
         "heading_color": "",
@@ -385,11 +385,54 @@
         "show_counter": true,
         "desktop_image_effect": "fade",
         "image_position": "start",
-        "background": "rgba(0,0,0,0)",
+        "background": "#ffffff",
         "background_gradient": "",
-        "text_color": "",
+        "text_color": "#000000",
         "heading_color": "",
         "heading_gradient": ""
+      }
+    },
+    "multiple_images_with_text_fMBzWe": {
+      "type": "multiple-images-with-text",
+      "blocks": {
+        "item_8qmTMp": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/bathroom_wall_with_an_abstract_jungle_mur_dfb58c2a-b057-491e-b613-c7d737fc931c.jpg",
+            "image_rotation_degrees": -2,
+            "subheading": "העוצמה והיוקרה של חיפויי אבן",
+            "title": "",
+            "content": "<p>חיפויי האבן של Artigiano משלבים טקסטורה אותנטית עם עיצוב מינימליסטי ואלגנטי, שמתאים לכל חלל. עם מראה טבעי שמעניק תחושת רוגע והרמוניה.</p><p>החיפויים שלנו יוצרים סביבה מעוצבת, מודרנית וייחודית שמוסיפה ערך וסטייל בכל מקום שבו הם מותקנים.</p>",
+            "button_url": "",
+            "button_text": ""
+          }
+        },
+        "item_KNEHe4": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/12.2_4add318a-dedd-4808-b465-324a0002ec60.png",
+            "image_rotation_degrees": 1.5,
+            "subheading": "הטבע נכנס הביתה עם חיפויי עץ ייחודיים",
+            "title": "",
+            "content": "<p>חיפויי קיר מעץ טבעי מבית Artigiano יוצרים אווירה חמימה ואותנטית, שמשתלבת באופן מושלם בכל חלל.</p><p>עם טקסטורה שמרגישה כמו הטבע האמיתי ועיצוב מלא בהשראה, אנחנו מביאים אליכם הביתה חיפויים שמעניקים עומק, ייחודיות ותחושת הרמוניה.</p>",
+            "button_url": "",
+            "button_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_8qmTMp",
+        "item_KNEHe4"
+      ],
+      "settings": {
+        "full_width": true,
+        "images_layout": "stacked",
+        "collage_images_alignment": "middle",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
       }
     },
     "featured-collection": {
@@ -815,6 +858,7 @@
     "scrolling_text_eHtjpA",
     "featured_collection_MYfMDU",
     "images_with_text_scrolling_KDcMza",
+    "multiple_images_with_text_fMBzWe",
     "featured-collection",
     "ss_feature_1_Kcad9E",
     "multiple_images_with_text_R8WLy6",
