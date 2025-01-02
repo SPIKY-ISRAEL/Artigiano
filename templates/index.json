@@ -216,6 +216,122 @@
         "heading_gradient": ""
       }
     },
+    "smi_image_with_text_1_7_NJY49j": {
+      "type": "smi-image-with-text-1-7",
+      "blocks": {
+        "heading_rUP9N8": {
+          "type": "heading",
+          "settings": {
+            "sub_heading": "",
+            "heading": "עמידות ופונקציונליות שעוטפות את הקירות שלך",
+            "heading_size": "smi-h2",
+            "description": "<p>חיפויי קיר מבית <strong>Artigiano</strong> הם השילוב המושלם בין עמידות ואסתטיקה. חיפויים אלו מביאים לעולם העיצוב המודרני את הקסם של חומרים טבעיים, יחד עם יתרונות טכנולוגיים שמבטיחים חוזק, עמידות ותחזוקה קלה.</p><p>בעולם שבו קירות הם הרבה יותר ממשטח, חיפויי הקיר שלנו מציעים מראה יוקרתי ומתוחכם שמחזיק לאורך שנים, ומשתלב בהרמוניה בכל חלל.</p>"
+          }
+        },
+        "button_qyp8ge": {
+          "type": "button",
+          "settings": {
+            "first_button_label": "תיאום תהליך הזמנה אישית >>",
+            "first_button_link": "",
+            "first_button_style": "outline",
+            "second_button_label": "",
+            "second_button_link": "",
+            "second_button_style": "text",
+            "button_full_width": false
+          }
+        },
+        "color_3LNK69": {
+          "type": "color",
+          "settings": {
+            "background_color": "#ffffff",
+            "background_gradient_color": "",
+            "text_color": "#000000",
+            "subtext_color": "#000000",
+            "solid_background_button_color": "#ffffff",
+            "solid_button_label_color": "#000000",
+            "outline_button_color": "#000000",
+            "shadow_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "heading_rUP9N8",
+        "button_qyp8ge",
+        "color_3LNK69"
+      ],
+      "settings": {
+        "full_width": "container-fluid-no-padding",
+        "upload_image": "shopify://shop_images/6baa20d7b2e97a17f542b804854fcd55.png",
+        "desktop_media_width": "50",
+        "desktop_media_position": "row-reverse",
+        "media_ratio": "1/1",
+        "media_shape": "default",
+        "content_position": "center",
+        "content_alignment": "right",
+        "content_max_width": 640,
+        "color_scheme": "scheme_2",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "smi_image_with_text_1_7_PxKUwN": {
+      "type": "smi-image-with-text-1-7",
+      "blocks": {
+        "heading_tAwcaR": {
+          "type": "heading",
+          "settings": {
+            "sub_heading": "",
+            "heading": "תיאום עם מעצבת הפנים שלנו.",
+            "heading_size": "smi-h2",
+            "description": "<p><strong>ב-Artigiano</strong> אנו יוצרים חיפויים בהתאמה אישית שמשלימים את החלל שלכם בצורה מושלמת, מוזמנים לקבוע <strong>פגישת ייעוץ עם מעצבת הפנים שלנו</strong> ולהפוך את החזון שלכם למציאות.</p><h5>✓ קביעת ייעוץ עם מעצבת הפנים שלנו </h5><h5>✓ הדמיות אישיות</h5><h5>✓ חיפויים בהתאמה אישית</h5><h5>✓ שירותי אספקה והתקנה</h5>"
+          }
+        },
+        "button_FLp38M": {
+          "type": "button",
+          "settings": {
+            "first_button_label": "תיאום תהליך הזמנה אישית >>",
+            "first_button_link": "shopify://pages/תהליך-הזמנה-אישית-עם-artigiano",
+            "first_button_style": "outline",
+            "second_button_label": "",
+            "second_button_link": "",
+            "second_button_style": "text",
+            "button_full_width": false
+          }
+        },
+        "color_CNFRHa": {
+          "type": "color",
+          "settings": {
+            "background_color": "#000000",
+            "background_gradient_color": "",
+            "text_color": "#ffffff",
+            "subtext_color": "#ffffff",
+            "solid_background_button_color": "#000000",
+            "solid_button_label_color": "#ffffff",
+            "outline_button_color": "#ffffff",
+            "shadow_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "heading_tAwcaR",
+        "button_FLp38M",
+        "color_CNFRHa"
+      ],
+      "settings": {
+        "full_width": "container-fluid-no-padding",
+        "upload_image": "shopify://shop_images/1.png",
+        "desktop_media_width": "50",
+        "desktop_media_position": "row",
+        "media_ratio": "1/1",
+        "media_shape": "default",
+        "content_position": "center",
+        "content_alignment": "right",
+        "content_max_width": 640,
+        "color_scheme": "scheme_2",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "scrolling_text_eHtjpA": {
       "type": "scrolling-text",
       "settings": {
@@ -331,122 +447,6 @@
         "text_color": "",
         "button_background": "",
         "button_text_color": ""
-      }
-    },
-    "smi_image_with_text_1_7_NJY49j": {
-      "type": "smi-image-with-text-1-7",
-      "blocks": {
-        "heading_rUP9N8": {
-          "type": "heading",
-          "settings": {
-            "sub_heading": "",
-            "heading": "עמידות ופונקציונליות שעוטפות את הקירות שלך",
-            "heading_size": "smi-h2",
-            "description": "<p>חיפויי קיר מבית <strong>Artigiano</strong> הם השילוב המושלם בין עמידות ואסתטיקה. חיפויים אלו מביאים לעולם העיצוב המודרני את הקסם של חומרים טבעיים, יחד עם יתרונות טכנולוגיים שמבטיחים חוזק, עמידות ותחזוקה קלה.</p><p>בעולם שבו קירות הם הרבה יותר ממשטח, חיפויי הקיר שלנו מציעים מראה יוקרתי ומתוחכם שמחזיק לאורך שנים, ומשתלב בהרמוניה בכל חלל.</p>"
-          }
-        },
-        "button_qyp8ge": {
-          "type": "button",
-          "settings": {
-            "first_button_label": "תיאום תהליך הזמנה אישית >>",
-            "first_button_link": "",
-            "first_button_style": "solid",
-            "second_button_label": "",
-            "second_button_link": "",
-            "second_button_style": "text",
-            "button_full_width": false
-          }
-        },
-        "color_3LNK69": {
-          "type": "color",
-          "settings": {
-            "background_color": "#ffffff",
-            "background_gradient_color": "",
-            "text_color": "#000000",
-            "subtext_color": "#000000",
-            "solid_background_button_color": "#ffffff",
-            "solid_button_label_color": "#000000",
-            "outline_button_color": "#000000",
-            "shadow_color": "#ffffff"
-          }
-        }
-      },
-      "block_order": [
-        "heading_rUP9N8",
-        "button_qyp8ge",
-        "color_3LNK69"
-      ],
-      "settings": {
-        "full_width": "container-fluid-no-padding",
-        "upload_image": "shopify://shop_images/6baa20d7b2e97a17f542b804854fcd55.png",
-        "desktop_media_width": "50",
-        "desktop_media_position": "row-reverse",
-        "media_ratio": "1/1",
-        "media_shape": "default",
-        "content_position": "center",
-        "content_alignment": "right",
-        "content_max_width": 640,
-        "color_scheme": "scheme_2",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "smi_image_with_text_1_7_PxKUwN": {
-      "type": "smi-image-with-text-1-7",
-      "blocks": {
-        "heading_tAwcaR": {
-          "type": "heading",
-          "settings": {
-            "sub_heading": "",
-            "heading": "תיאום עם מעצבת הפנים שלנו.",
-            "heading_size": "smi-h2",
-            "description": "<p><strong>ב-Artigiano</strong> אנו יוצרים חיפויים בהתאמה אישית שמשלימים את החלל שלכם בצורה מושלמת, מוזמנים לקבוע <strong>פגישת ייעוץ עם מעצבת הפנים שלנו</strong> ולהפוך את החזון שלכם למציאות.</p><h5>✓ קביעת ייעוץ עם מעצבת הפנים שלנו </h5><h5>✓ הדמיות אישיות</h5><h5>✓ חיפויים בהתאמה אישית</h5><h5>✓ שירותי אספקה והתקנה</h5>"
-          }
-        },
-        "button_FLp38M": {
-          "type": "button",
-          "settings": {
-            "first_button_label": "תיאום תהליך הזמנה אישית >>",
-            "first_button_link": "shopify://pages/תהליך-הזמנה-אישית-עם-artigiano",
-            "first_button_style": "solid",
-            "second_button_label": "",
-            "second_button_link": "",
-            "second_button_style": "text",
-            "button_full_width": false
-          }
-        },
-        "color_CNFRHa": {
-          "type": "color",
-          "settings": {
-            "background_color": "#000000",
-            "background_gradient_color": "",
-            "text_color": "#ffffff",
-            "subtext_color": "#ffffff",
-            "solid_background_button_color": "#000000",
-            "solid_button_label_color": "#ffffff",
-            "outline_button_color": "#ffffff",
-            "shadow_color": "#ffffff"
-          }
-        }
-      },
-      "block_order": [
-        "heading_tAwcaR",
-        "button_FLp38M",
-        "color_CNFRHa"
-      ],
-      "settings": {
-        "full_width": "container-fluid-no-padding",
-        "upload_image": "shopify://shop_images/1.png",
-        "desktop_media_width": "50",
-        "desktop_media_position": "row",
-        "media_ratio": "1/1",
-        "media_shape": "default",
-        "content_position": "center",
-        "content_alignment": "right",
-        "content_max_width": 640,
-        "color_scheme": "scheme_2",
-        "padding_top": 0,
-        "padding_bottom": 0
       }
     },
     "rich_text_QBhLaR": {
