@@ -246,18 +246,6 @@
             "description": "<h5><a href=\"/collections/כל-המוצרים\" title=\"כל חיפויי הקיר\">לצפייה בחיפויי הקיר שלנו &gt;&gt;</a></h5>"
           }
         },
-        "button_qyp8ge": {
-          "type": "button",
-          "settings": {
-            "first_button_label": "תיאום תהליך הזמנה אישית >>",
-            "first_button_link": "",
-            "first_button_style": "solid",
-            "second_button_label": "",
-            "second_button_link": "",
-            "second_button_style": "text",
-            "button_full_width": false
-          }
-        },
         "color_3LNK69": {
           "type": "color",
           "settings": {
@@ -276,7 +264,6 @@
         "heading_rUP9N8",
         "heading_fxVjAD",
         "heading_YFLMmA",
-        "button_qyp8ge",
         "color_3LNK69"
       ],
       "settings": {
@@ -315,16 +302,22 @@
             "description": "<h4>✓ קביעת ייעוץ עם מעצבת הפנים שלנו </h4><h4>✓ הדמיות אישיות</h4><h4>✓ חיפויים בהתאמה אישית</h4><h4>✓ שירותי אספקה והתקנה</h4>"
           }
         },
-        "button_FLp38M": {
-          "type": "button",
+        "heading_8KYLc8": {
+          "type": "heading",
           "settings": {
-            "first_button_label": "תיאום תהליך הזמנה אישית >>",
-            "first_button_link": "shopify://pages/תהליך-הזמנה-אישית-עם-artigiano",
-            "first_button_style": "solid",
-            "second_button_label": "",
-            "second_button_link": "",
-            "second_button_style": "text",
-            "button_full_width": false
+            "sub_heading": "",
+            "heading": "",
+            "heading_size": "smi-h3",
+            "description": ""
+          }
+        },
+        "heading_cHDE7m": {
+          "type": "heading",
+          "settings": {
+            "sub_heading": "",
+            "heading": "",
+            "heading_size": "smi-h3",
+            "description": "<h4><a href=\"/pages/תהליך-הזמנה-אישית-עם-artigiano\" title=\"תהליך הזמנה אישית\">לתיאום תהליך הזמנה אישית &gt;&gt;</a></h4>"
           }
         },
         "color_CNFRHa": {
@@ -344,7 +337,8 @@
       "block_order": [
         "heading_tAwcaR",
         "heading_ni8P63",
-        "button_FLp38M",
+        "heading_8KYLc8",
+        "heading_cHDE7m",
         "color_CNFRHa"
       ],
       "settings": {
