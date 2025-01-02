@@ -242,7 +242,7 @@
           "settings": {
             "first_button_label": "תיאום תהליך הזמנה אישית >>",
             "first_button_link": "",
-            "first_button_style": "outline",
+            "first_button_style": "solid",
             "second_button_label": "",
             "second_button_link": "",
             "second_button_style": "text",
@@ -310,7 +310,7 @@
           "settings": {
             "first_button_label": "תיאום תהליך הזמנה אישית >>",
             "first_button_link": "shopify://pages/תהליך-הזמנה-אישית-עם-artigiano",
-            "first_button_style": "outline",
+            "first_button_style": "solid",
             "second_button_label": "",
             "second_button_link": "",
             "second_button_style": "text",
