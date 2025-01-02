@@ -237,6 +237,15 @@
             "description": "<h4>בעולם שבו קירות הם הרבה יותר ממשטח, חיפויי הקיר שלנו מציעים מראה יוקרתי ומתוחכם שמחזיק לאורך שנים, ומשתלב בהרמוניה בכל חלל.</h4>"
           }
         },
+        "heading_YFLMmA": {
+          "type": "heading",
+          "settings": {
+            "sub_heading": "",
+            "heading": "",
+            "heading_size": "smi-h3",
+            "description": "<h5><a href=\"/pages/תהליך-הזמנה-אישית-עם-artigiano\" title=\"תהליך הזמנה אישית\">תיאום תהליך הזמנה אישית &gt;&gt;</a></h5>"
+          }
+        },
         "button_qyp8ge": {
           "type": "button",
           "settings": {
@@ -266,6 +275,7 @@
       "block_order": [
         "heading_rUP9N8",
         "heading_fxVjAD",
+        "heading_YFLMmA",
         "button_qyp8ge",
         "color_3LNK69"
       ],
