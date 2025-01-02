@@ -155,7 +155,7 @@
     "related-products": {
       "type": "related-products",
       "settings": {
-        "recommendations_count": 3,
+        "recommendations_count": 5,
         "products": [],
         "full_width": true,
         "stack_products": true,
