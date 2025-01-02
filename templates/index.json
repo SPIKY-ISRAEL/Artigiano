@@ -301,6 +301,21 @@
         "heading_gradient": ""
       }
     },
+    "scrolling_text_eHtjpA": {
+      "type": "scrolling-text",
+      "settings": {
+        "full_width": true,
+        "text": "Artigiano",
+        "text_size": "large",
+        "text_style": "fill",
+        "scrolling_mode": "auto",
+        "scrolling_speed": 5,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "#015555",
+        "text_gradient": ""
+      }
+    },
     "images_with_text_scrolling_KDcMza": {
       "type": "images-with-text-scrolling",
       "blocks": {
@@ -797,6 +812,7 @@
     "slideshow",
     "media_grid_GQLxHK",
     "collection-list",
+    "scrolling_text_eHtjpA",
     "images_with_text_scrolling_KDcMza",
     "featured-collection",
     "featured_collection_MYfMDU",
