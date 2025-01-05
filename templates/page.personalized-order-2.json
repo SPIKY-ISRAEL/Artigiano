@@ -75,38 +75,6 @@
         "padding_bottom": 0
       }
     },
-    "rich_text_YMrm77": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_WNTfPf": {
-          "type": "heading",
-          "settings": {
-            "text": "שירותי אספקה והתקנה",
-            "heading_tag": "h2",
-            "text_color": "",
-            "gradient": ""
-          }
-        },
-        "richtext_KmAwLg": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p><strong>משלוח והתקנה:</strong> תוכלו לבחור אם להשתמש בשירותי השילוח וההתקנה שלנו או לבצע זאת בעצמכם. במידה ותבחרו לעשות זאת לבד תוכלו להגיע ולאסוף את החומרים מהמפעל שלנו באשקלון. במידה ותבחרו בהובלה והתקנה, נתאם מולכם תאריך וצוות מקצועי מטעמנו שיגיע עם המוצר עד אליכם ויבצע את ההתקנה. </p><p><strong>בחיפויים בהתאמה אישית:</strong> משלוח עד הבית בתוך 21 ימי עסקים מרגע אישור הלקוח להדמיה.בנוסף, החברה מציעה שירותי התקנה באמצעות שותפה חיצונית המספקת שירותי התקנה באופן קבוע; מתמשך והבטחת איכות מקצועית ללקוחותינו.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading_WNTfPf",
-        "richtext_KmAwLg"
-      ],
-      "settings": {
-        "full_width": true,
-        "content_width": "small",
-        "text_position": "start",
-        "background": "#ffffff",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
     "rich_text_nAfxr6": {
       "type": "rich-text",
       "blocks": {
@@ -196,14 +164,46 @@
         "button_background": "#000000",
         "button_text_color": "#ffffff"
       }
+    },
+    "rich_text_YMrm77": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_WNTfPf": {
+          "type": "heading",
+          "settings": {
+            "text": "שירותי אספקה והתקנה",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_KmAwLg": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>משלוח והתקנה:</strong> תוכלו לבחור אם להשתמש בשירותי השילוח וההתקנה שלנו או לבצע זאת בעצמכם. במידה ותבחרו לעשות זאת לבד תוכלו להגיע ולאסוף את החומרים מהמפעל שלנו באשקלון. במידה ותבחרו בהובלה והתקנה, נתאם מולכם תאריך וצוות מקצועי מטעמנו שיגיע עם המוצר עד אליכם ויבצע את ההתקנה. </p><p><strong>בחיפויים בהתאמה אישית:</strong> משלוח עד הבית בתוך 21 ימי עסקים מרגע אישור הלקוח להדמיה.בנוסף, החברה מציעה שירותי התקנה באמצעות שותפה חיצונית המספקת שירותי התקנה באופן קבוע; מתמשך והבטחת איכות מקצועית ללקוחותינו.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_WNTfPf",
+        "richtext_KmAwLg"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "start",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": ""
+      }
     }
   },
   "order": [
     "main",
     "smi_image_with_text_1_7_Mg6WaD",
-    "rich_text_YMrm77",
     "rich_text_nAfxr6",
     "multiple_images_with_text_JWqmEG",
-    "contact"
+    "contact",
+    "rich_text_YMrm77"
   ]
 }
