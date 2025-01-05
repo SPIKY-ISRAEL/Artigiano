@@ -172,6 +172,46 @@
         "button_text_color": ""
       }
     },
+    "press_pB7WNy": {
+      "type": "press",
+      "blocks": {
+        "quote_XmB3y7": {
+          "type": "quote",
+          "settings": {
+            "logo_width": 120,
+            "author": "",
+            "content": "אנו מאמינים שחיפוי הקיר צריך להיות לא רק יפה אלא גם פונקציונלי, כך שהוא ישרת את הצרכים היומיומיים ויתמוך באורח החיים של הלקוחות שלנו.",
+            "show_rating": false,
+            "rating": 0
+          }
+        },
+        "quote_f6Kxg9": {
+          "type": "quote",
+          "settings": {
+            "logo_width": 100,
+            "author": "",
+            "content": "כל חיפוי מעוצב כדי להעשיר את החלל עם טקסטורות מיוחדות ופרטים שמשדרים יוקרה, ומטרתנו היא שכל אדם ירגיש גאווה בביתו עם מראה שמבטא את האישיות והסגנון האישי שלו.",
+            "show_rating": false,
+            "rating": 5
+          }
+        }
+      },
+      "block_order": [
+        "quote_XmB3y7",
+        "quote_f6Kxg9"
+      ],
+      "settings": {
+        "full_width": false,
+        "content_size": "small",
+        "background": "#015555",
+        "background_gradient": "",
+        "text_color": "#ffffff",
+        "heading_color": "",
+        "heading_gradient": "",
+        "logo_item_background": "",
+        "logo_item_border": ""
+      }
+    },
     "multiple_images_with_text_9UhnTf": {
       "type": "multiple-images-with-text",
       "blocks": {
@@ -226,57 +266,6 @@
         "text_color": "",
         "button_background": "",
         "button_text_color": ""
-      }
-    },
-    "press_pB7WNy": {
-      "type": "press",
-      "blocks": {
-        "quote_XmB3y7": {
-          "type": "quote",
-          "settings": {
-            "logo_width": 120,
-            "author": "יעל כהן",
-            "content": "מאוהבת בבית שלי, האריחים של ארטיגיא׳נו זה וואו!",
-            "show_rating": true,
-            "rating": 5
-          }
-        },
-        "quote_f6Kxg9": {
-          "type": "quote",
-          "settings": {
-            "logo_width": 100,
-            "author": "דוד לוי",
-            "content": "החיפויים הם פשוט מדהימים, השירות מעולה וההתקנה הייתה מהירה ונקייה.",
-            "show_rating": true,
-            "rating": 5
-          }
-        },
-        "quote_iKDLJX": {
-          "type": "quote",
-          "settings": {
-            "logo_width": 100,
-            "author": "תמר אמידי",
-            "content": "איכות מעולה ומראה יוקרתי, חיפויי הקיר שדרגו את כל הבית. תמורה מעולה למחיר!",
-            "show_rating": true,
-            "rating": 5
-          }
-        }
-      },
-      "block_order": [
-        "quote_XmB3y7",
-        "quote_f6Kxg9",
-        "quote_iKDLJX"
-      ],
-      "settings": {
-        "full_width": false,
-        "content_size": "medium",
-        "background": "#015555",
-        "background_gradient": "",
-        "text_color": "#ffffff",
-        "heading_color": "",
-        "heading_gradient": "",
-        "logo_item_background": "",
-        "logo_item_border": ""
       }
     },
     "text_with_icons_VDNz83": {
@@ -359,8 +348,8 @@
     "main",
     "impact_text_LknttG",
     "multiple_images_with_text_7hXYBE",
-    "multiple_images_with_text_9UhnTf",
     "press_pB7WNy",
+    "multiple_images_with_text_9UhnTf",
     "text_with_icons_VDNz83"
   ]
 }
