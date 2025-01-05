@@ -191,10 +191,10 @@
         "text_color": "",
         "heading_color": "",
         "heading_gradient": "",
-        "contact_background": "",
-        "contact_text_color": "",
-        "button_background": "",
-        "button_text_color": ""
+        "contact_background": "#000000",
+        "contact_text_color": "#ffffff",
+        "button_background": "#000000",
+        "button_text_color": "#ffffff"
       }
     }
   },
