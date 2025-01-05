@@ -252,7 +252,16 @@
             "sub_heading": "",
             "heading": "",
             "heading_size": "smi-h3",
-            "description": "<h4><a href=\"/collections/כל-המוצרים\" title=\"כל חיפויי הקיר\">לצפייה בחיפויי הקיר שלנו &gt;&gt;</a></h4>"
+            "description": "<h4><a href=\"/collections/כל-המוצרים\" title=\"כל חיפויי הקיר\">לצפייה בחיפויי קיר שלנו &gt;&gt;</a></h4>"
+          }
+        },
+        "heading_pNGL8P": {
+          "type": "heading",
+          "settings": {
+            "sub_heading": "",
+            "heading": "",
+            "heading_size": "smi-h3",
+            "description": ""
           }
         },
         "color_3LNK69": {
@@ -274,6 +283,7 @@
         "heading_fxVjAD",
         "heading_x7yy94",
         "heading_YFLMmA",
+        "heading_pNGL8P",
         "color_3LNK69"
       ],
       "settings": {
@@ -330,6 +340,15 @@
             "description": "<h4><a href=\"/pages/תהליך-הזמנה-אישית-עם-artigiano\" title=\"תהליך הזמנה אישית\">לתיאום תהליך הזמנה אישית &gt;&gt;</a></h4>"
           }
         },
+        "heading_PxA7Bt": {
+          "type": "heading",
+          "settings": {
+            "sub_heading": "",
+            "heading": "",
+            "heading_size": "smi-h3",
+            "description": ""
+          }
+        },
         "color_CNFRHa": {
           "type": "color",
           "settings": {
@@ -349,6 +368,7 @@
         "heading_ni8P63",
         "heading_8KYLc8",
         "heading_cHDE7m",
+        "heading_PxA7Bt",
         "color_CNFRHa"
       ],
       "settings": {
