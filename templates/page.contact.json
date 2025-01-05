@@ -16,8 +16,9 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/u2398985183_A_sleek_entrance_lobby_with_a_feature_wall_clad_i_3ef16f84-9794-4c1d-a5b8-743cc87c23ad_0.jpg",
+            "mobile_image": "shopify://shop_images/4aa4b5882f4900a18135dc28de651547.png",
             "content_max_width": 780,
-            "mobile_text_position": "place-self-start-center text-center",
+            "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
             "subheading": "",
             "title": "דף יצירת קשר",
@@ -97,11 +98,127 @@
         "button_background": "",
         "button_text_color": "#ffffff"
       }
+    },
+    "rich_text_gGKRVU": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_k3GqRt": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "heading_QUUV8Y": {
+          "type": "heading",
+          "settings": {
+            "text": "שלחו לנו אימייל ישירות",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_JLxQcr": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h6><a href=\"mailto:sales@artigiano.co.il\">sales@artigiano.co.il</a></h6><h5>שירות הלקוחות שלנו יחזור אליכם בהקדם האפשרי.</h5>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_k3GqRt",
+        "heading_QUUV8Y",
+        "richtext_JLxQcr"
+      ],
+      "settings": {
+        "full_width": false,
+        "content_width": "medium",
+        "text_position": "center",
+        "background": "#000000",
+        "background_gradient": "",
+        "text_color": "#ffffff"
+      }
+    },
+    "text_with_icons_tXYChw": {
+      "type": "text-with-icons",
+      "blocks": {
+        "item_MMUFNG": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-box",
+            "mobile_icon_width": 24,
+            "icon_width": 24,
+            "icon_background_type": "circle",
+            "icon_background": "#ffffff",
+            "icon_color": "#000000",
+            "title": "משלוחים לכל חלקי הארץ",
+            "content": "<p>משלוחים מהירים, עד סף הבית שלכם!</p><p></p>"
+          }
+        },
+        "item_YcUgqj": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-customer-support",
+            "mobile_icon_width": 24,
+            "icon_width": 24,
+            "icon_background_type": "circle",
+            "icon_background": "#ffffff",
+            "icon_color": "#000000",
+            "title": "שירות לקוחות",
+            "content": "<p>יש לכם שאלה? אנא צרו קשר בטלפון 050-206-1383</p><p></p>"
+          }
+        },
+        "item_dAXYY7": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "mobile_icon_width": 24,
+            "icon_width": 24,
+            "icon_background_type": "circle",
+            "icon_background": "#ffffff",
+            "icon_color": "#000000",
+            "title": "הפניית חבר",
+            "content": "<p>הפנה חבר וקבלו 10% הנחה זה לזה</p>"
+          }
+        },
+        "item_Ji69LB": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-lock",
+            "mobile_icon_width": 24,
+            "icon_width": 24,
+            "icon_background_type": "circle",
+            "icon_background": "#ffffff",
+            "icon_color": "#000000",
+            "title": "תשלום מאובטח",
+            "content": "<p>מידע התשלום שלך מעובד באופן מאובטח</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_MMUFNG",
+        "item_YcUgqj",
+        "item_dAXYY7",
+        "item_Ji69LB"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "title": "",
+        "heading_tag": "h5",
+        "text_alignment": "center",
+        "icon_spacing": "medium",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
     }
   },
   "order": [
     "slideshow_69CEfq",
     "main",
-    "contact"
+    "contact",
+    "rich_text_gGKRVU",
+    "text_with_icons_tXYChw"
   ]
 }
