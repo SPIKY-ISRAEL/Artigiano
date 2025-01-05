@@ -87,15 +87,15 @@
         "content": "<h5><a href=\"tel:050-206-1387\">050-206-1387</a></h5><h5><a href=\"https://wa.link/onk287\">לשיחת ווטאסאפ</a></h5><h5><a href=\"mailto:sales@artigiano.co.il\">sales@artigiano.co.il</a></h5>",
         "text_position": "start",
         "contact_form_size": "large",
-        "background": "",
+        "background": "#ffffff",
         "background_gradient": "",
         "text_color": "",
         "heading_color": "",
         "heading_gradient": "",
-        "contact_background": "",
-        "contact_text_color": "",
+        "contact_background": "#015555",
+        "contact_text_color": "#ffffff",
         "button_background": "",
-        "button_text_color": ""
+        "button_text_color": "#ffffff"
       }
     }
   },
