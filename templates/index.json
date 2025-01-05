@@ -767,6 +767,23 @@
         "heading_color": "",
         "heading_gradient": ""
       }
+    },
+    "newsletter_KJiMKY": {
+      "type": "newsletter",
+      "settings": {
+        "full_width": true,
+        "image": "shopify://shop_images/7_126d282a-b268-4ae7-a0ea-68e0bb4f393e.png",
+        "show_icon": true,
+        "title": "הישארו מעודכנים",
+        "content": "<p>ואל תפספסו עדכונים על עיצובים חדשניים, קולקציות מיוחדות ומבצעים בלעדיים.</p>",
+        "button_text": "הירשמו",
+        "subtext": "",
+        "background": "#015555",
+        "background_gradient": "",
+        "text_color": "#ffffff",
+        "button_background": "",
+        "button_text_color": "#ffffff"
+      }
     }
   },
   "order": [
@@ -781,6 +798,7 @@
     "rich_text_QBhLaR",
     "media-grid",
     "ss_feature_1_gtnyEB",
+    "newsletter_KJiMKY",
     "blog_posts_babbNa"
   ]
 }
