@@ -218,7 +218,7 @@
         "item_ehKDx8"
       ],
       "settings": {
-        "full_width": true,
+        "full_width": false,
         "images_layout": "scattered",
         "collage_images_alignment": "top",
         "background": "",
