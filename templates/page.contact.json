@@ -95,7 +95,7 @@
         "heading_gradient": "",
         "contact_background": "#000000",
         "contact_text_color": "#ffffff",
-        "button_background": "",
+        "button_background": "#000000",
         "button_text_color": "#ffffff"
       }
     },
