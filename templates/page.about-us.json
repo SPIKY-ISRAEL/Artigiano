@@ -15,8 +15,8 @@
         "image_fhGWcQ": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/rec_wood_had.jpg",
-            "content_max_width": 780,
+            "image": "shopify://shop_images/artigiano_art_90454_Modern_living_room_with_seamless_light_gr_0_a2cd7182-aa67-4736-a9fa-2c7a4402509e.jpg",
+            "content_max_width": 1200,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
             "subheading": "",
@@ -28,7 +28,7 @@
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "overlay_color": "#000000",
-            "overlay_opacity": 30,
+            "overlay_opacity": 0,
             "background": "",
             "background_gradient": ""
           }
@@ -41,12 +41,12 @@
         "full_width": true,
         "allow_transparent_header": true,
         "show_initial_transition": false,
-        "image_size": "md",
+        "image_size": "lg",
         "controls_type": "dots",
         "transition_type": "fade_with_text",
         "autoplay": false,
         "cycle_speed": 6,
-        "background": "#f2f2f2",
+        "background": "#ffffff",
         "background_gradient": ""
       }
     },
@@ -55,6 +55,67 @@
       "disabled": true,
       "settings": {
         "content_width": "60ch"
+      }
+    },
+    "impact_text_LknttG": {
+      "type": "impact-text",
+      "blocks": {
+        "item_JYCYJw": {
+          "type": "item",
+          "settings": {
+            "title": "44",
+            "subheading": "עיצובים בהשראת הטבע",
+            "content": "",
+            "button_text": "",
+            "button_url": "",
+            "animate_impact_text": false,
+            "animate_impact_text_duration": 2
+          }
+        },
+        "item_aKGdhn": {
+          "type": "item",
+          "settings": {
+            "title": "100%",
+            "subheading": "שירות ומקצועיות",
+            "content": "",
+            "button_text": "",
+            "button_url": "",
+            "animate_impact_text": false,
+            "animate_impact_text_duration": 2
+          }
+        },
+        "item_rCeCFM": {
+          "type": "item",
+          "settings": {
+            "title": "8",
+            "subheading": "קולקציות חדשניות",
+            "content": "",
+            "button_text": "",
+            "button_url": "",
+            "animate_impact_text": false,
+            "animate_impact_text_duration": 2
+          }
+        }
+      },
+      "block_order": [
+        "item_JYCYJw",
+        "item_aKGdhn",
+        "item_rCeCFM"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_mobile": true,
+        "text_alignment": "center",
+        "impact_text_style": "fill",
+        "text_divider": "none",
+        "impact_text_size_ratio": 1,
+        "background": "",
+        "background_gradient": "",
+        "heading_text_color": "#015555",
+        "heading_gradient": "",
+        "text_color": "#000000",
+        "button_background": "",
+        "button_text_color": ""
       }
     },
     "rich_text_h6DaAk": {
@@ -85,7 +146,7 @@
         "quote_XmB3y7": {
           "type": "quote",
           "settings": {
-            "logo_width": 100,
+            "logo_width": 120,
             "author": "",
             "content": "מאוהבת בבית שלי, האריחים של ארטיגיא׳נו זה וואו!",
             "show_rating": true,
@@ -119,11 +180,11 @@
         "quote_iKDLJX"
       ],
       "settings": {
-        "full_width": true,
+        "full_width": false,
         "content_size": "medium",
-        "background": "",
+        "background": "#015555",
         "background_gradient": "",
-        "text_color": "",
+        "text_color": "#ffffff",
         "heading_color": "",
         "heading_gradient": "",
         "logo_item_background": "",
@@ -205,6 +266,7 @@
         "image_LHNX9b",
         "image_QMctLj"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "reduce_width": false,
@@ -213,13 +275,69 @@
         "background": "",
         "background_gradient": ""
       }
+    },
+    "multiple_images_with_text_7hXYBE": {
+      "type": "multiple-images-with-text",
+      "blocks": {
+        "item_bcawBF": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/6_c92152d8-7a51-4331-9658-272f3e2cabf2.png",
+            "image_rotation_degrees": -2,
+            "subheading": "",
+            "title": "הסיפור שלנו",
+            "content": "<p>ארטיג'אנו נולדה מתוך חזון וניסיון עשיר של קבוצת Fibonacci, המובילה בפתרונות שילוט, הדפסה, ויצירתיות למתחמים אורבניים וחללי פנים. עם שנים של מומחיות בתחום, זיהינו הזדמנות לחולל מהפכה בעולם חיפויי הקיר. הבנו שיש צורך בפתרון שלא רק מציע גמישות עיצובית, אלא גם יוצר חוויה חושית אמיתית. מתוך שאיפה זו, פיתחנו טכנולוגיה חדשנית המשלבת בינה מלאכותית עם טכניקות הדפסה מתקדמות.</p>",
+            "button_url": "",
+            "button_text": ""
+          }
+        },
+        "item_9aXF6Y": {
+          "type": "item",
+          "settings": {
+            "image_rotation_degrees": 0,
+            "subheading": "",
+            "title": "הסיפור שלנו",
+            "content": "<p>החידוש המרכזי שלנו הוא היכולת \"להדפיס את הטבע\" – ליצור חיפויי קיר שנראים, ואף מרגישים, כמו חומרים טבעיים: עץ, אבן או שיש. בזכות הטכנולוגיה הייחודית שלנו, כל עיצוב מקבל עומק וטקסטורה מוחשית שמוסיפים תחושת אותנטיות יוצאת דופן.</p>",
+            "button_url": "",
+            "button_text": ""
+          }
+        },
+        "item_p7nXec": {
+          "type": "item",
+          "settings": {
+            "image_rotation_degrees": 0,
+            "subheading": "",
+            "title": "הסיפור שלנו",
+            "content": "<p>מטרתנו היא להרחיב את גבולות העיצוב ולאפשר ללקוחותינו – ממעצבי פנים ואדריכלים ועד לקוחות פרטיים – להגשים כל חזון עיצובי. אנו מאמינים שכל קיר יכול להפוך ליצירת אמנות ייחודית, המשקפת את האישיות והסגנון של בעליה, תוך הענקת נגיעה אותנטית של טבע. בארטיג'אנו אנו ממשיכים לחדש ולהציע פתרונות שמשלבים בין אסתטיקה, פונקציונליות וטכנולוגיה מתקדמת. אנחנו גאים להוביל את המהפכה בעולם חיפויי הקיר, ומחויבים להעניק ללקוחותינו את המוצרים המתקדמים, היצירתיים והמרגשים ביותר בשוק.</p>",
+            "button_url": "",
+            "button_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_bcawBF",
+        "item_9aXF6Y",
+        "item_p7nXec"
+      ],
+      "settings": {
+        "full_width": true,
+        "images_layout": "stacked",
+        "collage_images_alignment": "middle",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
     }
   },
   "order": [
     "slideshow_K7RMYb",
     "main",
+    "impact_text_LknttG",
     "rich_text_h6DaAk",
     "press_pB7WNy",
-    "media_grid_zmUWF8"
+    "media_grid_zmUWF8",
+    "multiple_images_with_text_7hXYBE"
   ]
 }
