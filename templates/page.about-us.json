@@ -172,6 +172,62 @@
         "button_text_color": ""
       }
     },
+    "multiple_images_with_text_9UhnTf": {
+      "type": "multiple-images-with-text",
+      "blocks": {
+        "item_4iDc7E": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/6baa20d7b2e97a17f542b804854fcd55_d971c020-1e4d-4c65-8af6-a7379114accd.png",
+            "image_rotation_degrees": 0,
+            "subheading": "",
+            "title": "הקולקציות שלנו",
+            "content": "<p>הקולקציות מכילות חיפויי קיר מאבן, בטון, עץ, מתכת, עור, טראצו ועוד, שכל אחד מהם מציע גישה שונה ומיוחדת לעיצוב המודרני. אנו מחויבים להביא את החידושים החדשים ביותר בתחום חיפויי הקיר, ולהבטיח שלקוחותינו מקבלים מוצר שהוא לא רק עמיד ואיכותי אלא גם משדר יופי וסגנון.</p><p>מטרתנו היא להציע קולקציות שהן ייחודיות ואישיות, שמאפשרות לכל לקוח למצוא את ההתאמה המושלמת לצרכיו ולחלל שלו, בין אם זה בבית, במשרד או בכל מקום אחר שרוצה להוסיף נגיעה אמנותית ואיכותית למרחב.</p>",
+            "button_url": "",
+            "button_text": ""
+          }
+        },
+        "item_dmBBKc": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/bbd2b9eff1ba98c498911bcb36170893_df73eca2-aa8c-47c8-be37-2027874a7bc7.png",
+            "image_rotation_degrees": 0,
+            "subheading": "",
+            "title": "",
+            "content": "",
+            "button_url": "",
+            "button_text": ""
+          }
+        },
+        "item_ehKDx8": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/1e977b59075b9abd272447f821d3f12d_dbf97811-9a25-4ab2-8836-8134be12e31b.png",
+            "image_rotation_degrees": -2,
+            "subheading": "",
+            "title": "",
+            "content": "",
+            "button_url": "",
+            "button_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_4iDc7E",
+        "item_dmBBKc",
+        "item_ehKDx8"
+      ],
+      "settings": {
+        "full_width": true,
+        "images_layout": "scattered",
+        "collage_images_alignment": "top",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
     "press_pB7WNy": {
       "type": "press",
       "blocks": {
@@ -303,6 +359,7 @@
     "main",
     "impact_text_LknttG",
     "multiple_images_with_text_7hXYBE",
+    "multiple_images_with_text_9UhnTf",
     "press_pB7WNy",
     "text_with_icons_VDNz83"
   ]
