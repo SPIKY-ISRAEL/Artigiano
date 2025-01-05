@@ -202,7 +202,7 @@
           "type": "quote",
           "settings": {
             "logo_width": 120,
-            "author": "",
+            "author": "יעל כהן",
             "content": "מאוהבת בבית שלי, האריחים של ארטיגיא׳נו זה וואו!",
             "show_rating": true,
             "rating": 5
@@ -212,20 +212,20 @@
           "type": "quote",
           "settings": {
             "logo_width": 100,
-            "author": "",
-            "content": "Write some content about what they says about your store.",
+            "author": "דוד לוי",
+            "content": "החיפויים הם פשוט מדהימים, השירות מעולה וההתקנה הייתה מהירה ונקייה.",
             "show_rating": true,
-            "rating": 4
+            "rating": 5
           }
         },
         "quote_iKDLJX": {
           "type": "quote",
           "settings": {
             "logo_width": 100,
-            "author": "",
-            "content": "Write some content about what they says about your store.",
+            "author": "תמר אמידי",
+            "content": "איכות מעולה ומראה יוקרתי, חיפויי הקיר שדרגו את כל הבית. תמורה מעולה למחיר!",
             "show_rating": true,
-            "rating": 4
+            "rating": 5
           }
         }
       },
@@ -244,134 +244,6 @@
         "heading_gradient": "",
         "logo_item_background": "",
         "logo_item_border": ""
-      }
-    },
-    "timeline_VfnVQn": {
-      "type": "timeline",
-      "blocks": {
-        "slide_qiyzHa": {
-          "type": "slide",
-          "settings": {
-            "navigation_label": "1953",
-            "subheading": "Subheading",
-            "title": "Heading",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
-          }
-        },
-        "slide_Q4JiMY": {
-          "type": "slide",
-          "settings": {
-            "navigation_label": "1960",
-            "subheading": "Subheading",
-            "title": "Heading",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
-          }
-        },
-        "slide_wQ6JHF": {
-          "type": "slide",
-          "settings": {
-            "navigation_label": "1966",
-            "subheading": "Subheading",
-            "title": "Heading",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "slide_qiyzHa",
-        "slide_Q4JiMY",
-        "slide_wQ6JHF"
-      ],
-      "settings": {
-        "full_width": true,
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "media_grid_zmUWF8": {
-      "type": "media-grid",
-      "blocks": {
-        "image_KLU9Ht": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/sss.png",
-            "title": "Promote your products",
-            "heading_tag": "h4",
-            "link_url": "",
-            "link_text": "",
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_column_span": 2,
-            "desktop_row_span": 1,
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "background": "#000000",
-            "background_gradient": "",
-            "text_color": "#ffffff",
-            "text_gradient": "",
-            "button_background": "#000000",
-            "button_text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "image_LHNX9b": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Visualization_of_a_luxurious_and_trendy2_11b332d7-454c-4a5a-9937-952a2e2d224b.jpg",
-            "title": "Promote your products",
-            "heading_tag": "h4",
-            "link_url": "",
-            "link_text": "",
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_column_span": 2,
-            "desktop_row_span": 2,
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "background": "#000000",
-            "background_gradient": "",
-            "text_color": "#ffffff",
-            "text_gradient": "",
-            "button_background": "#000000",
-            "button_text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "image_QMctLj": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/1.png",
-            "title": "Promote your products",
-            "heading_tag": "h4",
-            "link_url": "",
-            "link_text": "",
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_column_span": 2,
-            "desktop_row_span": 1,
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "background": "#000000",
-            "background_gradient": "",
-            "text_color": "#ffffff",
-            "text_gradient": "",
-            "button_background": "#000000",
-            "button_text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        }
-      },
-      "block_order": [
-        "image_KLU9Ht",
-        "image_LHNX9b",
-        "image_QMctLj"
-      ],
-      "disabled": true,
-      "settings": {
-        "full_width": true,
-        "reduce_width": false,
-        "desktop_row_height": 290,
-        "mobile_row_height": 150,
-        "background": "",
-        "background_gradient": ""
       }
     },
     "text_with_icons_VDNz83": {
@@ -456,8 +328,6 @@
     "multiple_images_with_text_7hXYBE",
     "rich_text_h6DaAk",
     "press_pB7WNy",
-    "timeline_VfnVQn",
-    "media_grid_zmUWF8",
     "text_with_icons_VDNz83"
   ]
 }
