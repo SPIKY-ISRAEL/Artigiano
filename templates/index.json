@@ -15,7 +15,7 @@
         "slide-2": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/1.png",
+            "image": "shopify://shop_images/artigiano_art_90454_Modern_living_room_with_seamless_light_gr_0_2675c88d-7efe-4a37-a356-a5d241513bbf.jpg",
             "content_max_width": 620,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center-start sm:text-start",
@@ -28,13 +28,14 @@
             "button_background": "#000000",
             "button_text_color": "#ffffff",
             "overlay_color": "#000000",
-            "overlay_opacity": 30,
+            "overlay_opacity": 0,
             "background": "#ffffff",
             "background_gradient": ""
           }
         },
         "slide-1": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/artigiano_art_90454_Modern_living_room_with_seamless_light_gr_cb06a32f-7e2c-43c8-aefe-a4d23692c81e_0.jpg",
             "content_max_width": 500,
@@ -49,7 +50,7 @@
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "overlay_color": "#000000",
-            "overlay_opacity": 30,
+            "overlay_opacity": 0,
             "background": "",
             "background_gradient": ""
           }
@@ -267,13 +268,13 @@
         "color_3LNK69": {
           "type": "color",
           "settings": {
-            "background_color": "#ffffff",
+            "background_color": "#000000",
             "background_gradient_color": "",
-            "text_color": "#000000",
-            "subtext_color": "#000000",
+            "text_color": "#ffffff",
+            "subtext_color": "#ffffff",
             "solid_background_button_color": "#ffffff",
-            "solid_button_label_color": "#000000",
-            "outline_button_color": "#000000",
+            "solid_button_label_color": "#ffffff",
+            "outline_button_color": "#ffffff",
             "shadow_color": "#ffffff"
           }
         }
@@ -734,6 +735,23 @@
         "lazy": true
       }
     },
+    "newsletter_KJiMKY": {
+      "type": "newsletter",
+      "settings": {
+        "full_width": true,
+        "image": "shopify://shop_images/7_126d282a-b268-4ae7-a0ea-68e0bb4f393e.png",
+        "show_icon": true,
+        "title": "הישארו מעודכנים",
+        "content": "<p>ואל תפספסו עדכונים על עיצובים חדשניים, קולקציות מיוחדות ומבצעים בלעדיים.</p>",
+        "button_text": "הירשמו",
+        "subtext": "",
+        "background": "#015555",
+        "background_gradient": "",
+        "text_color": "#ffffff",
+        "button_background": "",
+        "button_text_color": "#ffffff"
+      }
+    },
     "blog_posts_babbNa": {
       "type": "blog-posts",
       "blocks": {
@@ -768,21 +786,73 @@
         "heading_gradient": ""
       }
     },
-    "newsletter_KJiMKY": {
-      "type": "newsletter",
+    "hot_spots_3mqXTF": {
+      "type": "hot-spots",
+      "blocks": {
+        "item_Ngcabf": {
+          "type": "item",
+          "settings": {
+            "horizontal_position": 24,
+            "vertical_position": 70,
+            "horizontal_position_mobile": 24,
+            "vertical_position_mobile": 70,
+            "icon_width": 32,
+            "title": "Feature name",
+            "content": "<p>Share useful information about your product features.</p>"
+          }
+        },
+        "item_gHwrCb": {
+          "type": "item",
+          "settings": {
+            "horizontal_position": 62,
+            "vertical_position": 14,
+            "horizontal_position_mobile": 62,
+            "vertical_position_mobile": 14,
+            "icon_width": 32,
+            "title": "Feature name",
+            "content": "<p>Share useful information about your product features.</p>"
+          }
+        },
+        "item_YHX7yp": {
+          "type": "item",
+          "settings": {
+            "horizontal_position": 83,
+            "vertical_position": 75,
+            "horizontal_position_mobile": 83,
+            "vertical_position_mobile": 75,
+            "icon_width": 32,
+            "title": "Feature name",
+            "content": "<p>Share useful information about your product features.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_Ngcabf",
+        "item_gHwrCb",
+        "item_YHX7yp"
+      ],
+      "disabled": true,
       "settings": {
         "full_width": true,
-        "image": "shopify://shop_images/7_126d282a-b268-4ae7-a0ea-68e0bb4f393e.png",
-        "show_icon": true,
-        "title": "הישארו מעודכנים",
-        "content": "<p>ואל תפספסו עדכונים על עיצובים חדשניים, קולקציות מיוחדות ומבצעים בלעדיים.</p>",
-        "button_text": "הירשמו",
-        "subtext": "",
-        "background": "#015555",
-        "background_gradient": "",
-        "text_color": "#ffffff",
-        "button_background": "",
-        "button_text_color": "#ffffff"
+        "image": "shopify://shop_images/u2398985183_A_modern_bedroom_with_a_large_feature_wall_clad_i_9b4753d6-5b23-4d03-a5a1-747a736be2f7_1_1.jpg",
+        "title": "",
+        "content": "",
+        "button_text": "",
+        "button_url": "",
+        "desktop_text_position": "place-self-start text-start",
+        "image_background": "",
+        "image_background_gradient": "",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "overlay_text_color": "#ffffff",
+        "overlay_button_background": "",
+        "overlay_button_text_color": "",
+        "hot_spot_dot_background": "#ffffff",
+        "hot_spot_dot_text_color": "#000000",
+        "hot_spot_content_background": "#ffffff",
+        "hot_spot_content_text_color": "#000000",
+        "hot_spot_content_opacity": 90,
+        "hot_spot_content_blur_radius": 3
       }
     }
   },
@@ -799,6 +869,7 @@
     "media-grid",
     "ss_feature_1_gtnyEB",
     "newsletter_KJiMKY",
-    "blog_posts_babbNa"
+    "blog_posts_babbNa",
+    "hot_spots_3mqXTF"
   ]
 }
