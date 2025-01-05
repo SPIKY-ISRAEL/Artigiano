@@ -63,9 +63,11 @@
             "menu_item": "קולקציות",
             "layout": "horizontal",
             "submenu_style": "bold_heading",
+            "image_1": "shopify://shop_images/1e977b59075b9abd272447f821d3f12d.png",
             "image_heading_1": "",
             "image_link_1": "",
             "image_text_color_1": "#ffffff",
+            "image_2": "shopify://shop_images/4aa4b5882f4900a18135dc28de651547_5c59d419-2d3b-462d-b6b9-3495c688a3e7.png",
             "image_heading_2": "",
             "image_link_2": "",
             "image_text_color_2": "#ffffff",
@@ -76,7 +78,7 @@
             "product_card_background": "",
             "product_card_text_color": "",
             "promo_content_layout": "grid",
-            "stretch_promo": false,
+            "stretch_promo": true,
             "drawer_link_image": "hide"
           }
         }
