@@ -644,98 +644,6 @@
         "background_gradient": ""
       }
     },
-    "ss_feature_1_gtnyEB": {
-      "type": "ss-feature-1",
-      "blocks": {
-        "image_bzgUDX": {
-          "type": "image",
-          "settings": {
-            "feature_title": "משלוחים לכל הארץ",
-            "feature_text": "",
-            "feature_url": "https://section.store/",
-            "hide_image": false
-          }
-        },
-        "image_x8NLj4": {
-          "type": "image",
-          "settings": {
-            "feature_title": "איכות ללא פשרות",
-            "feature_text": "",
-            "feature_url": "",
-            "hide_image": false
-          }
-        },
-        "image_NPVkKz": {
-          "type": "image",
-          "settings": {
-            "feature_title": "החזרות עד 14 ימי עסקים",
-            "feature_text": "",
-            "feature_url": "",
-            "hide_image": false
-          }
-        },
-        "image_pYrkFy": {
-          "type": "image",
-          "settings": {
-            "feature_title": "לקוחות מרוצים",
-            "feature_text": "",
-            "feature_url": "",
-            "hide_image": false
-          }
-        }
-      },
-      "block_order": [
-        "image_bzgUDX",
-        "image_x8NLj4",
-        "image_NPVkKz",
-        "image_pYrkFy"
-      ],
-      "disabled": true,
-      "settings": {
-        "feature_row": 4,
-        "feature_row_mobile": 2,
-        "feature_gap": 6,
-        "feature_gap_mobile": 8,
-        "feature_padding_horizontal": 0,
-        "feature_padding_vertical": 0,
-        "feature_radius": 12,
-        "feature_border_thickness": 1,
-        "feature_shadow": true,
-        "feature_heading_custom": false,
-        "feature_heading_font": "josefin_sans_n4",
-        "feature_heading_size": 14,
-        "feature_heading_size_mobile": 12,
-        "feature_heading_height": 50,
-        "feature_heading_mt": 4,
-        "feature_text_custom": false,
-        "feature_text_font": "josefin_sans_n4",
-        "feature_text_size": 12,
-        "feature_text_size_mobile": 12,
-        "feature_text_height": 110,
-        "feature_text_mt": 4,
-        "feature_icon_size": 42,
-        "feature_icon_size_mobile": 28,
-        "feature_bg": "#ffffff",
-        "feature_border_color": "#000000",
-        "feature_shadow_color": "#000000",
-        "feature_heading_color": "#000000",
-        "feature_text_color": "#000000",
-        "feature_icon_color": "#000000",
-        "background_color": "#f2f2f2",
-        "background_gradient": "",
-        "border_color": "#000000",
-        "margin_top": 0,
-        "margin_bottom": 0,
-        "padding_top": 16,
-        "padding_bottom": 16,
-        "padding_horizontal": 5,
-        "padding_horizontal_mobile": 1.5,
-        "full_width": false,
-        "content_width": 120,
-        "border_thickness": 0,
-        "lazy": true
-      }
-    },
     "newsletter_KJiMKY": {
       "type": "newsletter",
       "settings": {
@@ -790,18 +698,6 @@
     "hot_spots_3mqXTF": {
       "type": "hot-spots",
       "blocks": {
-        "item_Ngcabf": {
-          "type": "item",
-          "settings": {
-            "horizontal_position": 24,
-            "vertical_position": 70,
-            "horizontal_position_mobile": 24,
-            "vertical_position_mobile": 70,
-            "icon_width": 32,
-            "title": "Feature name",
-            "content": "<p>Share useful information about your product features.</p>"
-          }
-        },
         "item_gHwrCb": {
           "type": "item",
           "settings": {
@@ -813,26 +709,11 @@
             "title": "Feature name",
             "content": "<p>Share useful information about your product features.</p>"
           }
-        },
-        "item_YHX7yp": {
-          "type": "item",
-          "settings": {
-            "horizontal_position": 83,
-            "vertical_position": 75,
-            "horizontal_position_mobile": 83,
-            "vertical_position_mobile": 75,
-            "icon_width": 32,
-            "title": "Feature name",
-            "content": "<p>Share useful information about your product features.</p>"
-          }
         }
       },
       "block_order": [
-        "item_Ngcabf",
-        "item_gHwrCb",
-        "item_YHX7yp"
+        "item_gHwrCb"
       ],
-      "disabled": true,
       "settings": {
         "full_width": true,
         "image": "shopify://shop_images/u2398985183_A_modern_bedroom_with_a_large_feature_wall_clad_i_9b4753d6-5b23-4d03-a5a1-747a736be2f7_1_1.jpg",
@@ -868,7 +749,6 @@
     "multiple_images_with_text_fMBzWe",
     "rich_text_QBhLaR",
     "media-grid",
-    "ss_feature_1_gtnyEB",
     "newsletter_KJiMKY",
     "blog_posts_babbNa",
     "hot_spots_3mqXTF"
