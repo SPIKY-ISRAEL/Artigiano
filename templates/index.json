@@ -430,6 +430,7 @@
         "button_h9ztBe",
         "color_BXCXWb"
       ],
+      "disabled": true,
       "settings": {
         "full_width": "container-fluid-no-padding",
         "upload_image": "shopify://shop_images/1.png",
