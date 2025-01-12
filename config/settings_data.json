@@ -60,6 +60,45 @@
     "favicon": "shopify://shop_images/ARTIGIANO_LOGO_SVG-05.svg",
     "checkout_accent_color": "#3c619e",
     "checkout_button_color": "#3c619e",
+    "sections": {
+      "custom-font": {
+        "type": "custom-font",
+        "blocks": {
+          "image_ETkgTY": {
+            "type": "image",
+            "settings": {
+              "name": "Coherenti",
+              "custom_font_weight": "none",
+              "custom_font_url": "https://cdn.shopify.com/s/files/1/0571/1026/5902/files/fbcoherentisans-regularwebfont.ttf?v=1736686693",
+              "apply_h1": true,
+              "apply_h2": true,
+              "apply_h3": true,
+              "apply_h4": true,
+              "apply_h5": true,
+              "apply_h6": true,
+              "apply_span": true,
+              "apply_p": true,
+              "apply_a": true,
+              "apply_input": true,
+              "apply_label": true,
+              "apply_legend": true,
+              "apply_button": true,
+              "apply_summary": true,
+              "apply_select": true,
+              "apply_option": true,
+              "apply_small": true,
+              "apply_custom": ""
+            }
+          }
+        },
+        "block_order": [
+          "image_ETkgTY"
+        ],
+        "settings": {
+          "enable": true
+        }
+      }
+    },
     "content_for_index": [],
     "blocks": {
       "6632695976459450292": {
