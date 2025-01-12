@@ -698,25 +698,25 @@
     "hot_spots_3mqXTF": {
       "type": "hot-spots",
       "blocks": {
-        "item_gHwrCb": {
+        "item_bPVmfx": {
           "type": "item",
           "settings": {
-            "horizontal_position": 62,
-            "vertical_position": 14,
-            "horizontal_position_mobile": 62,
-            "vertical_position_mobile": 14,
+            "horizontal_position": 46,
+            "vertical_position": 30,
+            "horizontal_position_mobile": 31,
+            "vertical_position_mobile": 30,
             "icon_width": 32,
-            "title": "Feature name",
-            "content": "<p>Share useful information about your product features.</p>"
+            "title": "",
+            "content": "<p><a href=\"/products/beige-harmony-1\" title=\"Beige Harmony\">Beige Harmony</a></p>"
           }
         }
       },
       "block_order": [
-        "item_gHwrCb"
+        "item_bPVmfx"
       ],
       "settings": {
         "full_width": true,
-        "image": "shopify://shop_images/u2398985183_A_modern_bedroom_with_a_large_feature_wall_clad_i_9b4753d6-5b23-4d03-a5a1-747a736be2f7_1_1.jpg",
+        "image": "shopify://shop_images/1_6e66a353-c331-4b64-b702-464543a119bc.png",
         "title": "",
         "content": "",
         "button_text": "",
