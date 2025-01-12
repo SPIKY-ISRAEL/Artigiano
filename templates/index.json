@@ -268,9 +268,9 @@
         "color_3LNK69": {
           "type": "color",
           "settings": {
-            "background_color": "#000000",
+            "background_color": "#ffffff",
             "background_gradient_color": "",
-            "text_color": "#ffffff",
+            "text_color": "#000000",
             "subtext_color": "#ffffff",
             "solid_background_button_color": "#ffffff",
             "solid_button_label_color": "#ffffff",
@@ -297,7 +297,7 @@
         "content_position": "center",
         "content_alignment": "right",
         "content_max_width": 640,
-        "color_scheme": "scheme_2",
+        "color_scheme": "scheme_10",
         "padding_top": 0,
         "padding_bottom": 0
       }
@@ -353,9 +353,9 @@
         "color_CNFRHa": {
           "type": "color",
           "settings": {
-            "background_color": "#000000",
+            "background_color": "#ffffff",
             "background_gradient_color": "",
-            "text_color": "#ffffff",
+            "text_color": "#000000",
             "subtext_color": "#ffffff",
             "solid_background_button_color": "#000000",
             "solid_button_label_color": "#ffffff",
