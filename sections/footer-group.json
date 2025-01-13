@@ -127,7 +127,7 @@
           "type": "text",
           "settings": {
             "title": "יצירת קשר",
-            "content": "<p><strong>טלפון: </strong><a href=\"tel:050-206-1383\" title=\"tel:050-206-1383\">050-206-1383</a></p><p><strong>מייל: </strong><a href=\"mailto:sales@artigiano.co.il\" title=\"mailto:sales@artigiano.co.il\">sales@artigiano.co.il</a></p>",
+            "content": "<p><strong>טלפון: </strong>050-206-1383</p><p><strong>מייל: </strong>sales@artigiano.co.il</p>",
             "enable_follow_on_shop": true
           }
         }
