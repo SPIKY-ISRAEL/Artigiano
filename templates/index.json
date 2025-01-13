@@ -247,7 +247,7 @@
             "second_button_label": "",
             "second_button_link": "",
             "second_button_style": "solid",
-            "button_full_width": false
+            "button_full_width": true
           }
         },
         "color_3LNK69": {
@@ -315,7 +315,7 @@
             "second_button_label": "",
             "second_button_link": "",
             "second_button_style": "solid",
-            "button_full_width": false
+            "button_full_width": true
           }
         },
         "color_CNFRHa": {
