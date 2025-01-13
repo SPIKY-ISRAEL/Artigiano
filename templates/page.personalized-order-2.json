@@ -22,55 +22,10 @@
         "heading_jG6tDX": {
           "type": "heading",
           "settings": {
-            "sub_heading": "",
-            "heading": "חיפויים בהתאמה אישית",
-            "heading_size": "smi-h2",
-            "description": "<h4>חיפויי הקיר בהתאמה אישית של ארטיג'יאנו הם פתרונות ייחודיים המותאמים באופן מלא לצרכים, לרצונות ולחזון העיצובי של הלקוח. בעזרת טכנולוגיות הדפסה מתקדמות ומומחיות בעיצוב, אנו יוצרים חיפויים שמדגישים את הייחודיות של כל פרויקט ומשתלבים בצורה מושלמת עם הסגנון והאווירה של החלל</h4>"
-          }
-        },
-        "heading_DjaVhi": {
-          "type": "heading",
-          "settings": {
             "sub_heading": "חיפויים בהתאמה אישית",
             "heading": "תהליך ההזמנה",
             "heading_size": "smi-h2",
-            "description": "<h4><strong>איך עובד תהליך ההזמנה ליצירת חיפוי בהתאמה אישית?</strong></h4>"
-          }
-        },
-        "heading_mPdbVA": {
-          "type": "heading",
-          "settings": {
-            "sub_heading": "",
-            "heading": "",
-            "heading_size": "smi-h2",
-            "description": "<h4><strong>פגישת ייעוץ עם מעצב פנים</strong>- פגישה אחד על אחד להבנת הצרכים, הסגנון והחזון של הלקוח, סקירת רעיונות עיצוביים, צבעים וטקסטורות.</h4><p></p>"
-          }
-        },
-        "heading_TaMaBj": {
-          "type": "heading",
-          "settings": {
-            "sub_heading": "",
-            "heading": "",
-            "heading_size": "smi-h2",
-            "description": "<h4><strong>הדמיה ממוחשבת</strong>- יצירת הדמיה תלת מימדית להמחשת התוצאה הסופית.</h4><p></p>"
-          }
-        },
-        "heading_R78knj": {
-          "type": "heading",
-          "settings": {
-            "sub_heading": "",
-            "heading": "",
-            "heading_size": "smi-h2",
-            "description": "<h4><strong>ייצור טסט מוחשי - </strong>תקבלו מאיתנו חלק קטן מהחיפוי (טסטר) לאישור לפני שנייצר את הכל כדי שתוכלו לראות ולהרגיש בעצמכם שזה בדיוק המוצר שרציתם.</h4><p></p>"
-          }
-        },
-        "heading_4jM6Vw": {
-          "type": "heading",
-          "settings": {
-            "sub_heading": "",
-            "heading": "",
-            "heading_size": "smi-h2",
-            "description": "<h4><strong>ייצור החיפוי - </strong>אחרי שראיתם ואישרתם את הטסטר נייצר עבורכם את כל החומר ונכין אותו למשלוח והתקנה.</h4><p></p>"
+            "description": "<h4>חיפויי הקיר בהתאמה אישית של ארטיג'יאנו הם פתרונות ייחודיים המותאמים באופן מלא לצרכים, לרצונות ולחזון העיצובי של הלקוח. בעזרת טכנולוגיות הדפסה מתקדמות ומומחיות בעיצוב, אנו יוצרים חיפויים שמדגישים את הייחודיות של כל פרויקט ומשתלבים בצורה מושלמת עם הסגנון והאווירה של החלל</h4><h4><strong>איך עובד תהליך העבודה ליצירת חיפוי בהתאמה אישית?<br/></strong></h4><h4><strong>פגישת ייעוץ עם מעצב פנים</strong>- פגישה אחד על אחד להבנת הצרכים, הסגנון והחזון של הלקוח, סקירת רעיונות עיצוביים, צבעים וטקסטורות.</h4><h4><strong>הדמיה ממוחשבת</strong>- יצירת הדמיה תלת מימדית להמחשת התוצאה הסופית.<br/><strong>ייצור טסט מוחשי - </strong>תקבלו מאיתנו חלק קטן מהחיפוי (טסטר) לאישור לפני שנייצר את הכל כדי שתוכלו לראות ולהרגיש בעצמכם שזה בדיוק המוצר שרציתם.<br/><strong>ייצור החיפוי - </strong>אחרי שראיתם ואישרתם את הטסטר נייצר עבורכם את כל החומר ונכין אותו למשלוח והתקנה.</h4><p></p>"
           }
         },
         "button_xRwb43": {
@@ -102,11 +57,6 @@
       },
       "block_order": [
         "heading_jG6tDX",
-        "heading_DjaVhi",
-        "heading_mPdbVA",
-        "heading_TaMaBj",
-        "heading_R78knj",
-        "heading_4jM6Vw",
         "button_xRwb43",
         "color_NmAHMJ"
       ],
@@ -119,7 +69,7 @@
         "media_shape": "default",
         "content_position": "center",
         "content_alignment": "right",
-        "content_max_width": 700,
+        "content_max_width": 480,
         "color_scheme": "scheme_2",
         "padding_top": 0,
         "padding_bottom": 0
