@@ -238,31 +238,16 @@
             "description": "<h4>בעולם שבו קירות הם הרבה יותר ממשטח, חיפויי הקיר שלנו מציעים מראה יוקרתי ומתוחכם שמחזיק לאורך שנים, ומשתלב בהרמוניה בכל חלל.</h4>"
           }
         },
-        "heading_x7yy94": {
-          "type": "heading",
+        "button_JBCRLD": {
+          "type": "button",
           "settings": {
-            "sub_heading": "",
-            "heading": "",
-            "heading_size": "smi-h3",
-            "description": ""
-          }
-        },
-        "heading_YFLMmA": {
-          "type": "heading",
-          "settings": {
-            "sub_heading": "",
-            "heading": "",
-            "heading_size": "smi-h3",
-            "description": "<h4><a href=\"/collections/כל-המוצרים\" title=\"כל חיפויי הקיר\">לצפייה בחיפויי קיר שלנו &gt;&gt;</a></h4>"
-          }
-        },
-        "heading_pNGL8P": {
-          "type": "heading",
-          "settings": {
-            "sub_heading": "",
-            "heading": "",
-            "heading_size": "smi-h3",
-            "description": ""
+            "first_button_label": "לצפייה בחיפויי קיר שלנו >>",
+            "first_button_link": "shopify://collections/כל-המוצרים",
+            "first_button_style": "outline",
+            "second_button_label": "",
+            "second_button_link": "",
+            "second_button_style": "solid",
+            "button_full_width": false
           }
         },
         "color_3LNK69": {
@@ -273,18 +258,16 @@
             "text_color": "#000000",
             "subtext_color": "#ffffff",
             "solid_background_button_color": "#ffffff",
-            "solid_button_label_color": "#ffffff",
-            "outline_button_color": "#ffffff",
-            "shadow_color": "#ffffff"
+            "solid_button_label_color": "#000000",
+            "outline_button_color": "#000000",
+            "shadow_color": "#000000"
           }
         }
       },
       "block_order": [
         "heading_rUP9N8",
         "heading_fxVjAD",
-        "heading_x7yy94",
-        "heading_YFLMmA",
-        "heading_pNGL8P",
+        "button_JBCRLD",
         "color_3LNK69"
       ],
       "settings": {
@@ -323,31 +306,16 @@
             "description": "<h4>✓ קביעת ייעוץ עם מעצבת הפנים שלנו </h4><h4>✓ הדמיות אישיות</h4><h4>✓ חיפויים בהתאמה אישית</h4><h4>✓ שירותי אספקה והתקנה</h4>"
           }
         },
-        "heading_8KYLc8": {
-          "type": "heading",
+        "button_hcimYb": {
+          "type": "button",
           "settings": {
-            "sub_heading": "",
-            "heading": "",
-            "heading_size": "smi-h3",
-            "description": ""
-          }
-        },
-        "heading_cHDE7m": {
-          "type": "heading",
-          "settings": {
-            "sub_heading": "",
-            "heading": "",
-            "heading_size": "smi-h3",
-            "description": "<h4><a href=\"/pages/תהליך-הזמנה-אישית-עם-artigiano\" title=\"תהליך הזמנה אישית\">לתיאום תהליך הזמנה אישית &gt;&gt;</a></h4>"
-          }
-        },
-        "heading_PxA7Bt": {
-          "type": "heading",
-          "settings": {
-            "sub_heading": "",
-            "heading": "",
-            "heading_size": "smi-h3",
-            "description": ""
+            "first_button_label": "לתיאום תהליך הזמנה אישית >>",
+            "first_button_link": "shopify://pages/תהליך-הזמנה-אישית-עם-artigiano",
+            "first_button_style": "outline",
+            "second_button_label": "",
+            "second_button_link": "",
+            "second_button_style": "solid",
+            "button_full_width": false
           }
         },
         "color_CNFRHa": {
@@ -367,9 +335,7 @@
       "block_order": [
         "heading_tAwcaR",
         "heading_ni8P63",
-        "heading_8KYLc8",
-        "heading_cHDE7m",
-        "heading_PxA7Bt",
+        "button_hcimYb",
         "color_CNFRHa"
       ],
       "settings": {
@@ -417,9 +383,9 @@
             "background_color": "#ffffff",
             "background_gradient_color": "",
             "text_color": "#000000",
-            "subtext_color": "#000000",
-            "solid_background_button_color": "#000000",
-            "solid_button_label_color": "#ffffff",
+            "subtext_color": "#ffffff",
+            "solid_background_button_color": "#ffffff",
+            "solid_button_label_color": "#000000",
             "outline_button_color": "#000000",
             "shadow_color": "#000000"
           }
