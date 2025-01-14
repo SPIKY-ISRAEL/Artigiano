@@ -93,10 +93,10 @@
         "text_color": "",
         "heading_color": "",
         "heading_gradient": "",
-        "contact_background": "#000000",
-        "contact_text_color": "#ffffff",
+        "contact_background": "#ffffff",
+        "contact_text_color": "#000000",
         "button_background": "#000000",
-        "button_text_color": "#ffffff"
+        "button_text_color": "#000000"
       }
     },
     "rich_text_gGKRVU": {
