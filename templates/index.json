@@ -676,7 +676,7 @@
       "settings": {
         "full_width": true,
         "image": "shopify://shop_images/7_126d282a-b268-4ae7-a0ea-68e0bb4f393e.png",
-        "show_icon": true,
+        "show_icon": false,
         "title": "הישארו מעודכנים",
         "content": "<p>ואל תפספסו עדכונים על עיצובים חדשניים, קולקציות מיוחדות ומבצעים בלעדיים.</p>",
         "button_text": "הירשמו",
