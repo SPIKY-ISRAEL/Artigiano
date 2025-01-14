@@ -121,7 +121,7 @@
         "richtext_JLxQcr": {
           "type": "richtext",
           "settings": {
-            "content": "<h6><a href=\"mailto:sales@artigiano.co.il\">sales@artigiano.co.il</a></h6><h5>שירות הלקוחות שלנו יחזור אליכם בהקדם האפשרי.</h5>"
+            "content": "<h5><a href=\"mailto:sales@artigiano.co.il\">sales@artigiano.co.il</a></h5><h5>שירות הלקוחות שלנו יחזור אליכם בהקדם האפשרי.</h5>"
           }
         }
       },
