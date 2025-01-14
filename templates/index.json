@@ -706,14 +706,14 @@
       "settings": {
         "full_width": true,
         "show_excerpt": false,
-        "show_date": true,
+        "show_date": false,
         "show_author": false,
         "show_comments_count": false,
-        "show_category": true,
+        "show_category": false,
         "subheading": "",
         "title": "טיפים לעיצוב והשראה",
         "content": "",
-        "link_url": "shopify://blogs/news/דוגמא",
+        "link_url": "shopify://blogs/news",
         "link_text": "לכל הבלוגים",
         "background": "#ffffff",
         "background_gradient": "",
@@ -761,7 +761,7 @@
         "hot_spot_content_background": "#ffffff",
         "hot_spot_content_text_color": "#000000",
         "hot_spot_content_opacity": 90,
-        "hot_spot_content_blur_radius": 3
+        "hot_spot_content_blur_radius": 5
       }
     }
   },
