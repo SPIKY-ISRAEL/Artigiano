@@ -139,6 +139,7 @@
         "links",
         "text_F4tERY"
       ],
+      "custom_css": [],
       "settings": {
         "show_social_media": true,
         "show_payment_icons": true,
