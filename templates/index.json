@@ -338,6 +338,7 @@
         "button_hcimYb",
         "color_CNFRHa"
       ],
+      "custom_css": [],
       "settings": {
         "full_width": "container-fluid-no-padding",
         "upload_image": "shopify://shop_images/1.png",
@@ -553,6 +554,7 @@
         "heading_9cFyLN",
         "richtext_ezDEga"
       ],
+      "custom_css": [],
       "settings": {
         "full_width": true,
         "content_width": "small",
