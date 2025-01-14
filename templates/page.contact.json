@@ -85,7 +85,7 @@
         "full_width": true,
         "subheading": "",
         "title": "דברו איתנו:",
-        "content": "<h5><a href=\"tel:050-206-1387\">050-206-1387</a></h5><h5><a href=\"https://wa.link/onk287\">לשיחת ווטאסאפ</a></h5><h5><a href=\"mailto:sales@artigiano.co.il\">sales@artigiano.co.il</a></h5>",
+        "content": "<h4>050-206-1387</h4><h4>sales@artigiano.co.il</h4>",
         "text_position": "start",
         "contact_form_size": "large",
         "background": "#ffffff",
