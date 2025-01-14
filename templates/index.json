@@ -256,8 +256,8 @@
             "background_color": "#ffffff",
             "background_gradient_color": "",
             "text_color": "#000000",
-            "subtext_color": "#ffffff",
-            "solid_background_button_color": "#ffffff",
+            "subtext_color": "#015555",
+            "solid_background_button_color": "#015555",
             "solid_button_label_color": "#000000",
             "outline_button_color": "#000000",
             "shadow_color": "#000000"
@@ -325,7 +325,7 @@
             "background_gradient_color": "",
             "text_color": "#000000",
             "subtext_color": "#ffffff",
-            "solid_background_button_color": "#ffffff",
+            "solid_background_button_color": "#015555",
             "solid_button_label_color": "#000000",
             "outline_button_color": "#000000",
             "shadow_color": "#000000"
@@ -350,65 +350,6 @@
         "content_alignment": "right",
         "content_max_width": 640,
         "color_scheme": "scheme_5",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "smi_image_with_text_1_7_CTfJHA": {
-      "type": "smi-image-with-text-1-7",
-      "blocks": {
-        "heading_3dTJKk": {
-          "type": "heading",
-          "settings": {
-            "sub_heading": "SEASONAL MUST-HAVES",
-            "heading": "Stay on this trend",
-            "heading_size": "smi-h2",
-            "description": "<h4><strong>ב-Artigiano</strong> אנו יוצרים חיפויים בהתאמה אישית שמשלימים את החלל שלכם בצורה מושלמת, מוזמנים לקבוע <strong>פגישת ייעוץ עם מעצבת הפנים שלנו</strong> ולהפוך את החזון שלכם למציאות.</h4><h4></h4><h4>✓ קביעת ייעוץ עם מעצבת הפנים שלנו</h4><h4>✓ הדמיות אישיות</h4><h4>✓ חיפויים בהתאמה אישית</h4><h4>✓ שירותי אספקה והתקנה</h4><p></p><h2></h2>"
-          }
-        },
-        "button_h9ztBe": {
-          "type": "button",
-          "settings": {
-            "first_button_label": "Shop now",
-            "first_button_link": "",
-            "first_button_style": "outline",
-            "second_button_label": "Shop collection",
-            "second_button_link": "",
-            "second_button_style": "solid",
-            "button_full_width": false
-          }
-        },
-        "color_BXCXWb": {
-          "type": "color",
-          "settings": {
-            "background_color": "#ffffff",
-            "background_gradient_color": "",
-            "text_color": "#000000",
-            "subtext_color": "#ffffff",
-            "solid_background_button_color": "#ffffff",
-            "solid_button_label_color": "#000000",
-            "outline_button_color": "#000000",
-            "shadow_color": "#000000"
-          }
-        }
-      },
-      "block_order": [
-        "heading_3dTJKk",
-        "button_h9ztBe",
-        "color_BXCXWb"
-      ],
-      "disabled": true,
-      "settings": {
-        "full_width": "container-fluid-no-padding",
-        "upload_image": "shopify://shop_images/1.png",
-        "desktop_media_width": "50",
-        "desktop_media_position": "row",
-        "media_ratio": "3/2",
-        "media_shape": "default",
-        "content_position": "center",
-        "content_alignment": "center",
-        "content_max_width": 640,
-        "color_scheme": "scheme_2",
         "padding_top": 0,
         "padding_bottom": 0
       }
@@ -770,7 +711,6 @@
     "collection-list",
     "smi_image_with_text_1_7_NJY49j",
     "smi_image_with_text_1_7_PxKUwN",
-    "smi_image_with_text_1_7_CTfJHA",
     "scrolling_text_eHtjpA",
     "featured_collection_MYfMDU",
     "revealed_image_on_scroll_Hy9PKF",
