@@ -22,7 +22,7 @@
         "heading_jG6tDX": {
           "type": "heading",
           "settings": {
-            "sub_heading": "חיפויים בהתאמה אישית",
+            "sub_heading": "",
             "heading": "תהליך ההזמנה",
             "heading_size": "smi-h2",
             "description": "<h4>חיפויי הקיר בהתאמה אישית של ארטיג'יאנו הם פתרונות ייחודיים המותאמים באופן מלא לצרכים, לרצונות ולחזון העיצובי של הלקוח. בעזרת טכנולוגיות הדפסה מתקדמות ומומחיות בעיצוב, אנו יוצרים חיפויים שמדגישים את הייחודיות של כל פרויקט ומשתלבים בצורה מושלמת עם הסגנון והאווירה של החלל</h4><h4><strong>איך עובד תהליך העבודה ליצירת חיפוי בהתאמה אישית?<br/></strong></h4><h4><strong>פגישת ייעוץ עם מעצב פנים</strong>- פגישה אחד על אחד להבנת הצרכים, הסגנון והחזון של הלקוח, סקירת רעיונות עיצוביים, צבעים וטקסטורות.</h4><h4><strong>הדמיה ממוחשבת</strong>- יצירת הדמיה תלת מימדית להמחשת התוצאה הסופית.<br/><strong>ייצור טסט מוחשי - </strong>תקבלו מאיתנו חלק קטן מהחיפוי (טסטר) לאישור לפני שנייצר את הכל כדי שתוכלו לראות ולהרגיש בעצמכם שזה בדיוק המוצר שרציתם.<br/><strong>ייצור החיפוי - </strong>אחרי שראיתם ואישרתם את הטסטר נייצר עבורכם את כל החומר ונכין אותו למשלוח והתקנה.</h4><p></p>"
@@ -44,14 +44,14 @@
         "color_NmAHMJ": {
           "type": "color",
           "settings": {
-            "background_color": "#000000",
+            "background_color": "#ffffff",
             "background_gradient_color": "",
-            "text_color": "#ffffff",
+            "text_color": "#000000",
             "subtext_color": "#000000",
-            "solid_background_button_color": "#000000",
+            "solid_background_button_color": "#ffffff",
             "solid_button_label_color": "#fcf8f5",
-            "outline_button_color": "#000000",
-            "shadow_color": "#000000"
+            "outline_button_color": "#ffffff",
+            "shadow_color": "#ffffff"
           }
         }
       },
@@ -63,7 +63,7 @@
       "settings": {
         "full_width": "container-fluid-no-padding",
         "upload_image": "shopify://shop_images/u2398985183_A_modern_bedroom_with_a_large_feature_wall_clad_i_1_1_f58f15eb-63a6-4f87-bd22-6c8edbdbcc58.jpg",
-        "desktop_media_width": "50",
+        "desktop_media_width": "40",
         "desktop_media_position": "row-reverse",
         "media_ratio": "1/1",
         "media_shape": "default",
@@ -151,7 +151,7 @@
         "full_width": true,
         "subheading": "",
         "title": "השארת פרטים:",
-        "content": "<h4><a href=\"tel:050-206-1387\">050-206-1387</a></h4><h4><a href=\"https://wa.link/onk287\">לשיחת ווטאסאפ</a></h4><h4><a href=\"mailto:sales@artigiano.co.il\">sales@artigiano.co.il</a></h4>",
+        "content": "<h4>050-206-1387</h4><h4>sales@artigiano.co.il</h4>",
         "text_position": "start",
         "contact_form_size": "large",
         "background": "",
@@ -159,10 +159,10 @@
         "text_color": "",
         "heading_color": "",
         "heading_gradient": "",
-        "contact_background": "#000000",
-        "contact_text_color": "#ffffff",
-        "button_background": "#000000",
-        "button_text_color": "#ffffff"
+        "contact_background": "#ffffff",
+        "contact_text_color": "#000000",
+        "button_background": "#015555",
+        "button_text_color": "#000000"
       }
     },
     "rich_text_YMrm77": {
