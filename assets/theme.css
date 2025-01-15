@@ -2965,9 +2965,10 @@ model-media model-viewer, model-media .shopify-model-viewer-ui {
     transform: translateY(5px);
   }
   .product-card__quick-buy {
-    margin-top: 10px;
-    text-align: center;
+   padding-top: 10px;
+   text-align: center;
     position: static;
+     background: #015555;
 }
   .product-card:hover .product-card__quick-buy {
     opacity: 1;
