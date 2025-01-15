@@ -32,6 +32,9 @@
     },
     "main": {
       "type": "main-collection",
+      "custom_css": [
+        ".product-card__quick-buy {padding-top: 10px; background: #000000;}"
+      ],
       "settings": {
         "products_per_page": 24,
         "products_per_row_mobile": "2",
