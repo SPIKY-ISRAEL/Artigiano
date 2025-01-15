@@ -2952,7 +2952,12 @@ model-media model-viewer, model-media .shopify-model-viewer-ui {
     opacity: 0;
     display: block;
   }
-
+   .product-card__quick-buy button {
+    background: white;
+}
+  .product-card__quick-buy button:hover {
+    background: black;
+}
   .product-card__quick-buy {
     opacity: 1;
     visibility: visible;
