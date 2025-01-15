@@ -2956,7 +2956,7 @@ model-media model-viewer, model-media .shopify-model-viewer-ui {
     background: white;
 }
   .product-card__quick-buy button:hover {
-    background: black;
+    background: black !important;
 }
   .product-card__quick-buy {
     opacity: 1;
