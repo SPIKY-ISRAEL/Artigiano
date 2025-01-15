@@ -2954,7 +2954,7 @@ model-media model-viewer, model-media .shopify-model-viewer-ui {
   }
 
   .product-card__quick-buy {
-    opacity: 0;
+    opacity: 1;
     visibility: visible;
     transition: opacity .2s ease-in-out, transform .2s ease-in-out, visibility .2s ease-in-out;
     transform: translateY(5px);
