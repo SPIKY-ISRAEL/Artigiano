@@ -46,10 +46,38 @@
         "show_filter_values_count": true,
         "open_first_filter_group": false
       }
+    },
+    "rich_text_ah6Jyw": {
+      "type": "rich-text",
+      "blocks": {
+        "button_BYebeK": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "xl",
+            "text": "לכל הדגמים",
+            "url": "shopify://collections/all",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "button_BYebeK"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
     }
   },
   "order": [
     "banner",
-    "main"
+    "main",
+    "rich_text_ah6Jyw"
   ]
 }
