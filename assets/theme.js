@@ -5235,3 +5235,15 @@ export {
   throttle,
   waitForEvent
 };
+document.addEventListener("DOMContentLoaded", function() {
+    const quantityInput = document.querySelector("input[name='quantity']");
+    const priceElement = document.querySelector(".product-price");
+    const basePrice = {{ product.price | divided_by: 100 }}; // Shopify מחזירה מחיר באגורות/סנט
+
+    if (quantityInput && priceElement) {
+        quantityInput.addEventListener("input", function() {
+            let quantity = parseInt(quantityInput.value) || 1;
+            priceElement.textContent = `₪ ${ (basePrice * quantity).toLocaleString() }`;
+        });
+    }
+});
