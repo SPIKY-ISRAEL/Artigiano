@@ -51,10 +51,10 @@
           "settings": {
             "show_payment_button": true,
             "show_gift_card_recipient": true,
-            "atc_button_background": "#272727",
+            "atc_button_background": "#e6e6e6",
             "atc_button_text_color": "",
             "payment_button_background": "",
-            "payment_button_text_color": "#ffffff"
+            "payment_button_text_color": ""
           }
         },
         "badges": {
@@ -160,7 +160,7 @@
         "max_image_zoom_level": 3,
         "background": "",
         "background_gradient": "",
-        "text_color": "#ffffff",
+        "text_color": "",
         "input_background": "rgba(0,0,0,0)",
         "input_text_color": ""
       }
