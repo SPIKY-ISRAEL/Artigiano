@@ -125,6 +125,11 @@
         "type": "shopify://apps/smind-sections/blocks/theme-helper/71ba2d48-8be4-4535-bc1f-0fea499001d4",
         "disabled": false,
         "settings": {}
+      },
+      "15119538188275799212": {
+        "type": "shopify://apps/fontify/blocks/app-embed/334490e2-2153-4a2e-a452-e90bdeffa3cc",
+        "disabled": false,
+        "settings": {}
       }
     }
   },
