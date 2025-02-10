@@ -273,7 +273,7 @@
       "settings": {
         "full_width": "container-fluid-no-padding",
         "upload_image": "shopify://shop_images/artigiano_art_90454_A_contemporary_office_corner_with_a_textu_3_99aa7991-1b2b-438c-9fcc-77d8d031e390.jpg",
-        "desktop_media_width": "40",
+        "desktop_media_width": "50",
         "desktop_media_position": "row-reverse",
         "media_ratio": "1/1",
         "media_shape": "default",
@@ -342,7 +342,7 @@
       "settings": {
         "full_width": "container-fluid-no-padding",
         "upload_image": "shopify://shop_images/1.png",
-        "desktop_media_width": "40",
+        "desktop_media_width": "50",
         "desktop_media_position": "row",
         "media_ratio": "1/1",
         "media_shape": "default",
@@ -612,6 +612,33 @@
         "background_gradient": ""
       }
     },
+    "rich_text_aywRjJ": {
+      "type": "rich-text",
+      "blocks": {
+        "button_XYjTKn": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "xl",
+            "text": "לגלריית העבודות",
+            "url": "",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "button_XYjTKn"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "newsletter_KJiMKY": {
       "type": "newsletter",
       "settings": {
@@ -703,33 +730,6 @@
         "hot_spot_content_text_color": "#000000",
         "hot_spot_content_opacity": 90,
         "hot_spot_content_blur_radius": 5
-      }
-    },
-    "rich_text_aywRjJ": {
-      "type": "rich-text",
-      "blocks": {
-        "button_XYjTKn": {
-          "type": "button",
-          "settings": {
-            "style": "fill",
-            "size": "xl",
-            "text": "לגלריית העבודות",
-            "url": "",
-            "background": "",
-            "text_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "button_XYjTKn"
-      ],
-      "settings": {
-        "full_width": true,
-        "content_width": "small",
-        "text_position": "center",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
       }
     }
   },
