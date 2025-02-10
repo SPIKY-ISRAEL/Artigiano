@@ -5124,6 +5124,7 @@ import { Delegate as Delegate7 } from "vendor";
     if (scrollbarWidth > 0) {
       document.documentElement.style.setProperty("--scrollbar-width", `${scrollbarWidth}px`);
     }
+  };
   setScrollbarWidth();
   window.addEventListener("resize", throttle(setScrollbarWidth));
 })();
@@ -5234,4 +5235,3 @@ export {
   throttle,
   waitForEvent
 };
-
