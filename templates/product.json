@@ -71,10 +71,6 @@
           "type": "payment_terms",
           "settings": {}
         },
-        "volume_pricing_QcKpWK": {
-          "type": "volume_pricing",
-          "settings": {}
-        },
         "separator": {
           "type": "separator",
           "settings": {}
@@ -143,7 +139,6 @@
         "badges",
         "rating",
         "payment_terms",
-        "volume_pricing_QcKpWK",
         "separator",
         "inventory_CC9Ti7",
         "text_nkBjn6",
