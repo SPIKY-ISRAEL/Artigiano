@@ -285,6 +285,17 @@
         "padding_bottom": 0
       }
     },
+    "rich_text_FNTCh8": {
+      "type": "rich-text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "smi_image_with_text_1_7_PxKUwN": {
       "type": "smi-image-with-text-1-7",
       "blocks": {
@@ -734,6 +745,7 @@
     "slideshow",
     "collection-list",
     "smi_image_with_text_1_7_NJY49j",
+    "rich_text_FNTCh8",
     "smi_image_with_text_1_7_PxKUwN",
     "scrolling_text_eHtjpA",
     "featured_collection_MYfMDU",
