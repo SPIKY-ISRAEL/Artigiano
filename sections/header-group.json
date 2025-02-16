@@ -62,7 +62,7 @@
           "type": "mega_menu",
           "settings": {
             "menu_item": "קולקציות",
-            "layout": "horizontal_center",
+            "layout": "horizontal",
             "submenu_style": "bold_heading",
             "image_1": "shopify://shop_images/BlackStone.png",
             "image_heading_1": "חיפויי אבן",
