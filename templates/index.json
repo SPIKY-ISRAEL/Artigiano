@@ -469,6 +469,48 @@
         "button_text_color": ""
       }
     },
+    "hot_spots_3mqXTF": {
+      "type": "hot-spots",
+      "blocks": {
+        "item_bPVmfx": {
+          "type": "item",
+          "settings": {
+            "horizontal_position": 46,
+            "vertical_position": 42,
+            "horizontal_position_mobile": 31,
+            "vertical_position_mobile": 30,
+            "icon_width": 32,
+            "title": "",
+            "content": "<p><strong>Quite luxury.</strong> <a href=\"/products/blush-marble-copy\" title=\"Snow Vein\">Snow Vein</a></p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_bPVmfx"
+      ],
+      "settings": {
+        "full_width": true,
+        "image": "shopify://shop_images/talmichaeli_82739_a_realistic_luxurious_dining_room_that_contai_fd879015-096f-4a9f-b959-50fec9e46eaa.png",
+        "title": "",
+        "content": "",
+        "button_text": "",
+        "button_url": "",
+        "desktop_text_position": "place-self-start text-start",
+        "image_background": "",
+        "image_background_gradient": "",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "overlay_text_color": "#ffffff",
+        "overlay_button_background": "",
+        "overlay_button_text_color": "",
+        "hot_spot_dot_background": "#ffffff",
+        "hot_spot_dot_text_color": "#000000",
+        "hot_spot_content_background": "#ffffff",
+        "hot_spot_content_text_color": "#000000",
+        "hot_spot_content_opacity": 90,
+        "hot_spot_content_blur_radius": 5
+      }
+    },
     "rich_text_QBhLaR": {
       "type": "rich-text",
       "blocks": {
@@ -686,48 +728,6 @@
         "heading_color": "",
         "heading_gradient": ""
       }
-    },
-    "hot_spots_3mqXTF": {
-      "type": "hot-spots",
-      "blocks": {
-        "item_bPVmfx": {
-          "type": "item",
-          "settings": {
-            "horizontal_position": 46,
-            "vertical_position": 42,
-            "horizontal_position_mobile": 31,
-            "vertical_position_mobile": 30,
-            "icon_width": 32,
-            "title": "",
-            "content": "<p><a href=\"/products/beige-harmony-1\" title=\"Beige Harmony\">Beige Harmony</a></p>"
-          }
-        }
-      },
-      "block_order": [
-        "item_bPVmfx"
-      ],
-      "settings": {
-        "full_width": true,
-        "image": "shopify://shop_images/1.png",
-        "title": "",
-        "content": "",
-        "button_text": "",
-        "button_url": "",
-        "desktop_text_position": "place-self-start text-start",
-        "image_background": "",
-        "image_background_gradient": "",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0,
-        "overlay_text_color": "#ffffff",
-        "overlay_button_background": "",
-        "overlay_button_text_color": "",
-        "hot_spot_dot_background": "#ffffff",
-        "hot_spot_dot_text_color": "#000000",
-        "hot_spot_content_background": "#ffffff",
-        "hot_spot_content_text_color": "#000000",
-        "hot_spot_content_opacity": 90,
-        "hot_spot_content_blur_radius": 5
-      }
     }
   },
   "order": [
@@ -739,11 +739,11 @@
     "featured_collection_MYfMDU",
     "revealed_image_on_scroll_Hy9PKF",
     "multiple_images_with_text_fMBzWe",
+    "hot_spots_3mqXTF",
     "rich_text_QBhLaR",
     "media-grid",
     "rich_text_aywRjJ",
     "newsletter_KJiMKY",
-    "blog_posts_babbNa",
-    "hot_spots_3mqXTF"
+    "blog_posts_babbNa"
   ]
 }
