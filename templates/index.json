@@ -15,7 +15,7 @@
         "slide-2": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/optimized-01_1.jpg",
+            "image": "shopify://shop_images/01_c5e47437-e98e-4731-8175-892c2761bad2.png",
             "content_max_width": 700,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center-start sm:text-start",
@@ -25,10 +25,10 @@
             "button_text": "גלו את הקולקציה החדשה",
             "button_link": "shopify://collections/כל-המוצרים",
             "text_color": "#ffffff",
-            "button_background": "#000000",
-            "button_text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0,
+            "button_background": "#ffffff",
+            "button_text_color": "#272727",
+            "overlay_color": "#272727",
+            "overlay_opacity": 44,
             "background": "#ffffff",
             "background_gradient": ""
           }
@@ -206,8 +206,8 @@
         "collections_per_row": 4,
         "show_progress_bar": false,
         "subheading": "",
-        "title": "קולקציות החיפויים",
-        "content": "",
+        "title": "הקולקציות שלנו",
+        "content": "<p>הקיר שלך, בטעם שלך. הכירו את חיפויי הקיר החדשים שילבישו את הבית שלכם:</p>",
         "link_url": "shopify://collections",
         "link_text": "",
         "background": "#ffffff",
@@ -241,7 +241,7 @@
         "button_JBCRLD": {
           "type": "button",
           "settings": {
-            "first_button_label": "לצפייה בחיפויי קיר שלנו >>",
+            "first_button_label": "לצפייה בחיפויי קיר שלנו >",
             "first_button_link": "shopify://collections/כל-המוצרים",
             "first_button_style": "outline",
             "second_button_label": "",
@@ -309,7 +309,7 @@
         "button_hcimYb": {
           "type": "button",
           "settings": {
-            "first_button_label": "לתיאום תהליך הזמנה אישית >>",
+            "first_button_label": "לתיאום תהליך הזמנה אישית >",
             "first_button_link": "shopify://pages/תהליך-הזמנה-אישית-עם-artigiano",
             "first_button_style": "outline",
             "second_button_label": "",
@@ -372,18 +372,15 @@
     },
     "featured_collection_MYfMDU": {
       "type": "featured-collection",
-      "custom_css": [
-        "h2 {font-variant-position: center;}"
-      ],
+      "custom_css": [],
       "settings": {
         "collection": "",
         "products": [
-          "wanderlust",
-          "blush-marble-copy",
-          "rustic-cement-1",
-          "חיפוי-קיר-light-blue-marble",
+          "ardesie-copy",
           "clean-marble",
-          "white-marble"
+          "green-rock",
+          "rusty-sand-copy",
+          "wanderlust"
         ],
         "full_width": true,
         "stack_products": false,
@@ -395,14 +392,14 @@
         "title": "הנמכרים ביותר",
         "content": "",
         "link_url": "shopify://collections/כל-המוצרים",
-        "link_text": "לכל המוצרים",
+        "link_text": "לכל דגמי החיפויים",
         "background": "#ffffff",
         "background_gradient": "",
-        "text_color": "",
+        "text_color": "rgba(0,0,0,0)",
         "heading_color": "",
         "heading_gradient": "",
-        "product_card_background": "#015555",
-        "product_card_text_color": "#ffffff"
+        "product_card_background": "rgba(0,0,0,0)",
+        "product_card_text_color": "#272727"
       }
     },
     "revealed_image_on_scroll_Hy9PKF": {
@@ -410,7 +407,7 @@
       "settings": {
         "image": "shopify://shop_images/7_1.png",
         "subheading": "",
-        "title": "חיפויים שמשנים את האווירה בכל חלל",
+        "title": "Set the vibe in every single space",
         "background": "",
         "text_color_inside": "#ffffff",
         "text_color_outside": "#000000"
@@ -424,8 +421,8 @@
           "settings": {
             "image": "shopify://shop_images/bathroom_wall_with_an_abstract_jungle_mur_dfb58c2a-b057-491e-b613-c7d737fc931c.jpg",
             "image_rotation_degrees": -2,
-            "subheading": "העוצמה והיוקרה של חיפויי אבן",
-            "title": "",
+            "subheading": "",
+            "title": "העוצמה והיוקרה של חיפויי אבן",
             "content": "<p>חיפויי האבן של Artigiano משלבים טקסטורה אותנטית עם עיצוב מינימליסטי ואלגנטי, שמתאים לכל חלל. עם מראה טבעי שמעניק תחושת רוגע והרמוניה.</p><p>החיפויים שלנו יוצרים סביבה מעוצבת, מודרנית וייחודית שמוסיפה ערך וסטייל בכל מקום שבו הם מותקנים.</p>",
             "button_url": "",
             "button_text": ""
@@ -436,8 +433,8 @@
           "settings": {
             "image": "shopify://shop_images/12.2_4add318a-dedd-4808-b465-324a0002ec60.png",
             "image_rotation_degrees": 1.5,
-            "subheading": "הטבע נכנס הביתה עם חיפויי עץ ייחודיים",
-            "title": "",
+            "subheading": "",
+            "title": "מכניסים את הטבע הביתה עם חיפויי עץ ייחודיים",
             "content": "<p>חיפויי קיר מעץ טבעי מבית Artigiano יוצרים אווירה חמימה ואותנטית, שמשתלבת באופן מושלם בכל חלל.</p><p>עם טקסטורה שמרגישה כמו הטבע האמיתי ועיצוב מלא בהשראה, אנחנו מביאים אליכם הביתה חיפויים שמעניקים עומק, ייחודיות ותחושת הרמוניה.</p>",
             "button_url": "",
             "button_text": ""
@@ -448,8 +445,8 @@
           "settings": {
             "image": "shopify://shop_images/7_126d282a-b268-4ae7-a0ea-68e0bb4f393e.png",
             "image_rotation_degrees": 0,
-            "subheading": "חיפויי קיר מבטון טבעי מבית Artigiano",
-            "title": "",
+            "subheading": "",
+            "title": "טקסטורה אמיתית, גם של בטון טבעי",
             "content": "<p>חיפויי הבטון שלנו יוצרים מראה עוצמתי ומודרני, עם נגיעה של תחכום אורבני שמתאים לכל סגנון עיצוב. </p><p>עם טקסטורה עשירה שמדגישה את היופי הגולמי של הבטון, אנו מביאים חיפויים שמוסיפים עומק, אופי ותחושת יוקרה לכל חלל.</p>",
             "button_url": "",
             "button_text": ""
@@ -620,10 +617,10 @@
           "settings": {
             "style": "fill",
             "size": "xl",
-            "text": "לגלריית העבודות",
+            "text": "לגלריית העבודות שלנו",
             "url": "shopify://pages/גלריית-עבודות",
             "background": "",
-            "text_color": ""
+            "text_color": "#ffffff"
           }
         }
       },
@@ -646,14 +643,14 @@
         "image": "shopify://shop_images/7_126d282a-b268-4ae7-a0ea-68e0bb4f393e.png",
         "show_icon": false,
         "title": "הישארו מעודכנים",
-        "content": "<p>ואל תפספסו עדכונים על עיצובים חדשניים, קולקציות מיוחדות ומבצעים בלעדיים.</p>",
-        "button_text": "הירשמו",
+        "content": "<p>הירשמו עכשיו לקבלת עדכונים על עיצובים חדשניים, קולקציות מיוחדות ומבצעים בלעדיים</p>",
+        "button_text": "הרשמה",
         "subtext": "",
-        "background": "#015555",
+        "background": "#272727",
         "background_gradient": "",
         "text_color": "#ffffff",
-        "button_background": "",
-        "button_text_color": "#ffffff"
+        "button_background": "#ffffff",
+        "button_text_color": "#272727"
       }
     },
     "blog_posts_babbNa": {
