@@ -619,7 +619,7 @@
             "size": "xl",
             "text": "לגלריית העבודות שלנו",
             "url": "shopify://pages/גלריית-עבודות",
-            "background": "",
+            "background": "#272727",
             "text_color": "#ffffff"
           }
         }
