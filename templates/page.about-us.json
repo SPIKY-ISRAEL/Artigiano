@@ -124,7 +124,7 @@
         "item_bcawBF": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/talmichaeli_82739_a_realistic_los_angeles_hotel_lobby_--v_6.1_2d999cb2-f942-4daf-ab64-8b230b1741f7.png",
+            "image": "shopify://shop_images/talmichaeli_82739_a_hotel_lobby_with_beige_wall_coverings_--v_6_824f82b2-559e-4c6e-90d9-da32a8cedd21.png",
             "image_rotation_degrees": -2,
             "subheading": "",
             "title": "הסיפור שלנו",
@@ -203,7 +203,7 @@
       "settings": {
         "full_width": false,
         "content_size": "small",
-        "background": "#015555",
+        "background": "#272727",
         "background_gradient": "",
         "text_color": "#ffffff",
         "heading_color": "",
