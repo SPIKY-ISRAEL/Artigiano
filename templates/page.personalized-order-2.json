@@ -150,8 +150,8 @@
       "settings": {
         "full_width": true,
         "subheading": "",
-        "title": "השארת פרטים:",
-        "content": "<h4>050-206-1387</h4><h4>sales@artigiano.co.il</h4>",
+        "title": "השאירו פרטים כאן ונחזור אליכם בהקדם",
+        "content": "<h4>או צרו קשר ב:</h4><h4>050-206-1387</h4><h4>sales@artigiano.co.il</h4>",
         "text_position": "start",
         "contact_form_size": "large",
         "background": "",
@@ -161,8 +161,8 @@
         "heading_gradient": "",
         "contact_background": "#ffffff",
         "contact_text_color": "#000000",
-        "button_background": "#015555",
-        "button_text_color": "#000000"
+        "button_background": "#272727",
+        "button_text_color": "#ffffff"
       }
     },
     "rich_text_YMrm77": {
