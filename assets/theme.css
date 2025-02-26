@@ -10125,3 +10125,6 @@ shopify-accelerated-checkout, shopify-accelerated-checkout-cart {
   display: -webkit-box;
   overflow: hidden;
 }
+body :lang(en), body :lang(en), body :lang(en) {
+  font-family: 'Impact', sans-serif !important;
+}
