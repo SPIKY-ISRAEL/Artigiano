@@ -55,6 +55,10 @@
               {%- capture label -%}{{ 'contact.form.name' | t }}{%- endcapture -%}
               {%- render 'input', type: 'text', name: 'contact[name]', label: label, value: customer.name, required: true, autocomplete: 'name' -%}
 
+              {%- capture label -%}טלפון{%- endcapture -%}
+{%- render 'input', type: 'tel', name: 'contact[phone]', label: label, required: true, autocomplete: 'tel' -%}
+
+
               {%- capture label -%}{{ 'contact.form.email' | t }}{%- endcapture -%}
               {%- render 'input', type: 'email', name: 'contact[email]', label: label, value: customer.email, required: true, autocomplete: 'email' -%}
             </div>
