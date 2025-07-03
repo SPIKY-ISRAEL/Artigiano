@@ -15,7 +15,7 @@
         "slide-2": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/01_c5e47437-e98e-4731-8175-892c2761bad2.png",
+            "image": "shopify://shop_images/Blue_marlbe_vines.png",
             "content_max_width": 700,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center-start sm:text-start",
@@ -272,7 +272,7 @@
       ],
       "settings": {
         "full_width": "container-fluid-no-padding",
-        "upload_image": "shopify://shop_images/artigiano_art_90454_A_contemporary_office_corner_with_a_textu_3_99aa7991-1b2b-438c-9fcc-77d8d031e390.jpg",
+        "upload_image": "shopify://shop_images/IMG_3134.png",
         "desktop_media_width": "50",
         "desktop_media_position": "row-reverse",
         "media_ratio": "1/1",
@@ -352,7 +352,7 @@
       "custom_css": [],
       "settings": {
         "full_width": "container-fluid-no-padding",
-        "upload_image": "shopify://shop_images/1.png",
+        "upload_image": "shopify://shop_images/1_5cc82654-d10e-4c94-b4d2-4390d2155979.png",
         "desktop_media_width": "50",
         "desktop_media_position": "row",
         "media_ratio": "1/1",
