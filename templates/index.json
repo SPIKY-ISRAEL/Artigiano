@@ -739,6 +739,27 @@
         "heading_color": "",
         "heading_gradient": ""
       }
+    },
+    "contact_FUNRy7": {
+      "type": "contact",
+      "name": "Contact form",
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "יש לך שאלה? אנחנו כאן",
+        "content": "",
+        "text_position": "end",
+        "contact_form_size": "small",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "contact_background": "",
+        "contact_text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
     }
   },
   "order": [
@@ -756,6 +777,7 @@
     "media-grid",
     "rich_text_aywRjJ",
     "newsletter_KJiMKY",
-    "blog_posts_babbNa"
+    "blog_posts_babbNa",
+    "contact_FUNRy7"
   ]
 }
