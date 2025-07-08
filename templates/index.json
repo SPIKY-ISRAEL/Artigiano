@@ -16,7 +16,7 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/Blue_marlbe_vines.png",
-            "content_max_width": 700,
+            "content_max_width": 540,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center-start sm:text-start",
             "subheading": "",
@@ -35,17 +35,79 @@
         },
         "slide-1": {
           "type": "image",
-          "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/artigiano_art_90454_Modern_living_room_with_seamless_light_gr_cb06a32f-7e2c-43c8-aefe-a4d23692c81e_0.jpg",
-            "content_max_width": 500,
+            "image": "shopify://shop_images/artigiano_art_90454_extand_the_iamge_--ar_21_--stylize_0_--v__8cfda12d-579e-4e44-bf15-bd3302884ef0_3.png",
+            "content_max_width": 540,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center-start sm:text-start",
             "subheading": "",
-            "title": "Artigiano: להפוך את הקירות שלכם ליצירת אמנות",
+            "title": "כשטבע וטכנולוגיה נפגשים הקיר שלך הופך ליצירת אמנות",
             "heading_tag": "h2",
-            "button_text": "",
-            "button_link": "",
+            "button_text": "גלו את הקולקציות >",
+            "button_link": "shopify://collections",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "background": "",
+            "background_gradient": ""
+          }
+        },
+        "image_MajhL4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/artigiano_art_90454_extand_the_iamge_--ar_9151_--stylize_0_--_244f6f0f-15af-4e1d-99d8-ff537b730a55_3.png",
+            "content_max_width": 540,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center-start sm:text-start",
+            "subheading": "",
+            "title": "כשטבע וטכנולוגיה נפגשים הקיר שלך הופך ליצירת אמנות",
+            "heading_tag": "h2",
+            "button_text": "גלו את הקולקציות >",
+            "button_link": "shopify://collections",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "background": "",
+            "background_gradient": ""
+          }
+        },
+        "image_xRtATU": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/artigiano_art_90454_extand_the_iamge_--ar_21_--stylize_0_--v__d829322b-452c-4d36-8b77-82e8e4ad12b5_2.png",
+            "content_max_width": 540,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center-start sm:text-start",
+            "subheading": "",
+            "title": "כשטבע וטכנולוגיה נפגשים הקיר שלך הופך ליצירת אמנות",
+            "heading_tag": "h2",
+            "button_text": "גלו את הקולקציות >",
+            "button_link": "shopify://collections",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "background": "",
+            "background_gradient": ""
+          }
+        },
+        "image_VQUzex": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/artigiano_art_90454_extand_the_iamge_--ar_9151_--stylize_0_--_f0710d03-31cc-46bf-a6e8-6f5235a4c895_3.png",
+            "content_max_width": 540,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center-start sm:text-start",
+            "subheading": "",
+            "title": "כשטבע וטכנולוגיה נפגשים הקיר שלך הופך ליצירת אמנות",
+            "heading_tag": "h2",
+            "button_text": "גלו את הקולקציות >",
+            "button_link": "shopify://collections",
             "text_color": "#ffffff",
             "button_background": "#ffffff",
             "button_text_color": "#000000",
@@ -58,7 +120,10 @@
       },
       "block_order": [
         "slide-2",
-        "slide-1"
+        "slide-1",
+        "image_MajhL4",
+        "image_xRtATU",
+        "image_VQUzex"
       ],
       "settings": {
         "full_width": true,
