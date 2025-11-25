@@ -14,98 +14,111 @@ Supported variables
 {%- endcomment -%}
 
 {%- liquid
-  # המחיר המקסימלי (באגורות)
-  assign range_max_cents = filter.range_max
+  # ערך מינימום נוכחי (אם אין – 0)
+  assign min_value = filter.min_value.value | default: 0.0 | divided_by: 100.0
 
-  # ערכים שנבחרו כרגע (אם אין – 0 עד המקסימום)
-  assign min_selected_cents = filter.min_value.value | default: 0
-  assign max_selected_cents = filter.max_value.value | default: range_max_cents
+  # ערך מקסימום נוכחי (אם אין – שווה למקסימום האפשרי)
+  assign max_value = filter.max_value.value | default: filter.range_max | divided_by: 100.0
 
-  # המרה לשקלים
-  assign range_max = range_max_cents | divided_by: 100.0 | ceil
-  assign min_value = min_selected_cents | divided_by: 100.0 | floor
-  assign max_value = max_selected_cents | divided_by: 100.0 | ceil
+  # מחיר מקסימלי אמיתי בקולקציה (בשקלים)
+  assign range_max = filter.range_max | divided_by: 100.0 | ceil
 
-  # אחוזים לבר הנמוך/גבוה
+  # הגנה למקרה קצה – שלא יהיה 0
+  if range_max < 1
+    assign range_max = 1
+  endif
+
+  # ודא שהערכים בתוך הטווח
+  if min_value < 0
+    assign min_value = 0
+  endif
+
+  if max_value > range_max
+    assign max_value = range_max
+  endif
+
+  # אחוזים לבר (לצביעת המסלול בין הידיות)
   assign lower_bound_progress = min_value | divided_by: range_max | times: 100.0
   assign higher_bound_progress = max_value | divided_by: range_max | times: 100.0
 -%}
 
-          
-          <price-range class="price-range {% if layout == 'inline' %}price-range--inline{% endif %}">
-            {%- capture range_group -%}
-                <div class="range-group" style="--range-min: {{ lower_bound_progress }}%; --range-max: {{ higher_bound_progress }}%">
-  <input
-    type="range"
-    aria-label="{{ 'collection.faceting.price_filter_from' | t }}"
-    class="range"
-    min="0"
-    max="{{ range_max }}"
-    value="{{ min_value }}"
-  >
-  <input
-    type="range"
-    aria-label="{{ 'collection.faceting.price_filter_to' | t }}"
-    class="range"
-    min="0"
-    max="{{ range_max }}"
-    value="{{ max_value }}"
-  >
-</div>
+<price-range class="price-range {% if layout == 'inline' %}price-range--inline{% endif %}">
+  {%- capture range_group -%}
+    <div class="range-group" style="--range-min: {{ lower_bound_progress }}%; --range-max: {{ higher_bound_progress }}%">
+      <input
+        type="range"
+        aria-label="{{ 'collection.faceting.price_filter_from' | t }}"
+        class="range"
+        min="0"
+        max="{{ range_max }}"
+        value="{{ min_value | ceil }}"
+      >
+      <input
+        type="range"
+        aria-label="{{ 'collection.faceting.price_filter_to' | t }}"
+        class="range"
+        min="0"
+        max="{{ range_max }}"
+        value="{{ max_value | ceil }}"
+      >
+    </div>
+  {%- endcapture -%}
 
-                                  {%- endcapture -%}
-                                  
-                                    {%- capture input_from -%}
-                                        <label class="input-prefix text-sm">
-                                              <span class="prefix text-subdued">{{ cart.currency.symbol }}{% if settings.currency_code_enabled %}{{ cart.currency.iso_code }}{% endif %}</span>
-                                                   <input
-  aria-label="{{ 'collection.faceting.price_filter_from' | t }}"
-  class="field"
-  type="number"
-  inputmode="numeric"
-  {% if filter.min_value.value %}value="{{ min_value }}"{% endif %}
-  name="{{ filter.min_value.param_name }}"
-  id="{{ filter.min_value.param_name }}"
-  min="0"
-  max="{{ range_max }}"
-  placeholder="0"
-  autocomplete="off"
->
+  {%- capture input_from -%}
+    <label class="input-prefix text-sm">
+      <span class="prefix text-subdued">
+        {{ cart.currency.symbol }}{% if settings.currency_code_enabled %}{{ cart.currency.iso_code }}{% endif %}
+      </span>
+      <input
+        aria-label="{{ 'collection.faceting.price_filter_from' | t }}"
+        class="field"
+        type="number"
+        inputmode="numeric"
+        {% if filter.min_value.value %}value="{{ min_value | ceil }}"{% endif %}
+        name="{{ filter.min_value.param_name }}"
+        id="{{ filter.min_value.param_name }}"
+        min="0"
+        max="{{ range_max }}"
+        placeholder="0"
+        autocomplete="off"
+      >
+    </label>
+  {%- endcapture -%}
 
-                                                        </label>
-                                                          {%- endcapture -%}
-                                                          
-                                                            {%- capture input_to -%}
-                                                                <label class="input-prefix text-sm">
-                                                                      <span class="prefix text-subdued">{{ cart.currency.symbol }}{% if settings.currency_code_enabled %}{{ cart.currency.iso_code }}{% endif %}</span>
-                                                                            <input
-  aria-label="{{ 'collection.faceting.price_filter_from' | t }}"
-  class="field"
-  type="number"
-  inputmode="numeric"
-  {% if filter.min_value.value %}value="{{ min_value }}"{% endif %}
-  name="{{ filter.min_value.param_name }}"
-  id="{{ filter.min_value.param_name }}"
-  min="0"
-  max="{{ range_max }}"
-  placeholder="0"
-  autocomplete="off"
->
+  {%- capture input_to -%}
+    <label class="input-prefix text-sm">
+      <span class="prefix text-subdued">
+        {{ cart.currency.symbol }}{% if settings.currency_code_enabled %}{{ cart.currency.iso_code }}{% endif %}
+      </span>
+      <input
+        aria-label="{{ 'collection.faceting.price_filter_to' | t }}"
+        class="field"
+        type="number"
+        inputmode="numeric"
+        {% if filter.max_value.value %}value="{{ max_value | ceil }}"{% endif %}
+        name="{{ filter.max_value.param_name }}"
+        id="{{ filter.max_value.param_name }}"
+        min="0"
+        max="{{ range_max }}"
+        placeholder="{{ range_max }}"
+        autocomplete="off"
+      >
+    </label>
+  {%- endcapture -%}
 
-                                                                                </label>
-                                                                                  {%- endcapture -%}
-                                                                                  
-                                                                                    {%- if layout == 'inline' -%}
-                                                                                        {{- input_from -}}
-                                                                                            {{- range_group -}}
-                                                                                                {{- input_to -}}
-                                                                                                  {%- else -%}
-                                                                                                      {{- range_group -}}
-                                                                                                      
-                                                                                                          <div class="input-group">
-                                                                                                                {{- input_from -}}
-                                                                                                                      <span class="text-subdued text-sm">{{ 'collection.faceting.price_range_to' | t }}</span>
-                                                                                                                            {{- input_to -}}
-                                                                                                                                </div>
-                                                                                                                                  {%- endif -%}
-                                                                                                                                  </price-range>}
+  {%- if layout == 'inline' -%}
+    {{- input_from -}}
+    {{- range_group -}}
+    {{- input_to -}}
+  {%- else -%}
+    {{- range_group -}}
+
+    <div class="input-group">
+      {{- input_from -}}
+      <span class="text-subdued text-sm">
+        {{ 'collection.faceting.price_range_to' | t }}
+      </span>
+      {{- input_to -}}
+    </div>
+  {%- endif -%}
+</price-range>
