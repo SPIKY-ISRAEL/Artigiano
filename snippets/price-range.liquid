@@ -58,7 +58,20 @@ Supported variables
                                     {%- capture input_from -%}
                                         <label class="input-prefix text-sm">
                                               <span class="prefix text-subdued">{{ cart.currency.symbol }}{% if settings.currency_code_enabled %}{{ cart.currency.iso_code }}{% endif %}</span>
-                                                    <input aria-label="{{ 'collection.faceting.price_filter_from' | t }}" class="field" type="number" inputmode="numeric" {% if filter.min_value.value %}value="{{ min_value | ceil }}"{% endif %} name="{{ filter.min_value.param_name }}" id="{{ filter.min_value.param_name }}" min="0" max="{{ max_value | ceil }}" placeholder="0" autocomplete="off">
+                                                    <input
+  aria-label="{{ 'collection.faceting.price_filter_from' | t }}"
+  class="field"
+  type="number"
+  inputmode="numeric"
+  {% if filter.min_value.value %}value="{{ min_value }}"{% endif %}
+  name="{{ filter.min_value.param_name }}"
+  id="{{ filter.min_value.param_name }}"
+  min="0"
+  max="{{ range_max }}"
+  placeholder="0"
+  autocomplete="off"
+>
+
                                                         </label>
                                                           {%- endcapture -%}
                                                           
