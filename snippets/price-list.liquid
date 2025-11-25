@@ -41,6 +41,7 @@ Supported variables
 -%}
 
 <price-list class="price-list {% if size == 'lg' %}price-list--lg{% endif %} {% if text_alignment == 'center' %}justify-center{% endif %}">
+
   {%- if variant != blank -%}
     {%- comment -%}
     --------------------------------------------------------------------------------------------------------------------
@@ -68,6 +69,7 @@ Supported variables
         {%- endif -%}
       </compare-at-price>
     {%- endif -%}
+
   {%- elsif line_item != blank -%}
     {%- comment -%}
     --------------------------------------------------------------------------------------------------------------------
@@ -95,96 +97,23 @@ Supported variables
         {%- endif -%}
       </compare-at-price>
     {%- endif -%}
+
   {%- else -%}
     {%- comment -%}
     --------------------------------------------------------------------------------------------------------------------
     PRODUCT CASE (used on card)
     --------------------------------------------------------------------------------------------------------------------
     {%- endcomment -%}
-    {%- if product.price_varies and product.compare_at_price -%}
-      {%- assign cheapest_variant = product.variants | sort: 'price' | first -%}
 
-      {%- capture price_min -%}
-        {%- if settings.currency_code_enabled -%}
-          {{- cheapest_variant.price | money_with_currency -}}
-        {%- else -%}
-          {{- cheapest_variant.price | money -}}
-        {%- endif -%}
-      {%- endcapture -%}
+    {%- comment -%}
+    כאן במקום כל הלוגיקה של המחירים אנחנו מציגים טקסט קבוע:
+    "החל מ־200 ש"ח"
+    {%- endcomment -%}
 
-      {%- if cheapest_variant.price < cheapest_variant.compare_at_price -%}
-        <sale-price class="{{ on_sale_price_classes }}">
-          <span class="sr-only">{{ 'product.price.sale_price' | t }}</span>
-          {{- 'product.price.from_price_html' | t: price_min: price_min -}}
-        </sale-price>
+    <sale-price class="{{ regular_price_classes }}">
+      <span class="min-price-label">החל מ־200 ש"ח</span>
+    </sale-price>
 
-        <compare-at-price class="{{ compare_at_price_classes }}">
-          <span class="sr-only">{{ 'product.price.regular_price' | t }}</span>
-
-          {%- if settings.currency_code_enabled -%}
-            {{- cheapest_variant.compare_at_price | money_with_currency -}}
-          {%- else -%}
-            {{- cheapest_variant.compare_at_price | money -}}
-          {%- endif -%}
-        </compare-at-price>
-      {%- else -%}
-        <sale-price class="{{ regular_price_classes }}">
-          <span class="sr-only">{{ 'product.price.sale_price' | t }}</span>
-          {{- 'product.price.from_price_html' | t: price_min: price_min -}}
-        </sale-price>
-      {%- endif -%}
-    {%- elsif product.price < product.compare_at_price -%}
-      <sale-price class="{{ on_sale_price_classes }}">
-        <span class="sr-only">{{ 'product.price.sale_price' | t }}</span>
-
-        {%- if settings.currency_code_enabled -%}
-          {{- product.price | money_with_currency -}}
-        {%- else -%}
-          {{- product.price | money -}}
-        {%- endif -%}
-      </sale-price>
-
-      <compare-at-price class="{{ compare_at_price_classes }}">
-        <span class="sr-only">{{ 'product.price.regular_price' | t }}</span>
-
-        {%- if settings.currency_code_enabled -%}
-          {{- product.compare_at_price | money_with_currency -}}
-        {%- else -%}
-          {{- product.compare_at_price | money -}}
-        {%- endif -%}
-      </compare-at-price>
-    {%- elsif product.price_varies -%}
-      {%- capture price_min -%}
-        {%- if settings.currency_code_enabled -%}
-          {{ product.price_min | money_with_currency }}
-        {%- else -%}
-          {{ product.price_min | money }}
-        {%- endif -%}
-      {%- endcapture -%}
-
-      {%- capture price_max -%}
-        {%- if settings.currency_code_enabled -%}
-          {{- product.price_max | money_with_currency -}}
-        {%- else -%}
-          {{- product.price_max | money -}}
-        {%- endif -%}
-      {%- endcapture -%}
-
-      <sale-price class="{{ regular_price_classes }}">
-        <span class="sr-only">{{ 'product.price.sale_price' | t }}</span>
-        {{- 'product.price.from_price_html' | t: price_min: price_min, price_max: price_max -}}
-      </sale-price>
-    {%- else -%}
-      <sale-price class="{{ regular_price_classes }}">
-        <span class="sr-only">{{ 'product.price.sale_price' | t }}</span>
-
-        {%- if settings.currency_code_enabled -%}
-          {{- product.price | money_with_currency -}}
-        {%- else -%}
-          {{- product.price | money -}}
-        {%- endif -%}
-      </sale-price>
-    {%- endif -%}
   {%- endif -%}
 
   {%- unless hide_unit_price -%}
