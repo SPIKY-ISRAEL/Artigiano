@@ -10128,3 +10128,9 @@ shopify-accelerated-checkout, shopify-accelerated-checkout-cart {
 body :lang(en), body :lang(en), body :lang(en) {
   font-family: 'Impact', sans-serif !important;
 }
+
+/* להגדיל שדות מחיר בפילטר */
+.price-range .input-prefix .field {
+  min-width: 90px;   /* אפשר להגדיל ל-100 אם צריך יותר מקום */
+  text-align: left;  /* ששום ספרה לא תיחתך בצד ימין */
+}
