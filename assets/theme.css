@@ -10131,6 +10131,6 @@ body :lang(en), body :lang(en), body :lang(en) {
 
 /* להגדיל שדות מחיר בפילטר */
 .price-range .input-prefix .field {
-  min-width: 90px;   /* אפשר להגדיל ל-100 אם צריך יותר מקום */
+  min-width: 50px;   /* אפשר להגדיל ל-100 אם צריך יותר מקום */
   text-align: left;  /* ששום ספרה לא תיחתך בצד ימין */
 }
