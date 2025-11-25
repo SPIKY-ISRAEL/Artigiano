@@ -35,9 +35,24 @@ Supported variables
           <price-range class="price-range {% if layout == 'inline' %}price-range--inline{% endif %}">
             {%- capture range_group -%}
                 <div class="range-group" style="--range-min: {{ lower_bound_progress }}%; --range-max: {{ higher_bound_progress }}%">
-                      <input type="range" aria-label="{{ 'collection.faceting.price_filter_from' | t }}" class="range" min="0" max="{{ range_max | ceil }}" value="{{ min_value | ceil }}">
-                            <input type="range" aria-label="{{ 'collection.faceting.price_filter_to' | t }}" class="range" min="0" max="{{ range_max | ceil }}" value="{{ max_value | ceil }}">
-                                </div>
+  <input
+    type="range"
+    aria-label="{{ 'collection.faceting.price_filter_from' | t }}"
+    class="range"
+    min="0"
+    max="{{ range_max }}"
+    value="{{ min_value }}"
+  >
+  <input
+    type="range"
+    aria-label="{{ 'collection.faceting.price_filter_to' | t }}"
+    class="range"
+    min="0"
+    max="{{ range_max }}"
+    value="{{ max_value }}"
+  >
+</div>
+
                                   {%- endcapture -%}
                                   
                                     {%- capture input_from -%}
