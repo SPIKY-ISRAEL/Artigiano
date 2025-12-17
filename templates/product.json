@@ -28,7 +28,7 @@
           "type": "text",
           "disabled": true,
           "settings": {
-            "text": "<p><strong>הערה: </strong>כל הזמנה של 2 עד 4 אריחים תגיע <strong>כסט</strong> מתואם שניתן לחבר <strong>ברצף</strong>, מעל 4 אריחים, הדפוס יתחיל שוב וימשיך את <strong>המחזוריות.</strong></p>"
+            "text": ""
           }
         },
         "variant_picker": {
