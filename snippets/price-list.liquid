@@ -111,8 +111,11 @@ Supported variables
     {%- endcomment -%}
 
     <sale-price class="{{ regular_price_classes }}">
-      <span class="min-price-label">החל מ־200 ש"ח למ"ר</span>
-    </sale-price>
+{% if product.tags contains 'אביזרים' %}
+  {{ product.price | money }}
+{% else %}
+  <span class="min-price-label">החל מ-200 ש"ח למ"ר</span>
+{% endif %}    </sale-price>
 
   {%- endif -%}
 
