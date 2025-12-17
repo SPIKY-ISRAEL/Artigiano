@@ -12,6 +12,16 @@
     "main": {
       "type": "main-product",
       "blocks": {
+        "associated_products_UT784A": {
+          "type": "associated_products",
+          "settings": {
+            "title": "רכשו עם זה",
+            "stack_products": true,
+            "products_count": 5,
+            "background": "",
+            "text_color": ""
+          }
+        },
         "title": {
           "type": "title",
           "settings": {
@@ -130,6 +140,7 @@
         }
       },
       "block_order": [
+        "associated_products_UT784A",
         "title",
         "price",
         "text_FPNGz4",
