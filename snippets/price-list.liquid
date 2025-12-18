@@ -103,15 +103,28 @@ Supported variables
     --------------------------------------------------------------------------------------------------------------------
     PRODUCT CASE (used on card)
     --------------------------------------------------------------------------------------------------------------------
+    תיקון: הסרת הטקסט הקבוע והחזרת המחיר האוטומטי
     {%- endcomment -%}
 
+    <sale-price class="{% if product.compare_at_price > product.price %}{{ on_sale_price_classes }}{% else %}{{ regular_price_classes }}{% endif %}">
+      <span class="sr-only">{{ 'product.price.sale_price' | t }}</span>
+      {%- if settings.currency_code_enabled -%}
+        {{- product.price | money_with_currency -}}
+      {%- else -%}
+        {{- product.price | money -}}
+      {%- endif -%}
+    </sale-price>
 
-    <sale-price class="{{ regular_price_classes }}">
-{% if product.tags contains 'אביזרים' %}
-  {{ product.price | money }}
-{% else %}
-  <span class="min-price-label">החל מ-200 ש"ח למ"ר</span>
-{% endif %}    </sale-price>
+    {%- if product.compare_at_price > product.price -%}
+      <compare-at-price class="{{ compare_at_price_classes }}">
+        <span class="sr-only">{{ 'product.price.regular_price' | t }}</span>
+        {%- if settings.currency_code_enabled -%}
+          {{- product.compare_at_price | money_with_currency -}}
+        {%- else -%}
+          {{- product.compare_at_price | money -}}
+        {%- endif -%}
+      </compare-at-price>
+    {%- endif -%}
 
   {%- endif -%}
 
