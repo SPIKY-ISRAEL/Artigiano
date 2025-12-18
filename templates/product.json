@@ -12,16 +12,6 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "associated_products_UT784A": {
-          "type": "associated_products",
-          "settings": {
-            "title": "רכשו עם זה",
-            "stack_products": true,
-            "products_count": 5,
-            "background": "",
-            "text_color": ""
-          }
-        },
         "title": {
           "type": "title",
           "settings": {
@@ -65,6 +55,16 @@
             "atc_button_text_color": "#ffffff",
             "payment_button_background": "#272727",
             "payment_button_text_color": ""
+          }
+        },
+        "associated_products_UT784A": {
+          "type": "associated_products",
+          "settings": {
+            "title": "רכשו עם זה",
+            "stack_products": true,
+            "products_count": 5,
+            "background": "",
+            "text_color": ""
           }
         },
         "badges": {
@@ -140,13 +140,13 @@
         }
       },
       "block_order": [
-        "associated_products_UT784A",
         "title",
         "price",
         "text_FPNGz4",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
+        "associated_products_UT784A",
         "badges",
         "rating",
         "payment_terms",
