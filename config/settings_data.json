@@ -145,6 +145,11 @@
         "type": "shopify://apps/xo-gallery/blocks/xo-gallery-seo/e61dfbaa-1a75-4e4e-bffc-324f17325251",
         "disabled": false,
         "settings": {}
+      },
+      "9752555012629308362": {
+        "type": "shopify://apps/parkour-facebook-pixel/blocks/threasury_pixel/f23b2ffe-4c53-446e-ad3a-7976ffbee5c2",
+        "disabled": false,
+        "settings": {}
       }
     }
   },
