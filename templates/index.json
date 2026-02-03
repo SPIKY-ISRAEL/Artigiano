@@ -143,6 +143,39 @@
         "background_gradient": "linear-gradient(60deg, rgba(60, 65, 68, 1), rgba(23, 29, 33, 1) 98%)"
       }
     },
+    "featured_collection_MYfMDU": {
+      "type": "featured-collection",
+      "custom_css": [],
+      "settings": {
+        "collection": "",
+        "products": [
+          "ardesie-copy",
+          "clean-marble",
+          "green-rock",
+          "rusty-sand-copy",
+          "wanderlust",
+          "rusty-earth"
+        ],
+        "full_width": true,
+        "stack_products": false,
+        "show_progress_bar": false,
+        "products_count": 5,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 5,
+        "subheading": "",
+        "title": "הנמכרים ביותר",
+        "content": "",
+        "link_url": "shopify://collections/כל-המוצרים",
+        "link_text": "לכל דגמי החיפויים",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "rgba(0,0,0,0)",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "rgba(0,0,0,0)",
+        "product_card_text_color": "#272727"
+      }
+    },
     "collection-list": {
       "type": "collection-list",
       "blocks": {
@@ -457,38 +490,6 @@
         "background_gradient": "",
         "text_color": "#015555",
         "text_gradient": ""
-      }
-    },
-    "featured_collection_MYfMDU": {
-      "type": "featured-collection",
-      "custom_css": [],
-      "settings": {
-        "collection": "",
-        "products": [
-          "ardesie-copy",
-          "clean-marble",
-          "green-rock",
-          "rusty-sand-copy",
-          "wanderlust"
-        ],
-        "full_width": true,
-        "stack_products": false,
-        "show_progress_bar": false,
-        "products_count": 5,
-        "products_per_row_mobile": "2",
-        "products_per_row_desktop": 5,
-        "subheading": "",
-        "title": "הנמכרים ביותר",
-        "content": "",
-        "link_url": "shopify://collections/כל-המוצרים",
-        "link_text": "לכל דגמי החיפויים",
-        "background": "#ffffff",
-        "background_gradient": "",
-        "text_color": "rgba(0,0,0,0)",
-        "heading_color": "",
-        "heading_gradient": "",
-        "product_card_background": "rgba(0,0,0,0)",
-        "product_card_text_color": "#272727"
       }
     },
     "revealed_image_on_scroll_Hy9PKF": {
@@ -842,12 +843,12 @@
   },
   "order": [
     "slideshow",
+    "featured_collection_MYfMDU",
     "collection-list",
     "smi_image_with_text_1_7_NJY49j",
     "rich_text_FNTCh8",
     "smi_image_with_text_1_7_PxKUwN",
     "scrolling_text_eHtjpA",
-    "featured_collection_MYfMDU",
     "revealed_image_on_scroll_Hy9PKF",
     "multiple_images_with_text_fMBzWe",
     "hot_spots_3mqXTF",
