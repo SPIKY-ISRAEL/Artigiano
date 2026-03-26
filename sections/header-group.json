@@ -14,35 +14,33 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
-        "message_DJcNzC": {
-          "type": "message",
-          "settings": {
-            "text": "!חיפויי קירות בהשראת הטבע – גללו מטה לגלות את הקולקציות המרהיבות שלנו",
-            "url": "shopify://collections"
-          }
-        },
         "message_TrY99m": {
           "type": "message",
           "settings": {
-            "text": "20% מבצע השקה",
+            "text": "מבצע פסח על כל האתר!",
             "url": ""
           }
         },
         "message_kPxHXf": {
           "type": "message",
-          "disabled": true,
           "settings": {
-            "text": "Announce something here",
+            "text": "50% הנחה על קיט החיפויים השני!",
             "url": ""
+          }
+        },
+        "message_YdDQ8h": {
+          "type": "message",
+          "settings": {
+            "text": "לחצו כאן לכל הדגמים בהנחה! >>",
+            "url": "shopify://collections"
           }
         }
       },
       "block_order": [
-        "message_DJcNzC",
         "message_TrY99m",
-        "message_kPxHXf"
+        "message_kPxHXf",
+        "message_YdDQ8h"
       ],
-      "disabled": true,
       "settings": {
         "enable_sticky": false,
         "autoplay": false,
@@ -50,7 +48,7 @@
         "text_size": "text-xs",
         "navigation_mode": "scrolling",
         "scrolling_speed": 10,
-        "background": "#015555",
+        "background": "#cf7016",
         "background_gradient": "",
         "text_color": "#ffffff"
       }
