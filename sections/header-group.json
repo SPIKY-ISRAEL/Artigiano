@@ -18,14 +18,14 @@
           "type": "message",
           "settings": {
             "text": "מבצע פסח על כל האתר!",
-            "url": ""
+            "url": "shopify://collections/כל-המוצרים"
           }
         },
         "message_kPxHXf": {
           "type": "message",
           "settings": {
             "text": "50% הנחה על קיט החיפויים השני!",
-            "url": ""
+            "url": "shopify://collections/כל-המוצרים"
           }
         },
         "message_YdDQ8h": {
