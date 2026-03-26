@@ -32,7 +32,7 @@
           "type": "message",
           "settings": {
             "text": "לחצו כאן לכל הדגמים בהנחה! >>",
-            "url": "shopify://collections"
+            "url": "shopify://collections/כל-המוצרים"
           }
         }
       },
