@@ -15,14 +15,14 @@
         "slide-2": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Blue_marlbe_vines.png",
+            "image": "shopify://shop_images/50__off_website_banner_01.jpg",
             "content_max_width": 1200,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center-start sm:text-start",
             "subheading": "",
             "title": "חיפויי הקיר היוקרתיים של Artigiano מגיעים עכשיו גם במארז להתקנה עצמית בבית, במשרד או בכל מקום שתרצו לחדש מבלי להתאמץ!ֿ",
             "heading_tag": "h3",
-            "button_text": "לכל דגמי החיפויים >",
+            "button_text": "לכל הדגמים בהנחה  >",
             "button_link": "shopify://collections/כל-המוצרים",
             "text_color": "#ffffff",
             "button_background": "#ffffff",
@@ -178,11 +178,11 @@
     "collection-list": {
       "type": "collection-list",
       "blocks": {
-        "collection_jKdYfh": {
+        "collection-3": {
           "type": "collection",
           "settings": {
-            "collection": "שיש",
-            "image": "shopify://shop_images/01_1.png",
+            "collection": "בטון",
+            "image": "shopify://shop_images/Category_pics_0312.png",
             "subheading": "",
             "title": "",
             "url": "",
@@ -197,7 +197,7 @@
           "type": "collection",
           "settings": {
             "collection": "אבן",
-            "image": "shopify://shop_images/02_1.png",
+            "image": "shopify://shop_images/Category_pics_0310.png",
             "subheading": "",
             "title": "",
             "url": "",
@@ -208,11 +208,11 @@
             "overlay_opacity": 30
           }
         },
-        "collection-3": {
+        "collection_jKdYfh": {
           "type": "collection",
           "settings": {
-            "collection": "בטון",
-            "image": "shopify://shop_images/03_1.png",
+            "collection": "שיש",
+            "image": "shopify://shop_images/Category_pics_0311.png",
             "subheading": "",
             "title": "",
             "url": "",
@@ -227,7 +227,22 @@
           "type": "collection",
           "settings": {
             "collection": "עץ",
-            "image": "shopify://shop_images/04_1.png",
+            "image": "shopify://shop_images/Category_pics_0313.png",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h3",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_8QR9Ab": {
+          "type": "collection",
+          "settings": {
+            "collection": "טראצו",
+            "image": "shopify://shop_images/08_1.png",
             "subheading": "",
             "title": "",
             "url": "",
@@ -253,21 +268,6 @@
             "overlay_opacity": 30
           }
         },
-        "collection-2": {
-          "type": "collection",
-          "settings": {
-            "collection": "ארט",
-            "image": "shopify://shop_images/06_1.png",
-            "subheading": "",
-            "title": "",
-            "url": "",
-            "heading_tag": "h3",
-            "text_position": "place-self-center text-center",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
-          }
-        },
         "collection_36iJyt": {
           "type": "collection",
           "settings": {
@@ -283,11 +283,11 @@
             "overlay_opacity": 30
           }
         },
-        "collection_8QR9Ab": {
+        "collection-2": {
           "type": "collection",
           "settings": {
-            "collection": "טראצו",
-            "image": "shopify://shop_images/08_1.png",
+            "collection": "ארט",
+            "image": "shopify://shop_images/Category_pics_0314.png",
             "subheading": "",
             "title": "",
             "url": "",
@@ -300,14 +300,14 @@
         }
       },
       "block_order": [
-        "collection_jKdYfh",
-        "collection-1",
         "collection-3",
+        "collection-1",
+        "collection_jKdYfh",
         "collection_gNKEg4",
+        "collection_8QR9Ab",
         "collection_mxB9bE",
-        "collection-2",
         "collection_36iJyt",
-        "collection_8QR9Ab"
+        "collection-2"
       ],
       "settings": {
         "full_width": false,
