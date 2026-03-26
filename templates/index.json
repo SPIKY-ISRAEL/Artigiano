@@ -150,11 +150,13 @@
       "settings": {
         "collection": "",
         "products": [
-          "ardesie-copy",
-          "clean-marble",
-          "green-rock",
-          "wanderlust",
-          "rusty-earth"
+          "lines-wood",
+          "concrete-plaster-stripes",
+          "brown-cardboard",
+          "blue-elements",
+          "loran",
+          "green-rock-copy",
+          "beige-harmony-1"
         ],
         "full_width": true,
         "stack_products": false,
