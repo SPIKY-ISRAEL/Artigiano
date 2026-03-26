@@ -15,8 +15,8 @@
         "slide-2": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/50__off_website_banner_02.jpg",
-            "mobile_image": "shopify://shop_images/50__off_social_media_banner_01.jpg",
+            "image": "shopify://shop_images/Artigiano_Express_Hero_01.jpg",
+            "mobile_image": "shopify://shop_images/Artigiano_Express_Hero_mobile_01.jpg",
             "content_max_width": 1200,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center-start sm:text-start",
@@ -29,7 +29,7 @@
             "button_background": "#ffffff",
             "button_text_color": "#272727",
             "overlay_color": "#272727",
-            "overlay_opacity": 40,
+            "overlay_opacity": 44,
             "background": "#ffffff",
             "background_gradient": ""
           }
