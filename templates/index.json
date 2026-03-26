@@ -256,6 +256,21 @@
             "overlay_opacity": 30
           }
         },
+        "collection_QXbJdr": {
+          "type": "collection",
+          "name": "בד",
+          "settings": {
+            "collection": "בד",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h3",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
         "collection_mxB9bE": {
           "type": "collection",
           "settings": {
@@ -308,6 +323,7 @@
         "collection_jKdYfh",
         "collection_gNKEg4",
         "collection_8QR9Ab",
+        "collection_QXbJdr",
         "collection_mxB9bE",
         "collection_36iJyt",
         "collection-2"
