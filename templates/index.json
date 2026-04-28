@@ -216,6 +216,21 @@
         "collection-3": {
           "type": "collection",
           "settings": {
+            "collection": "חדש-באתר",
+            "image": "shopify://shop_images/Mild_Plaster_Mockup_120X60_02.jpg",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h3",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_MTDqpq": {
+          "type": "collection",
+          "settings": {
             "collection": "בטון",
             "image": "shopify://shop_images/Category_pics_0312.png",
             "subheading": "",
@@ -351,6 +366,7 @@
       },
       "block_order": [
         "collection-3",
+        "collection_MTDqpq",
         "collection-1",
         "collection_jKdYfh",
         "collection_gNKEg4",
