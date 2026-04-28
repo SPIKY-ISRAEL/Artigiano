@@ -150,12 +150,12 @@
       "settings": {
         "collection": "חדש-באתר",
         "products": [
+          "audrey",
           "mild-plaster",
           "concrete-plaster-stripes",
           "lines-wood",
           "loran",
-          "brown-cardboard",
-          "beige-harmony-1"
+          "brown-cardboard"
         ],
         "full_width": true,
         "stack_products": false,
@@ -187,6 +187,7 @@
           "lines-wood",
           "concrete-plaster-stripes",
           "brown-cardboard",
+          "audrey",
           "loran",
           "beige-harmony-1"
         ],
