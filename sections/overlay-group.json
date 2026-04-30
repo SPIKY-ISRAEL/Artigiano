@@ -20,6 +20,7 @@
       "blocks": {
         "ai_gen_block_3e4b608_dYptbF": {
           "type": "ai_gen_block_3e4b608",
+          "disabled": true,
           "settings": {
             "popup_delay": 1,
             "popup_max_width": 700,
