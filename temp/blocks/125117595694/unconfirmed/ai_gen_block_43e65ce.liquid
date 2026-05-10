@@ -1,6 +1,525 @@
+{% doc %}
+  @prompt
+    I need an option for a popup that has a button that connects to all the products on the website, with an option to change it to any page or collection i want. i want to be able to direct the button where it located on the picture, up and down, right and left. i want the button to be adjustable, the colors and size, including font color. including if the font is regular or bold. I want the X button also to be adjustable - location, color, size.
+    I also want the pop up timing of showing up to be adjustable
+{% enddoc %}
+{% assign ai_gen_id = block.id | replace: '_', '' | downcase %}
+
+{% style %}
+  .ai-popup-overlay-{{ ai_gen_id }} {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: {{ block.settings.overlay_color }};
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+    z-index: 9998;
+    display: block;
+  }
+
+  .ai-popup-overlay-{{ ai_gen_id }}.active {
+    opacity: {{ block.settings.overlay_opacity }};
+    visibility: visible;
+  }
+
+  .ai-popup-container-{{ ai_gen_id }} {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.9);
+    width: {{ block.settings.desktop_width_percent }}%;
+    max-width: 100%;
+    max-height: 90vh;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease, transform 0.3s ease;
+    z-index: 9999;
+    display: block;
+  }
+
+  .ai-popup-container-{{ ai_gen_id }}.active {
+    opacity: 1;
+    visibility: visible;
+    transform: translate(-50%, -50%) scale(1);
+  }
+
+  .ai-popup-content-{{ ai_gen_id }} {
+    position: relative;
+    width: 100%;
+    height: auto;
+    border-radius: {{ block.settings.popup_border_radius }}px;
+    overflow: hidden;
+  }
+
+  .ai-popup-image-{{ ai_gen_id }} {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .ai-popup-placeholder-{{ ai_gen_id }} {
+    width: 100%;
+    min-height: 400px;
+    background-color: #f4f4f4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+
+  .ai-popup-placeholder-{{ ai_gen_id }} svg {
+    width: 100%;
+    height: 100%;
+    max-width: 500px;
+    max-height: 500px;
+  }
+
+  .ai-popup-empty-state-{{ ai_gen_id }} {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 12px 20px;
+    font-size: 14px;
+    color: #666;
+    text-align: center;
+    pointer-events: none;
+  }
+
+  .ai-popup-button-{{ ai_gen_id }} {
+    position: absolute;
+    top: {{ block.settings.button_position_y }}%;
+    left: {{ block.settings.button_position_x }}%;
+    transform: translate(-50%, -50%);
+    padding: {{ block.settings.button_padding_vertical }}px {{ block.settings.button_padding_horizontal }}px;
+    background-color: {{ block.settings.button_background_color }};
+    color: {{ block.settings.button_text_color }};
+    border: none;
+    border-radius: {{ block.settings.button_border_radius }}px;
+    font-size: {{ block.settings.button_font_size }}px;
+    font-weight: {{ block.settings.button_font_weight }};
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    z-index: 2;
+    display: inline-block;
+  }
+
+  .ai-popup-button-{{ ai_gen_id }}:hover {
+    background-color: {{ block.settings.button_hover_background_color }};
+    color: {{ block.settings.button_hover_text_color }};
+  }
+
+  .ai-popup-close-{{ ai_gen_id }} {
+    position: absolute;
+    top: {{ block.settings.close_position_y }}%;
+    right: {{ block.settings.close_position_x }}%;
+    width: {{ block.settings.close_size }}px;
+    height: {{ block.settings.close_size }}px;
+    background-color: {{ block.settings.close_background_color }};
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 3;
+    transition: all 0.3s ease;
+    padding: 0;
+  }
+
+  .ai-popup-close-{{ ai_gen_id }}:hover {
+    background-color: {{ block.settings.close_hover_background_color }};
+  }
+
+  .ai-popup-close-{{ ai_gen_id }} svg {
+    width: calc({{ block.settings.close_size }}px * 0.5);
+    height: calc({{ block.settings.close_size }}px * 0.5);
+    stroke: {{ block.settings.close_icon_color }};
+  }
+
+  .ai-popup-close-{{ ai_gen_id }}:hover svg {
+    stroke: {{ block.settings.close_hover_icon_color }};
+  }
+
+  @media screen and (max-width: 749px) {
+    .ai-popup-container-{{ ai_gen_id }} {
+      width: 90%;
+    }
+
+    .ai-popup-button-{{ ai_gen_id }} {
+      font-size: calc({{ block.settings.button_font_size }}px * 0.9);
+      padding: calc({{ block.settings.button_padding_vertical }}px * 0.8) calc({{ block.settings.button_padding_horizontal }}px * 0.8);
+    }
+
+    .ai-popup-close-{{ ai_gen_id }} {
+      width: calc({{ block.settings.close_size }}px * 0.8);
+      height: calc({{ block.settings.close_size }}px * 0.8);
+    }
+  }
+{% endstyle %}
+
+<popup-modal-{{ ai_gen_id }} {{ block.shopify_attributes }}>
+  <div class="ai-popup-overlay-{{ ai_gen_id }}"></div>
+  
+  <div class="ai-popup-container-{{ ai_gen_id }}">
+    <div class="ai-popup-content-{{ ai_gen_id }}">
+      {% if block.settings.popup_image %}
+        <img
+          src="{{ block.settings.popup_image | image_url: width: 2000 }}"
+          alt="{{ block.settings.popup_image.alt | escape }}"
+          loading="lazy"
+          width="{{ block.settings.popup_image.width }}"
+          height="{{ block.settings.popup_image.height }}"
+          class="ai-popup-image-{{ ai_gen_id }}"
+        >
+      {% else %}
+        <div class="ai-popup-placeholder-{{ ai_gen_id }}">
+          {{ 'image' | placeholder_svg_tag }}
+          <div class="ai-popup-empty-state-{{ ai_gen_id }}">
+            Next, add a popup image
+          </div>
+        </div>
+      {% endif %}
+
+      {% if block.settings.button_text != blank %}
+        <a
+          href="{{ block.settings.button_link }}"
+          class="ai-popup-button-{{ ai_gen_id }}"
+        >
+          {{ block.settings.button_text }}
+        </a>
+      {% endif %}
+
+      <button
+        class="ai-popup-close-{{ ai_gen_id }}"
+        aria-label="Close popup"
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+    </div>
+  </div>
+</popup-modal-{{ ai_gen_id }}>
+
+<script>
+  (function() {
+    class PopupModal{{ ai_gen_id }} extends HTMLElement {
+      constructor() {
+        super();
+        this.delay = {{ block.settings.popup_delay }} * 1000;
+        this.hasBeenShown = false;
+      }
+
+      connectedCallback() {
+        this.overlay = this.querySelector('.ai-popup-overlay-{{ ai_gen_id }}');
+        this.container = this.querySelector('.ai-popup-container-{{ ai_gen_id }}');
+        this.closeButton = this.querySelector('.ai-popup-close-{{ ai_gen_id }}');
+
+        this.setupEventListeners();
+        this.schedulePopup();
+      }
+
+      setupEventListeners() {
+        this.closeButton.addEventListener('click', () => this.closePopup());
+        this.overlay.addEventListener('click', () => this.closePopup());
+
+        document.addEventListener('keydown', (e) => {
+          if (e.key === 'Escape' && this.container.classList.contains('active')) {
+            this.closePopup();
+          }
+        });
+      }
+
+      schedulePopup() {
+        const sessionKey = 'popup_shown_{{ ai_gen_id }}';
+        const hasShownInSession = sessionStorage.getItem(sessionKey);
+
+        if (!hasShownInSession && !this.hasBeenShown) {
+          setTimeout(() => {
+            this.openPopup();
+            sessionStorage.setItem(sessionKey, 'true');
+            this.hasBeenShown = true;
+          }, this.delay);
+        }
+      }
+
+      openPopup() {
+        this.overlay.classList.add('active');
+        this.container.classList.add('active');
+        document.body.style.overflow = 'hidden';
+      }
+
+      closePopup() {
+        this.overlay.classList.remove('active');
+        this.container.classList.remove('active');
+        document.body.style.overflow = '';
+      }
+    }
+
+    customElements.define('popup-modal-{{ ai_gen_id }}', PopupModal{{ ai_gen_id }});
+  })();
+</script>
+
 {% schema %}
- {
-   "name": "AI_Block",
-   "tag": "shopify-ai-generated-block"
- }
+{
+  "name": "Popup with button",
+  "tag": null,
+  "settings": [
+    {
+      "type": "header",
+      "content": "Popup image"
+    },
+    {
+      "type": "image_picker",
+      "id": "popup_image",
+      "label": "Image"
+    },
+    {
+      "type": "range",
+      "id": "desktop_width_percent",
+      "label": "Desktop width",
+      "min": 30,
+      "max": 90,
+      "step": 5,
+      "unit": "%",
+      "default": 60
+    },
+    {
+      "type": "range",
+      "id": "popup_border_radius",
+      "label": "Border radius",
+      "min": 0,
+      "max": 40,
+      "step": 2,
+      "unit": "px",
+      "default": 8
+    },
+    {
+      "type": "header",
+      "content": "Popup timing"
+    },
+    {
+      "type": "range",
+      "id": "popup_delay",
+      "label": "Show popup after",
+      "min": 0,
+      "max": 30,
+      "step": 1,
+      "unit": "s",
+      "default": 3
+    },
+    {
+      "type": "header",
+      "content": "Overlay"
+    },
+    {
+      "type": "color",
+      "id": "overlay_color",
+      "label": "Overlay color",
+      "default": "#000000"
+    },
+    {
+      "type": "range",
+      "id": "overlay_opacity",
+      "label": "Overlay opacity",
+      "min": 0,
+      "max": 1,
+      "step": 0.1,
+      "default": 0.5
+    },
+    {
+      "type": "header",
+      "content": "Button"
+    },
+    {
+      "type": "text",
+      "id": "button_text",
+      "label": "Button text",
+      "default": "Shop now"
+    },
+    {
+      "type": "url",
+      "id": "button_link",
+      "label": "Button link"
+    },
+    {
+      "type": "range",
+      "id": "button_position_x",
+      "label": "Horizontal position",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "%",
+      "default": 50
+    },
+    {
+      "type": "range",
+      "id": "button_position_y",
+      "label": "Vertical position",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "%",
+      "default": 80
+    },
+    {
+      "type": "range",
+      "id": "button_font_size",
+      "label": "Font size",
+      "min": 10,
+      "max": 40,
+      "step": 1,
+      "unit": "px",
+      "default": 16
+    },
+    {
+      "type": "select",
+      "id": "button_font_weight",
+      "label": "Font weight",
+      "options": [
+        {
+          "value": "400",
+          "label": "Regular"
+        },
+        {
+          "value": "700",
+          "label": "Bold"
+        }
+      ],
+      "default": "400"
+    },
+    {
+      "type": "range",
+      "id": "button_padding_vertical",
+      "label": "Vertical padding",
+      "min": 5,
+      "max": 30,
+      "step": 1,
+      "unit": "px",
+      "default": 12
+    },
+    {
+      "type": "range",
+      "id": "button_padding_horizontal",
+      "label": "Horizontal padding",
+      "min": 10,
+      "max": 60,
+      "step": 2,
+      "unit": "px",
+      "default": 24
+    },
+    {
+      "type": "range",
+      "id": "button_border_radius",
+      "label": "Border radius",
+      "min": 0,
+      "max": 40,
+      "step": 2,
+      "unit": "px",
+      "default": 4
+    },
+    {
+      "type": "color",
+      "id": "button_background_color",
+      "label": "Background color",
+      "default": "#015555"
+    },
+    {
+      "type": "color",
+      "id": "button_text_color",
+      "label": "Text color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "button_hover_background_color",
+      "label": "Hover background color",
+      "default": "#272727"
+    },
+    {
+      "type": "color",
+      "id": "button_hover_text_color",
+      "label": "Hover text color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "header",
+      "content": "Close button"
+    },
+    {
+      "type": "range",
+      "id": "close_position_x",
+      "label": "Horizontal position",
+      "min": 0,
+      "max": 20,
+      "step": 1,
+      "unit": "%",
+      "default": 2
+    },
+    {
+      "type": "range",
+      "id": "close_position_y",
+      "label": "Vertical position",
+      "min": 0,
+      "max": 20,
+      "step": 1,
+      "unit": "%",
+      "default": 2
+    },
+    {
+      "type": "range",
+      "id": "close_size",
+      "label": "Size",
+      "min": 20,
+      "max": 60,
+      "step": 2,
+      "unit": "px",
+      "default": 40
+    },
+    {
+      "type": "color",
+      "id": "close_background_color",
+      "label": "Background color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "close_icon_color",
+      "label": "Icon color",
+      "default": "#272727"
+    },
+    {
+      "type": "color",
+      "id": "close_hover_background_color",
+      "label": "Hover background color",
+      "default": "#272727"
+    },
+    {
+      "type": "color",
+      "id": "close_hover_icon_color",
+      "label": "Hover icon color",
+      "default": "#ffffff"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Popup with button"
+    }
+  ]
+}
 {% endschema %}
