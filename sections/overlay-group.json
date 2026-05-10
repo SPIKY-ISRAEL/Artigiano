@@ -70,44 +70,6 @@
     },
     "1778395265906ee40b": {
       "type": "_blocks",
-      "blocks": {
-        "ai_gen_block_43e65ce_HU3JgP": {
-          "type": "ai_gen_block_43e65ce",
-          "disabled": true,
-          "settings": {
-            "popup_image": "shopify://shop_images/15__off_website_banner_01.jpg",
-            "desktop_width_percent": 45,
-            "popup_border_radius": 12,
-            "popup_delay": 2,
-            "overlay_color": "#000000",
-            "overlay_opacity": 0.5,
-            "button_text": "לכל הדגמים בהנחה!",
-            "button_link": "shopify://collections/כל-המוצרים",
-            "button_position_x": 50,
-            "button_position_y": 80,
-            "button_font_size": 16,
-            "button_font_weight": "400",
-            "button_padding_vertical": 12,
-            "button_padding_horizontal": 24,
-            "button_border_radius": 4,
-            "button_background_color": "#015555",
-            "button_text_color": "#ffffff",
-            "button_hover_background_color": "#272727",
-            "button_hover_text_color": "#ffffff",
-            "close_position_x": 2,
-            "close_position_y": 2,
-            "close_size": 40,
-            "close_background_color": "#ffffff",
-            "close_icon_color": "#272727",
-            "close_hover_background_color": "#272727",
-            "close_hover_icon_color": "#ffffff"
-          },
-          "blocks": {}
-        }
-      },
-      "block_order": [
-        "ai_gen_block_43e65ce_HU3JgP"
-      ],
       "settings": {}
     }
   },
