@@ -24,7 +24,14 @@
         "message_kPxHXf": {
           "type": "message",
           "settings": {
-            "text": "50% הנחה על קיט החיפויים השני!",
+            "text": "15% הנחה על כל קולקציית החיפויים באתר!",
+            "url": "shopify://collections/כל-המוצרים"
+          }
+        },
+        "message_cLttCj": {
+          "type": "message",
+          "settings": {
+            "text": "קוד קופון: MAY15",
             "url": "shopify://collections/כל-המוצרים"
           }
         },
@@ -39,9 +46,9 @@
       "block_order": [
         "message_TrY99m",
         "message_kPxHXf",
+        "message_cLttCj",
         "message_YdDQ8h"
       ],
-      "disabled": true,
       "settings": {
         "enable_sticky": false,
         "autoplay": false,
@@ -49,7 +56,7 @@
         "text_size": "text-xs",
         "navigation_mode": "scrolling",
         "scrolling_speed": 10,
-        "background": "#cf7016",
+        "background": "#9ca7fe",
         "background_gradient": "",
         "text_color": "#ffffff"
       }
