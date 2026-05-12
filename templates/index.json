@@ -218,7 +218,7 @@
           "type": "collection",
           "settings": {
             "collection": "חדש-באתר",
-            "image": "shopify://shop_images/Mild_Plaster_Mockup_120X60_02.jpg",
+            "image": "shopify://shop_images/Category_pics_03.png",
             "subheading": "",
             "title": "",
             "url": "",
@@ -233,7 +233,7 @@
           "type": "collection",
           "settings": {
             "collection": "בטון",
-            "image": "shopify://shop_images/Category_pics_0312.png",
+            "image": "shopify://shop_images/Category_pics_032.png",
             "subheading": "",
             "title": "",
             "url": "",
@@ -248,7 +248,7 @@
           "type": "collection",
           "settings": {
             "collection": "אבן",
-            "image": "shopify://shop_images/Category_pics_0311.png",
+            "image": "shopify://shop_images/Category_pics_033.png",
             "subheading": "",
             "title": "",
             "url": "",
@@ -263,7 +263,7 @@
           "type": "collection",
           "settings": {
             "collection": "שיש",
-            "image": "shopify://shop_images/Category_pics_0310.png",
+            "image": "shopify://shop_images/Category_pics_034.png",
             "subheading": "",
             "title": "",
             "url": "",
@@ -278,7 +278,7 @@
           "type": "collection",
           "settings": {
             "collection": "עץ",
-            "image": "shopify://shop_images/Category_pics_0313.png",
+            "image": "shopify://shop_images/Category_pics_035_31f7fc45-58db-4d0e-8f9a-4ed6ebd04a13.png",
             "subheading": "",
             "title": "",
             "url": "",
@@ -293,7 +293,7 @@
           "type": "collection",
           "settings": {
             "collection": "טראצו",
-            "image": "shopify://shop_images/08_1.png",
+            "image": "shopify://shop_images/Category_pics_036.png",
             "subheading": "",
             "title": "",
             "url": "",
@@ -309,6 +309,7 @@
           "name": "בד",
           "settings": {
             "collection": "בד",
+            "image": "shopify://shop_images/Category_pics_037_ca5ccf2e-c513-4e93-84da-51839b04dc13.png",
             "subheading": "",
             "title": "",
             "url": "",
@@ -323,7 +324,7 @@
           "type": "collection",
           "settings": {
             "collection": "מתכת",
-            "image": "shopify://shop_images/05_1.png",
+            "image": "shopify://shop_images/Category_pics_038_d4386a85-5867-452c-b416-b33b7986cb68.png",
             "subheading": "",
             "title": "",
             "url": "",
@@ -353,7 +354,7 @@
           "type": "collection",
           "settings": {
             "collection": "ארט",
-            "image": "shopify://shop_images/Category_pics_0314.png",
+            "image": "shopify://shop_images/Category_pics_039_c326af08-e522-48c3-8b63-79de46751333.png",
             "subheading": "",
             "title": "",
             "url": "",
