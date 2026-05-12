@@ -149,14 +149,7 @@
       "custom_css": [],
       "settings": {
         "collection": "חדש-באתר",
-        "products": [
-          "audrey",
-          "mild-plaster",
-          "concrete-plaster-stripes",
-          "lines-wood",
-          "loran",
-          "brown-cardboard"
-        ],
+        "products": "{{ section.settings.collection.products }}",
         "full_width": true,
         "stack_products": false,
         "show_progress_bar": false,
