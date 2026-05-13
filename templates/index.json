@@ -144,32 +144,6 @@
         "background_gradient": "linear-gradient(60deg, rgba(60, 65, 68, 1), rgba(23, 29, 33, 1) 98%)"
       }
     },
-    "featured_collection_MYfMDU": {
-      "type": "featured-collection",
-      "custom_css": [],
-      "settings": {
-        "collection": "חדש-באתר",
-        "products": "{{ section.settings.collection.products }}",
-        "full_width": true,
-        "stack_products": false,
-        "show_progress_bar": false,
-        "products_count": 5,
-        "products_per_row_mobile": "2",
-        "products_per_row_desktop": 5,
-        "subheading": "",
-        "title": "חדש באתר!",
-        "content": "",
-        "link_url": "shopify://collections/כל-המוצרים",
-        "link_text": "לכל דגמי החיפויים",
-        "background": "#ffffff",
-        "background_gradient": "",
-        "text_color": "rgba(0,0,0,0)",
-        "heading_color": "",
-        "heading_gradient": "",
-        "product_card_background": "rgba(0,0,0,0)",
-        "product_card_text_color": "#272727"
-      }
-    },
     "featured_collection_A6hFeA": {
       "type": "featured-collection",
       "custom_css": [],
@@ -192,6 +166,32 @@
         "products_per_row_desktop": 5,
         "subheading": "",
         "title": "הנמכרים ביותר",
+        "content": "",
+        "link_url": "shopify://collections/כל-המוצרים",
+        "link_text": "לכל דגמי החיפויים",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "rgba(0,0,0,0)",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "rgba(0,0,0,0)",
+        "product_card_text_color": "#272727"
+      }
+    },
+    "featured_collection_MYfMDU": {
+      "type": "featured-collection",
+      "custom_css": [],
+      "settings": {
+        "collection": "חדש-באתר",
+        "products": "{{ section.settings.collection.products }}",
+        "full_width": true,
+        "stack_products": false,
+        "show_progress_bar": false,
+        "products_count": 5,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 5,
+        "subheading": "",
+        "title": "חדש באתר!",
         "content": "",
         "link_url": "shopify://collections/כל-המוצרים",
         "link_text": "לכל דגמי החיפויים",
@@ -388,6 +388,175 @@
         "heading_color": "",
         "heading_gradient": ""
       }
+    },
+    "17786710481874f4e4": {
+      "type": "_blocks",
+      "settings": {}
+    },
+    "1778669021d36c0941": {
+      "type": "_blocks",
+      "settings": {}
+    },
+    "faq_QmVVfT": {
+      "type": "faq",
+      "blocks": {
+        "item_XzxjgX": {
+          "type": "item",
+          "settings": {
+            "title": "Do you ship overseas?",
+            "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.</p>"
+          }
+        },
+        "item_q8FVKW": {
+          "type": "item",
+          "settings": {
+            "title": "How long will it take to get my orders?",
+            "content": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.</p>"
+          }
+        },
+        "item_UyPeDf": {
+          "type": "item",
+          "settings": {
+            "title": "Any question?",
+            "content": "<p>You can contact us through our contact page! We will be happy to assist you.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_XzxjgX",
+        "item_q8FVKW",
+        "item_UyPeDf"
+      ],
+      "disabled": true,
+      "name": "FAQ",
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "שאלות נפוצות",
+        "content": "",
+        "team_avatar_width": 160,
+        "support_hours": "Our customer support is available Monday to Friday: 8am-8:30pm.",
+        "answer_time": "Average answer time: 24h",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
+    },
+    "1778671158451b20ae": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_ad9784b_A9GP4M": {
+          "type": "ai_gen_block_ad9784b",
+          "settings": {
+            "heading": "שאלות נפוצות",
+            "heading_color": "#272727",
+            "heading_font_size_desktop": 40,
+            "heading_font_size_mobile": 28,
+            "heading_alignment_desktop": "right",
+            "heading_alignment_mobile": "right",
+            "heading_bottom_spacing": 16,
+            "subtitle": "",
+            "subtitle_color": "#272727",
+            "subtitle_font_size_desktop": 16,
+            "subtitle_font_size_mobile": 14,
+            "subtitle_alignment_desktop": "center",
+            "subtitle_alignment_mobile": "center",
+            "subtitle_bottom_spacing": 24,
+            "background_color": "#ffffff",
+            "section_padding_desktop": 40,
+            "section_padding_mobile": 20,
+            "desktop_width_percent": 100,
+            "item_background_color": "#f9f9f9",
+            "item_hover_background_color": "#f2f2f2",
+            "border_color": "#e0e0e0",
+            "border_width": 1,
+            "border_radius": 8,
+            "item_spacing": 12,
+            "question_color": "#272727",
+            "question_font_size_desktop": 18,
+            "question_font_size_mobile": 16,
+            "question_font_weight": "600",
+            "question_alignment_desktop": "right",
+            "question_alignment_mobile": "right",
+            "question_padding_desktop": 20,
+            "question_padding_mobile": 16,
+            "question_indent_desktop": 0,
+            "question_indent_mobile": 0,
+            "answer_color": "#666666",
+            "answer_font_size_desktop": 16,
+            "answer_font_size_mobile": 14,
+            "answer_alignment_desktop": "right",
+            "answer_alignment_mobile": "right",
+            "answer_padding_desktop": 20,
+            "answer_padding_mobile": 16,
+            "answer_indent_desktop": 0,
+            "answer_indent_mobile": 0,
+            "icon_color": "#272727",
+            "icon_size": 24,
+            "bottom_subtitle": "",
+            "bottom_subtitle_color": "#666666",
+            "bottom_subtitle_font_size_desktop": 14,
+            "bottom_subtitle_font_size_mobile": 12,
+            "bottom_subtitle_alignment_desktop": "center",
+            "bottom_subtitle_alignment_mobile": "center",
+            "bottom_subtitle_top_spacing": 24,
+            "question_1": "מה אתם מוכרים בעצם?",
+            "answer_1": "<p>אנחנו מוכרים חיפויים להתקנה עצמית ופשוטה בבית, בצורה שלא מצריכה לפנות למתקין. התקנה מהירה, עם מינימום לכלוך ומינימום הוצאות.</p>",
+            "question_2": "למה דווקא ארטיג'יאנו אקספרס?",
+            "answer_2": "<p>אנחנו מייצרים את המוצר בעצמינו (מהעיצוב ועד להדפסה). לחיפויים שלנו יש טקסטורה ו\"גבהים\" מה שמאפשר לחומר להיראות כמעט כמו הדבר האמיתי</p>",
+            "question_3": "מאיזה חומר עשוי החיפוי?",
+            "answer_3": "<p>החומר הוא PVC בעובי 3 מ\"מ</p>",
+            "question_4": "איך זה נראה כשזה מגיע אליי הביתה?",
+            "answer_4": "<p>החיפוי מגיע בצורת \"קיט\" של 5 אריחים - 5 חתיכות של 60/120 ס\"מ, שיוצרים ביחד, אחד מעל השני, חיפוי אחד ארוך של 120/300 ס\"מ. </p>",
+            "question_5": "איך יודעים כמה קיטים להזמין?",
+            "answer_5": "<p>תלוי בגודל הקיר. הקיט נותן חיפוי בגובה 3 מ', ורוחב 1.20 מ'. במידה והקיר רחב יותר, יש צורך בקיטים נוספים. נשמח לייעץ לגבי כמויות!</p>",
+            "question_6": "ניתן להדביק על כל קיר?",
+            "answer_6": "<p>המצב הכי אופטימלי להדבקה הוא קיר חלק, נקי ויבש.</p>",
+            "question_7": "החומר עמיד בפני רטיבות? בפני אש?",
+            "answer_7": "<p>החומר לא עמיד בפני אש; לגבי רטיבות - החומר עמיד, יש לוודא איטום טוב כדי שמים לא יחדרו מאחורה.</p>",
+            "question_8": "רואים את החיבורים בין האריחים?",
+            "answer_8": "<p>במידה וההתקנה נעשית בצורה מסודרת על קיר אופטימלי, ודואגים למקם כל אריח בצמידות לאריח הקודם - כמעט ולא רואים את החיבורים. </p>",
+            "question_9": "אני לא בן אדם טכני - אצליח להתקין לבד?",
+            "answer_9": "<p>כן, בהחלט. ניתן, מומלץ ורצוי לעיין בהוראות ההתקנה שמצורפות לכל קיט שלנו &gt;&gt;&gt; <a href=\"https://drive.google.com/file/d/1__OOhgrUrAoHHIdx-RoXLm54gSKwAa0k/view?usp=sharing\"><span style=\"text-decoration:underline\"><strong>כאן</strong></span></a></p>",
+            "question_10": "איזה חומרים צריך שיהיו בבית בשביל ההתקנה?",
+            "answer_10": "<p>מטר, פלס, עיפרון, סכין יפנית, דבק סיליקון או דבק דו-צדדי חזק, ספוג או רולר לחיצה.</p>",
+            "question_11": "",
+            "answer_11": "",
+            "question_12": "",
+            "answer_12": "",
+            "question_13": "",
+            "answer_13": "",
+            "question_14": "",
+            "answer_14": "",
+            "question_15": "",
+            "answer_15": "",
+            "question_16": "",
+            "answer_16": "",
+            "question_17": "",
+            "answer_17": "",
+            "question_18": "",
+            "answer_18": "",
+            "question_19": "",
+            "answer_19": "",
+            "question_20": "",
+            "answer_20": ""
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_ad9784b_A9GP4M"
+      ],
+      "settings": {}
     },
     "smi_image_with_text_1_7_NJY49j": {
       "type": "smi-image-with-text-1-7",
@@ -904,9 +1073,13 @@
   },
   "order": [
     "slideshow",
-    "featured_collection_MYfMDU",
     "featured_collection_A6hFeA",
+    "featured_collection_MYfMDU",
     "collection-list",
+    "17786710481874f4e4",
+    "1778669021d36c0941",
+    "faq_QmVVfT",
+    "1778671158451b20ae",
     "smi_image_with_text_1_7_NJY49j",
     "rich_text_FNTCh8",
     "smi_image_with_text_1_7_PxKUwN",
