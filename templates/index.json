@@ -389,6 +389,139 @@
         "heading_gradient": ""
       }
     },
+    "faq_Q8Dpn7": {
+      "type": "faq",
+      "blocks": {
+        "item_DXMDz3": {
+          "type": "item",
+          "settings": {
+            "title": "מה אתם מוכרים בעצם?",
+            "content": "<p>אנחנו מוכרים חיפויים להתקנה עצמית ופשוטה בבית, בצורה שלא מצריכה לפנות למתקין. התקנה מהירה, עם מינימום לכלוך ומינימום הוצאות.</p>"
+          }
+        },
+        "item_Wg9Wjc": {
+          "type": "item",
+          "settings": {
+            "title": "למה זה עדיף על צבע או טפט?",
+            "content": "<p>חיפוי קיר נותן אווירה הרבה יותר חזקה ומשמעותית לחלל מאשר צבע. לאוהבי האסתטיקה והעיצוב פנים מדובר בחגיגה של ממש בבית.</p>"
+          }
+        },
+        "item_XbdCgT": {
+          "type": "item",
+          "settings": {
+            "title": "למה דווקא ארטיג'יאנו אקספרס?",
+            "content": "<p>אנחנו מייצרים את המוצר בעצמינו (מהעיצוב ועד להדפסה). לחיפויים שלנו יש טקסטורה ו\"גבהים\" מה שמאפשר לחומר להיראות כמעט כמו הדבר האמיתי.</p>"
+          }
+        },
+        "item_HNXXzY": {
+          "type": "item",
+          "settings": {
+            "title": "מאיזה חומר עשוי החיפוי?",
+            "content": "<p>החומר הוא PVC בעובי 3 מ\"מ</p>"
+          }
+        },
+        "item_Xn9Yef": {
+          "type": "item",
+          "settings": {
+            "title": "איך זה נראה כשזה מגיע אליי הביתה?",
+            "content": "<p>החיפוי מגיע בצורת \"קיט\" של 5 אריחים - 5 חתיכות של 60/120 ס\"מ, שיוצרים ביחד, אחד מעל השני, חיפוי אחד ארוך של 120/300 ס\"מ. </p>"
+          }
+        },
+        "item_PkUf4N": {
+          "type": "item",
+          "settings": {
+            "title": "איך יודעים כמה צריך להזמין?",
+            "content": "<p>תלוי בגודל הקיר. הקיט נותן חיפוי בגובה 3 מ', ורוחב 1.20 מ'. במידה והקיר רחב יותר, יש צורך בקיטים נוספים. נשמח לייעץ לגבי כמויות!</p>"
+          }
+        },
+        "item_3DpMgD": {
+          "type": "item",
+          "settings": {
+            "title": "ניתן להדביק על כל קיר?",
+            "content": "<p>המצב הכי אופטימלי להדבקה הוא קיר חלק, נקי ויבש.</p>"
+          }
+        },
+        "item_efywQB": {
+          "type": "item",
+          "settings": {
+            "title": "בעזרת מה מדביקים? אני לא איש מקצוע.",
+            "content": "<p>ניתן להדביק עם דבק דו צדדי חזק, או דבק סיליקון. את שניהם ניתן להשיג אצלינו באתר.</p>"
+          }
+        },
+        "item_nJn8jU": {
+          "type": "item",
+          "settings": {
+            "title": "רואים את החיבורים בין האריחים?",
+            "content": "<p>במידה וההתקנה נעשית בצורה מסודרת על קיר אופטימלי, ודואגים למקם כל אריח בצמידות לאריח הקודם - כמעט ולא רואים את החיבורים. </p>"
+          }
+        },
+        "item_EdqdYq": {
+          "type": "item",
+          "settings": {
+            "title": "אני לא בן אדם טכני - אצליח להתקין לבד?",
+            "content": "<p> כן, בהחלט. ניתן, מומלץ ורצוי לעיין בהוראות ההתקנה שמצורפות לכל קיט שלנו &gt;&gt;&gt; <a href=\"https://drive.google.com/file/d/1__OOhgrUrAoHHIdx-RoXLm54gSKwAa0k/view?usp=sharing\"><span style=\"text-decoration:underline\"><strong>כאן בלינק </strong></span></a></p>"
+          }
+        },
+        "item_8NywHA": {
+          "type": "item",
+          "settings": {
+            "title": "איזה חומרים צריך בבית?",
+            "content": "<p>מטר, פלס, עיפרון, סכין יפנית, דבק סיליקון או דבק דו-צדדי חזק, ספוג או רולר לחיצה.</p>"
+          }
+        },
+        "item_9rraCB": {
+          "type": "item",
+          "settings": {
+            "title": "החומר עמיד בפני רטיבות?",
+            "content": "<p>כן, יש לוודא איטום טוב בעת ההדבקה כדי שמים לא יחדרו מאחורה.</p>"
+          }
+        },
+        "item_VLxm6i": {
+          "type": "item",
+          "settings": {
+            "title": "האם המוצר עמיד בפני אש?",
+            "content": "<p>לא</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_DXMDz3",
+        "item_Wg9Wjc",
+        "item_XbdCgT",
+        "item_HNXXzY",
+        "item_Xn9Yef",
+        "item_PkUf4N",
+        "item_3DpMgD",
+        "item_efywQB",
+        "item_nJn8jU",
+        "item_EdqdYq",
+        "item_8NywHA",
+        "item_9rraCB",
+        "item_VLxm6i"
+      ],
+      "name": "FAQ",
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "שאלות נפוצות",
+        "content": "",
+        "team_avatar_width": 160,
+        "support_hours": "",
+        "answer_time": "",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
+    },
     "17786710481874f4e4": {
       "type": "_blocks",
       "settings": {}
@@ -456,6 +589,7 @@
       "blocks": {
         "ai_gen_block_ad9784b_A9GP4M": {
           "type": "ai_gen_block_ad9784b",
+          "disabled": true,
           "settings": {
             "heading": "שאלות נפוצות",
             "heading_color": "#272727",
@@ -556,6 +690,11 @@
       "block_order": [
         "ai_gen_block_ad9784b_A9GP4M"
       ],
+      "settings": {}
+    },
+    "blocks_qiegi4": {
+      "type": "_blocks",
+      "name": "FAQ accordion",
       "settings": {}
     },
     "smi_image_with_text_1_7_NJY49j": {
@@ -1076,10 +1215,12 @@
     "featured_collection_A6hFeA",
     "featured_collection_MYfMDU",
     "collection-list",
+    "faq_Q8Dpn7",
     "17786710481874f4e4",
     "1778669021d36c0941",
     "faq_QmVVfT",
     "1778671158451b20ae",
+    "blocks_qiegi4",
     "smi_image_with_text_1_7_NJY49j",
     "rich_text_FNTCh8",
     "smi_image_with_text_1_7_PxKUwN",
