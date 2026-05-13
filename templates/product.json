@@ -24,6 +24,14 @@
             "show_taxes_notice": false
           }
         },
+        "description_r3CCcF": {
+          "type": "description",
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "collapse_content": false
+          }
+        },
         "text_FPNGz4": {
           "type": "text",
           "disabled": true,
@@ -110,14 +118,6 @@
             "page": ""
           }
         },
-        "description_r3CCcF": {
-          "type": "description",
-          "settings": {
-            "icon": "none",
-            "icon_width": 20,
-            "collapse_content": false
-          }
-        },
         "collapsible_text_kGRJMM": {
           "type": "collapsible_text",
           "settings": {
@@ -142,6 +142,7 @@
       "block_order": [
         "title",
         "price",
+        "description_r3CCcF",
         "text_FPNGz4",
         "variant_picker",
         "quantity_selector",
@@ -154,7 +155,6 @@
         "inventory_CC9Ti7",
         "text_nkBjn6",
         "collapsible_text_3XkmJe",
-        "description_r3CCcF",
         "collapsible_text_kGRJMM",
         "collapsible_text_hMpQc6"
       ],
