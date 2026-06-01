@@ -16,6 +16,7 @@
       "blocks": {
         "ai_gen_block_6acb188_WHbJ66": {
           "type": "ai_gen_block_6acb188",
+          "disabled": true,
           "settings": {
             "popup_image": "shopify://shop_images/15__off_website_banner_04.jpg",
             "desktop_width_percent": 45,
